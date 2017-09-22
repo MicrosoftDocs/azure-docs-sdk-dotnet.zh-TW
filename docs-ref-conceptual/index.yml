@@ -72,7 +72,7 @@ sections:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
             title: 使用 Cosmos DB 建置 .NET 應用程式
-            href: 'https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application'
+            href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: 使用 Service Fabric 建立 .NET 微服務應用程式
@@ -115,4 +115,4 @@ sections:
           - html: '<a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">開始使用 Kubernetes 和 Windows 容器</a>'
           - html: '<a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">連線和查詢 Azure SQL Database</a>'
           - html: '<a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">連線和查詢適用於 PostgreSQL 的 Azure 資料庫</a>'
-          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">開始使用 CosmosDB DocumentDB API</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">在 .NET Core 中開始使用 CosmosDB DocumentDB API</a>'
