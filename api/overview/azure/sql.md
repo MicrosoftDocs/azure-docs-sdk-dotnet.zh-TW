@@ -29,7 +29,7 @@ ms.lasthandoff: 08/28/2017
 
 使用 .NET SQL 用戶端程式庫來連線及驗證您的資料庫，並執行特定 T-SQL 陳述式和預存程序。
 
-直接從 Visual Studio [套件管理員主控台](https://docs.microsoft.com/nuget/tools/package-manager-console)[](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)安裝 [NuGet 套件]( https://www.nuget.org/packages/System.Data.SqlClient)，或使用 .NET Core CLI。
+直接從 Visual Studio [套件管理員主控台](https://docs.microsoft.com/nuget/tools/package-manager-console) 安裝 [NuGet 套件]( https://www.nuget.org/packages/System.Data.SqlClient) ，或使用 [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)。
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
 
@@ -82,7 +82,7 @@ using (SqlConnection conn = new SqlConnection(connectionString))
 
 您可以使用 Azure SQL Database 管理程式庫來建立、管理及擴充 Azure SQL Database 伺服器執行個體。
 
-直接從 Visual Studio [套件管理員主控台](https://docs.microsoft.com/nuget/tools/package-manager-console)[](https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package)安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql.Fluent/)，或使用 .NET Core CLI。
+直接從 Visual Studio [套件管理員主控台](https://docs.microsoft.com/nuget/tools/package-manager-console) 安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql.Fluent/) ，或使用 [.NET Core CLI](https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package)。
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
 
