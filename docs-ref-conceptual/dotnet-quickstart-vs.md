@@ -11,11 +11,11 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 1defed888972ae2f9d60d57bc34c518df9b5867c
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: eb7aa364cae9deea4ed2052eefdbd51c85379afa
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-started-with-net-for-azure-developers"></a>適用於 Azure 開發人員的 .NET 快速入門
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/28/2017
 
 ## <a name="create-a-cosmosdb-account"></a>建立 CosmosDB 帳戶
 
-在本教學課程中，CosmosDB 是用於資料儲存體，因此您必須建立帳戶。  在本機或 Cloud Shell 中執行這個指令碼，可建立 Azure CosmosDB DocumentDB API 帳戶。  按一下下方程式碼區塊上的 [試試看]按鈕以啟動 [Azure Cloud Shell](/azure/cloud-shell/)，並將指令碼區塊複製/貼上殼層。
+本教學課程中的資料儲存體將需要用到 CosmosDB，因此您必須建立帳戶。  在本機或 Cloud Shell 中執行這個指令碼，可建立 Azure CosmosDB DocumentDB API 帳戶。  按一下下方程式碼區塊上的 [試試看]按鈕以啟動 [Azure Cloud Shell](/azure/cloud-shell/)，並將指令碼區塊複製/貼上殼層。
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -74,7 +74,7 @@ printf "\n\nauthKey: $cosmosAuthKey\nendpoint: $cosmosEndpoint\n\n"
 
 4. 按一下 **F5** 還原專案的 NuGet 套件，建置專案，並在本機執行。
 
-Web 應用程式應會在您的本機瀏覽器中執行。  您可以將新項目新增至待辦事項清單，方法是按一下 [新建]。  請注意您在應用程式中輸入的資料會儲存至 CosmosDB 帳戶。  您可以[在 Azure 入口網站中檢視您的資料](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-view-json-document-explorer)。
+Web 應用程式應會在您的本機瀏覽器中執行。  按一下 [新建] 即可將新項目新增至待辦事項清單。  請注意您在應用程式中輸入的資料會儲存至 CosmosDB 帳戶。  您可以[在 Azure 入口網站中檢視您的資料](/azure/documentdb/documentdb-view-json-document-explorer)。
 
 ## <a name="deploying-the-application-as-an-azure-web-app"></a>將 Web 應用程式部署為 Azure Web 應用程式
 

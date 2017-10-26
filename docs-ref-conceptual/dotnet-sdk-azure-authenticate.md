@@ -4,19 +4,19 @@ description: "使用適用於 .NET 的 Azure 程式庫來進行驗證"
 keywords: "Azure, .NET, SDK, API, 驗證, Active Directory, 服務主體"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 06/20/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: 
-ms.openlocfilehash: 5bc1f4a576ae3bb38e9d29c890ea79bc0871cd01
-ms.sourcegitcommit: fa02d34afbf981f809661ab842b3b93242a38f68
+ms.custom: devcenter
+ms.openlocfilehash: c9755d7e9c20186c7677b4bfe69d4033f9852607
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>使用適用於 .NET 的 Azure 程式庫來進行驗證
 
@@ -53,7 +53,7 @@ var account = CloudStorageAccount.Parse(storageConnectionString);
 // Do things with the account here...
 ```
 
-會在其他 Azure 服務中服務連接字串，例如 [CosmosDB](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-dotnet-application#a-nametoc395637769astep-5-wiring-up-azure-cosmos-db)、[Redis 快取](https://docs.microsoft.com/en-us/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache)和[服務匯流排](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)，您可以使用 Azure 入口網站、CLI 或PowerShell 來取得這些字串。  您也可以使用適用於 .NET 的 Azure 管理程式庫來查詢資源，從而在程式碼中建置連接字串。 
+會在其他 Azure 服務中服務連接字串，例如 [CosmosDB](/azure/documentdb/documentdb-dotnet-application#a-nametoc395637769astep-5-wiring-up-azure-cosmos-db)、[Redis 快取](/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache)和[服務匯流排](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)，您可以使用 Azure 入口網站、CLI 或PowerShell 來取得這些字串。  您也可以使用適用於 .NET 的 Azure 管理程式庫來查詢資源，從而在程式碼中建置連接字串。 
 
 此程式碼片段會使用管理程式庫來建立儲存體帳戶的連接字串：
 

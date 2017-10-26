@@ -4,18 +4,19 @@ description: "適用於 .NET 的 Azure SQL Database 程式庫參考"
 keywords: "Azure, .NET, SDK, API, SQL, 資料庫"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/31/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: sql
-ms.openlocfilehash: 110b7e554666a4fa6386d6715919684e121441a3
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 61b98b3096123b509b5c9f08bfc654aa37cf2149
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-sql-database-apis-for-net"></a>適用於 .NET 的 Azure SQL Database API
 
@@ -29,7 +30,7 @@ ms.lasthandoff: 08/28/2017
 
 使用 .NET SQL 用戶端程式庫來連線及驗證您的資料庫，並執行特定 T-SQL 陳述式和預存程序。
 
-直接從 Visual Studio [套件管理員主控台](https://docs.microsoft.com/nuget/tools/package-manager-console) 安裝 [NuGet 套件]( https://www.nuget.org/packages/System.Data.SqlClient) ，或使用 [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package)。
+直接從 Visual Studio [套件管理員主控台](https://docs.microsoft.com/nuget/tools/package-manager-console) 安裝 [NuGet 套件]( https://www.nuget.org/packages/System.Data.SqlClient) ，或使用 [.NET Core CLI](https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package)。
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
 
