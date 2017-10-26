@@ -2,18 +2,20 @@
 title: "在 Azure 中管理和監視 .NET 應用程式的教學課程"
 description: "監視在 Azure 中執行的 .NET 應用程式健康情況和效能，並檢測遙測以儲存使用者如何使用應用程式的相關資訊。"
 author: camsoper
-manager: douge
-ms.devlang: dotnet
-ms.topic: article
-ms.service: Azure
-ms.technology: Azure
-ms.date: 06/09/2017
 ms.author: casoper
-ms.openlocfilehash: 2f020152e39110948301dbfd0d35772a3474a965
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 60fe24191e41bba596ca84481d161d8b4c03a9b1
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tutorials-for-monitoring-and-managing-your-net-apps-in-azure"></a>在 Azure 中管理和監視 .NET 應用程式的教學課程
 

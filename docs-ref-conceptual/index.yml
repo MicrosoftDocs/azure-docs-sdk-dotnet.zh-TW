@@ -43,7 +43,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_download-install.svg'
             title: SDK &amp; 工具
-          - href: 'https://docs.microsoft.com/en-us/dotnet/api/overview/azure/?view=azure-dotnet'
+          - href: 'https://docs.microsoft.com/dotnet/api/overview/azure/?view=azure-dotnet'
             html: <p>適用於 .NET 的 NuGet 套件</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_api-reference.svg'
@@ -72,7 +72,7 @@ sections:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
             title: 使用 Cosmos DB 建置 .NET 應用程式
-            href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
+            href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: 使用 Service Fabric 建立 .NET 微服務應用程式

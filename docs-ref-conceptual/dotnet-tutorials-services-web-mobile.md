@@ -2,18 +2,20 @@
 title: "在 Azure 中建立 Web 和行動裝置 .NET 應用程式的教學課程"
 description: "使用 Azure 服務建置功能，並將其新增至 Web 與行動裝置 .NET 應用程式的教學課程。"
 author: camsoper
-manager: douge
-ms.devlang: dotnet
-ms.topic: article
-ms.service: Azure
-ms.technology: Azure
-ms.date: 06/09/2017
 ms.author: casoper
-ms.openlocfilehash: fd0744e8cd7a777d39c656e379b53fc2ac0949f8
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 1995f7a13e941a6178ed209b6c072c6142abba4f
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a>在 Azure 中使用 .NET 建立 Web 和行動裝置應用程式的教學課程
 

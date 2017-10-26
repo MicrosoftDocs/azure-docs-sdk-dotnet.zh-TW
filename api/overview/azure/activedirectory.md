@@ -4,18 +4,19 @@ description: "適用於 .NET 的 Azure Active Directory 程式庫參考"
 keywords: Azure, .NET, SDK, API, AAD, Active Directory
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/17/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: adbe907888e49066b6d67a4fb26410a6f6b3b095
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: active-directory
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: aa20715fb62b1d4b714245c404f1a7c142caf586
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-active-directory-libraries-for-net"></a>適用於 .NET 的 Azure Active Directory 程式庫
 
@@ -23,7 +24,7 @@ ms.lasthandoff: 08/28/2017
 
 使用 Azure Active Directory 登入使用者並管理應用程式及 API 的存取。
 
-若要開始使用 Azure Active Directory，請參閱[搭配 Azure AD 的 ASP.NET Web 應用程式登入和登出](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)。
+若要開始使用 Azure Active Directory，請參閱[搭配 Azure AD 的 ASP.NET Web 應用程式登入和登出](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)。
 
 ## <a name="client-library"></a>用戶端程式庫
 
@@ -77,7 +78,7 @@ catch (AdalException ex)
 * [使用 Oauth2 以應用程式權限呼叫 Web API](https://github.com/Azure-Samples/active-directory-dotnet-webapp-webapi-oauth2-appidentity)
 * [在應用程式中使用角色型存取控制 (RBAC)](https://github.com/Azure-Samples/active-directory-dotnet-webapp-roleclaims)
 
-探索 [Azure Active Directory 程式碼範例](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-code-samples)的完整集合。
+探索 [Azure Active Directory 程式碼範例](/azure/active-directory/develop/active-directory-code-samples)的完整集合。
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
