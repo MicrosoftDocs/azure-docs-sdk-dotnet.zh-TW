@@ -4,48 +4,49 @@ description: "適用於 .NET 的 Azure Batch 程式庫參考"
 keywords: Azure, .NET, SDK, API, Batch
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 08/01/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 753721d430de0577c0bc1dd3774d728783a3bfee
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: batch
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 79ca70e5d0f3d5555c8a691da6dbcc1e6a55ab0b
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
-# <a name="azure-batch-libraries-for-net"></a><span data-ttu-id="505a8-104">適用於 .NET 的 Azure Batch 程式庫</span><span class="sxs-lookup"><span data-stu-id="505a8-104">Azure Batch libraries for .NET</span></span>
+# <a name="azure-batch-libraries-for-net"></a><span data-ttu-id="5507c-104">適用於 .NET 的 Azure Batch 程式庫</span><span class="sxs-lookup"><span data-stu-id="5507c-104">Azure Batch libraries for .NET</span></span>
 
-<span data-ttu-id="505a8-105">Azure Batch 是一項平台服務，可用於在雲端有效地執行大規模的平行和高效能運算 (HPC) 應用程式。</span><span class="sxs-lookup"><span data-stu-id="505a8-105">Azure Batch is a platform service for running large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud.</span></span> <span data-ttu-id="505a8-106">Azure Batch 可排程要在一組受管理的虛擬機器上執行的計算密集型工作，而且可以調整計算資源以符合工作的需求。</span><span class="sxs-lookup"><span data-stu-id="505a8-106">Azure Batch schedules compute-intensive work to run on a managed collection of virtual machines, and can automatically scale compute resources to meet the needs of your jobs.</span></span>
+<span data-ttu-id="5507c-105">Azure Batch 是一項平台服務，可用於在雲端有效地執行大規模的平行和高效能運算 (HPC) 應用程式。</span><span class="sxs-lookup"><span data-stu-id="5507c-105">Azure Batch is a platform service for running large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud.</span></span> <span data-ttu-id="5507c-106">Azure Batch 可排程要在一組受管理的虛擬機器上執行的計算密集型工作，而且可以調整計算資源以符合工作的需求。</span><span class="sxs-lookup"><span data-stu-id="5507c-106">Azure Batch schedules compute-intensive work to run on a managed collection of virtual machines, and can automatically scale compute resources to meet the needs of your jobs.</span></span>
 
-<span data-ttu-id="505a8-107">使用 Batch 時，您可以輕鬆定義用來大規模平行執行應用程式的 Azure 計算資源。</span><span class="sxs-lookup"><span data-stu-id="505a8-107">With Azure Batch, you can easily define Azure compute resources to execute your applications in parallel, and at scale.</span></span> <span data-ttu-id="505a8-108">不需要手動建立、設定和管理 HPC 叢集、個別的虛擬機器、虛擬網路或複雜的作業和工作排程基礎結構。</span><span class="sxs-lookup"><span data-stu-id="505a8-108">There's no need to manually create, configure, and manage an HPC cluster, individual virtual machines, virtual networks, or a complex job and task scheduling infrastructure.</span></span> <span data-ttu-id="505a8-109">Azure Batch 會為您自動執行或簡化這些工作。</span><span class="sxs-lookup"><span data-stu-id="505a8-109">Azure Batch automates or simplifies these tasks for you.</span></span>
+<span data-ttu-id="5507c-107">使用 Batch 時，您可以輕鬆定義用來大規模平行執行應用程式的 Azure 計算資源。</span><span class="sxs-lookup"><span data-stu-id="5507c-107">With Azure Batch, you can easily define Azure compute resources to execute your applications in parallel, and at scale.</span></span> <span data-ttu-id="5507c-108">不需要手動建立、設定和管理 HPC 叢集、個別的虛擬機器、虛擬網路或複雜的作業和工作排程基礎結構。</span><span class="sxs-lookup"><span data-stu-id="5507c-108">There's no need to manually create, configure, and manage an HPC cluster, individual virtual machines, virtual networks, or a complex job and task scheduling infrastructure.</span></span> <span data-ttu-id="5507c-109">Azure Batch 會為您自動執行或簡化這些工作。</span><span class="sxs-lookup"><span data-stu-id="5507c-109">Azure Batch automates or simplifies these tasks for you.</span></span>
 
-<span data-ttu-id="505a8-110">深入了解如何[使用 Batch 執行本質平行的工作負載](/azure/batch/batch-technical-overview)。</span><span class="sxs-lookup"><span data-stu-id="505a8-110">Read more about how to [run intrinsically parallel workloads with Batch](/azure/batch/batch-technical-overview).</span></span> <span data-ttu-id="505a8-111">您可以了解如何[開始使用適用於 .NET 的 Batch 用戶端程式庫來建置解決方案](/azure/batch/batch-dotnet-get-started)。</span><span class="sxs-lookup"><span data-stu-id="505a8-111">You can also learn how to [get started building solutions with the Batch client library for .NET](/azure/batch/batch-dotnet-get-started).</span></span> <span data-ttu-id="505a8-112">探索如何[使用適用於 .NET 的 Batch 管理程式庫來管理 Batch 帳戶和配額](/azure/batch/batch-management-dotnet)。</span><span class="sxs-lookup"><span data-stu-id="505a8-112">Discover how to [manage Batch accounts and quotas with the Batch Management library for .NET](/azure/batch/batch-management-dotnet).</span></span>
+<span data-ttu-id="5507c-110">深入了解如何[使用 Batch 執行本質平行的工作負載](/azure/batch/batch-technical-overview)。</span><span class="sxs-lookup"><span data-stu-id="5507c-110">Read more about how to [run intrinsically parallel workloads with Batch](/azure/batch/batch-technical-overview).</span></span> <span data-ttu-id="5507c-111">您可以了解如何[開始使用適用於 .NET 的 Batch 用戶端程式庫來建置解決方案](/azure/batch/batch-dotnet-get-started)。</span><span class="sxs-lookup"><span data-stu-id="5507c-111">You can also learn how to [get started building solutions with the Batch client library for .NET](/azure/batch/batch-dotnet-get-started).</span></span> <span data-ttu-id="5507c-112">探索如何[使用適用於 .NET 的 Batch 管理程式庫來管理 Batch 帳戶和配額](/azure/batch/batch-management-dotnet)。</span><span class="sxs-lookup"><span data-stu-id="5507c-112">Discover how to [manage Batch accounts and quotas with the Batch Management library for .NET](/azure/batch/batch-management-dotnet).</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="505a8-113">用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="505a8-113">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="5507c-113">用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="5507c-113">Client library</span></span>
 
-<span data-ttu-id="505a8-114">使用用戶端程式庫以 Batch 執行平行的工作負載。</span><span class="sxs-lookup"><span data-stu-id="505a8-114">Use the client library to run parallel workloads with Batch.</span></span>
+<span data-ttu-id="5507c-114">使用用戶端程式庫以 Batch 執行平行的工作負載。</span><span class="sxs-lookup"><span data-stu-id="5507c-114">Use the client library to run parallel workloads with Batch.</span></span>
 
-<span data-ttu-id="505a8-115">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Azure.Batch)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="505a8-115">Install the [NuGet package](https://www.nuget.org/packages/Azure.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="5507c-115">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Azure.Batch)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="5507c-115">Install the [NuGet package](https://www.nuget.org/packages/Azure.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="505a8-116">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="505a8-116">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="5507c-116">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="5507c-116">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Azure.Batch
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="505a8-117">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="505a8-117">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="5507c-117">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="5507c-117">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Azure.Batch
 ```
 
-### <a name="example"></a><span data-ttu-id="505a8-118">範例</span><span class="sxs-lookup"><span data-stu-id="505a8-118">Example</span></span>
+### <a name="example"></a><span data-ttu-id="5507c-118">範例</span><span class="sxs-lookup"><span data-stu-id="5507c-118">Example</span></span>
 
-<span data-ttu-id="505a8-119">下列範例會使用用戶端 SDK 來建立要在 Azure Batch 中執行的工作。</span><span class="sxs-lookup"><span data-stu-id="505a8-119">The following example uses the client SDK to create a job to run in Azure Batch.</span></span>
+<span data-ttu-id="5507c-119">下列範例會使用用戶端 SDK 來建立要在 Azure Batch 中執行的工作。</span><span class="sxs-lookup"><span data-stu-id="5507c-119">The following example uses the client SDK to create a job to run in Azure Batch.</span></span>
 
 ```csharp
 /*
@@ -76,29 +77,29 @@ using (BatchClient batchClient = await BatchClient.OpenAsync(credentials))
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="505a8-120">探索用戶端 API</span><span class="sxs-lookup"><span data-stu-id="505a8-120">Explore the client APIs</span></span>](/dotnet/api/overview/azure/batch/client)
+> [<span data-ttu-id="5507c-120">探索用戶端 API</span><span class="sxs-lookup"><span data-stu-id="5507c-120">Explore the client APIs</span></span>](/dotnet/api/overview/azure/batch/client)
 
-## <a name="management-library"></a><span data-ttu-id="505a8-121">管理程式庫</span><span class="sxs-lookup"><span data-stu-id="505a8-121">Management library</span></span>
+## <a name="management-library"></a><span data-ttu-id="5507c-121">管理程式庫</span><span class="sxs-lookup"><span data-stu-id="5507c-121">Management library</span></span>
 
-<span data-ttu-id="505a8-122">使用管理程式庫透過程式設計方式管理 Batch 帳戶、配額和應用程式套件。</span><span class="sxs-lookup"><span data-stu-id="505a8-122">Use the management library to programmatically manage Batch accounts, quotas, and application packages.</span></span>
+<span data-ttu-id="5507c-122">使用管理程式庫透過程式設計方式管理 Batch 帳戶、配額和應用程式套件。</span><span class="sxs-lookup"><span data-stu-id="5507c-122">Use the management library to programmatically manage Batch accounts, quotas, and application packages.</span></span>
 
-<span data-ttu-id="505a8-123">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="505a8-123">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="5507c-123">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="5507c-123">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="505a8-124">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="505a8-124">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="5507c-124">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="5507c-124">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Batch
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="505a8-125">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="505a8-125">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="5507c-125">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="5507c-125">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Microsoft.Azure.Management.Batch
 ```
 
-### <a name="example"></a><span data-ttu-id="505a8-126">範例</span><span class="sxs-lookup"><span data-stu-id="505a8-126">Example</span></span>
+### <a name="example"></a><span data-ttu-id="5507c-126">範例</span><span class="sxs-lookup"><span data-stu-id="5507c-126">Example</span></span>
 
-<span data-ttu-id="505a8-127">取出下列範例會擷取訂用帳戶的配額、建立帳戶，並重新產生主要帳戶金鑰。</span><span class="sxs-lookup"><span data-stu-id="505a8-127">The following example retrieves the quota for the subscription, creates an account, and regenerates the primary account key.</span></span>
+<span data-ttu-id="5507c-127">取出下列範例會擷取訂用帳戶的配額、建立帳戶，並重新產生主要帳戶金鑰。</span><span class="sxs-lookup"><span data-stu-id="5507c-127">The following example retrieves the quota for the subscription, creates an account, and regenerates the primary account key.</span></span>
 
 ```csharp
 /*
@@ -125,13 +126,13 @@ using (BatchManagementClient batchManagementClient = new BatchManagementClient(n
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="505a8-128">探索管理 API</span><span class="sxs-lookup"><span data-stu-id="505a8-128">Explore the management APIs</span></span>](/dotnet/api/overview/azure/batch/management)
+> [<span data-ttu-id="5507c-128">探索管理 API</span><span class="sxs-lookup"><span data-stu-id="5507c-128">Explore the management APIs</span></span>](/dotnet/api/overview/azure/batch/management)
 
-## <a name="samples"></a><span data-ttu-id="505a8-129">範例</span><span class="sxs-lookup"><span data-stu-id="505a8-129">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="5507c-129">範例</span><span class="sxs-lookup"><span data-stu-id="5507c-129">Samples</span></span>
 
-* [<span data-ttu-id="505a8-130">適用於 .NET 的 Azure Batch 用戶端和管理 SDK 範例</span><span class="sxs-lookup"><span data-stu-id="505a8-130">Azure Batch Client and Management SDK for .NET Samples</span></span>](https://github.com/Azure/azure-batch-samples/tree/master/CSharp)
+* [<span data-ttu-id="5507c-130">適用於 .NET 的 Azure Batch 用戶端和管理 SDK 範例</span><span class="sxs-lookup"><span data-stu-id="5507c-130">Azure Batch Client and Management SDK for .NET Samples</span></span>](https://github.com/Azure/azure-batch-samples/tree/master/CSharp)
 
-<span data-ttu-id="505a8-131">深入探索可在應用程式中使用的 [.NET 程式碼範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)。</span><span class="sxs-lookup"><span data-stu-id="505a8-131">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
+<span data-ttu-id="5507c-131">深入探索可在應用程式中使用的 [.NET 程式碼範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)。</span><span class="sxs-lookup"><span data-stu-id="5507c-131">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
