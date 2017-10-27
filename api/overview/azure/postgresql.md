@@ -4,44 +4,45 @@ description: "適用於 Azure Database for PostgreSQL 之 .NET 用戶端程式�
 keywords: "Azure, .NET ODBC, SDK, API, SQL, ADO.NET, 資料庫, PostGres, PostgreSQL"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/17/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: postgresql
-ms.openlocfilehash: 899002b12dd36e6b23a05c8516670ff841abed79
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: e3153a35845a2d7660aded64e5dbc3787c62afb6
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
-# <a name="azure-database-for-postgresql-libraries-for-net"></a><span data-ttu-id="a8792-104">適用於 .NET 的 Azure Database for PostgreSQL 程式庫</span><span class="sxs-lookup"><span data-stu-id="a8792-104">Azure Database for PostgreSQL libraries for .NET</span></span>
+# <a name="azure-database-for-postgresql-libraries-for-net"></a><span data-ttu-id="8f48e-104">適用於 .NET 的 Azure Database for PostgreSQL 程式庫</span><span class="sxs-lookup"><span data-stu-id="8f48e-104">Azure Database for PostgreSQL libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="a8792-105">概觀</span><span class="sxs-lookup"><span data-stu-id="a8792-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="8f48e-105">概觀</span><span class="sxs-lookup"><span data-stu-id="8f48e-105">Overview</span></span>
 
-<span data-ttu-id="a8792-106">使用儲存在 [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/) 的資料和資源。</span><span class="sxs-lookup"><span data-stu-id="a8792-106">Work with data and resources stored in [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/).</span></span>
+<span data-ttu-id="8f48e-106">使用儲存在 [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/) 的資料和資源。</span><span class="sxs-lookup"><span data-stu-id="8f48e-106">Work with data and resources stored in [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/).</span></span>
 
-## <a name="client-api"></a><span data-ttu-id="a8792-107">用戶端 API</span><span class="sxs-lookup"><span data-stu-id="a8792-107">Client API</span></span>
+## <a name="client-api"></a><span data-ttu-id="8f48e-107">用戶端 API</span><span class="sxs-lookup"><span data-stu-id="8f48e-107">Client API</span></span>
 
-<span data-ttu-id="a8792-108">用於存取 Azure Database for PostgreSQL 的建議用戶端程式庫是開放原始碼的 [Npgsql ADO.NET 資料提供者](http://www.npgsql.org/)。</span><span class="sxs-lookup"><span data-stu-id="a8792-108">The recommended client library for accessing Azure Database for PostgreSQL is the open-source [Npgsql ADO.NET data provider](http://www.npgsql.org/).</span></span> <span data-ttu-id="a8792-109">使用 ADO.NET 提供者以直接連線到資料庫並執行 SQL 陳述式，或透過 Entity Framework 搭配 Npgsql 的 [Entity Framework 6](http://www.npgsql.org/ef6/index.html) 或 [Entity Framework Core](http://www.npgsql.org/efcore/index.html) 提供者。</span><span class="sxs-lookup"><span data-stu-id="a8792-109">Use the ADO.NET provider to connect to the database and execute SQL statements directly or through Entity Framework with the Npgsql's [Entity Framework 6](http://www.npgsql.org/ef6/index.html) or [Entity Framework Core](http://www.npgsql.org/efcore/index.html) providers.</span></span>
+<span data-ttu-id="8f48e-108">用於存取 Azure Database for PostgreSQL 的建議用戶端程式庫是開放原始碼的 [Npgsql ADO.NET 資料提供者](http://www.npgsql.org/)。</span><span class="sxs-lookup"><span data-stu-id="8f48e-108">The recommended client library for accessing Azure Database for PostgreSQL is the open-source [Npgsql ADO.NET data provider](http://www.npgsql.org/).</span></span> <span data-ttu-id="8f48e-109">使用 ADO.NET 提供者以直接連線到資料庫並執行 SQL 陳述式，或透過 Entity Framework 搭配 Npgsql 的 [Entity Framework 6](http://www.npgsql.org/ef6/index.html) 或 [Entity Framework Core](http://www.npgsql.org/efcore/index.html) 提供者。</span><span class="sxs-lookup"><span data-stu-id="8f48e-109">Use the ADO.NET provider to connect to the database and execute SQL statements directly or through Entity Framework with the Npgsql's [Entity Framework 6](http://www.npgsql.org/ef6/index.html) or [Entity Framework Core](http://www.npgsql.org/efcore/index.html) providers.</span></span>
 
-<span data-ttu-id="a8792-110">直接從 Visual Studio [套件管理員主控台][PackageManager] 安裝 [NuGet 套件](https://www.nuget.org/packages/Npgsql)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="a8792-110">Install the [NuGet package](https://www.nuget.org/packages/Npgsql) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="8f48e-110">直接從 Visual Studio [套件管理員主控台][PackageManager] 安裝 [NuGet 套件](https://www.nuget.org/packages/Npgsql)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="8f48e-110">Install the [NuGet package](https://www.nuget.org/packages/Npgsql) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="a8792-111">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="a8792-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="8f48e-111">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="8f48e-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Npgsql
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="a8792-112">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="a8792-112">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="8f48e-112">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="8f48e-112">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Npgsql
 ```
 
-### <a name="code-example"></a><span data-ttu-id="a8792-113">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="a8792-113">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="8f48e-113">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="8f48e-113">Code Example</span></span>
 
 ```csharp
 /* Include this 'using' directive...
@@ -70,7 +71,7 @@ using (NpgsqlConnection conn = new NpgsqlConnection(connectionString))
 }
 ```
 
-### <a name="samples"></a><span data-ttu-id="a8792-114">範例</span><span class="sxs-lookup"><span data-stu-id="a8792-114">Samples</span></span>
+### <a name="samples"></a><span data-ttu-id="8f48e-114">範例</span><span class="sxs-lookup"><span data-stu-id="8f48e-114">Samples</span></span>
 
-- [<span data-ttu-id="a8792-115">ADO.NET 程式碼範例</span><span class="sxs-lookup"><span data-stu-id="a8792-115">ADO.NET code examples</span></span>](/dotnet/framework/data/adonet/ado-net-code-examples)
-- <span data-ttu-id="a8792-116">[使用 Azure CLI 設計 PostgreSQL 資料庫](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli) [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console [DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package</span><span class="sxs-lookup"><span data-stu-id="a8792-116">[Design a PostgreSQL database using the Azure CLI](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli) [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console [DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package</span></span>
+- [<span data-ttu-id="8f48e-115">ADO.NET 程式碼範例</span><span class="sxs-lookup"><span data-stu-id="8f48e-115">ADO.NET code examples</span></span>](/dotnet/framework/data/adonet/ado-net-code-examples)
+- <span data-ttu-id="8f48e-116">[使用 Azure CLI 設計 PostgreSQL 資料庫](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli) [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package</span><span class="sxs-lookup"><span data-stu-id="8f48e-116">[Design a PostgreSQL database using the Azure CLI](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli) [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package</span></span>
