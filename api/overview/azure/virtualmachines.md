@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: b8caa9a46b858c2ea1f14e83880bd69d83f6a5e9
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: d3bad2e94ec8b08bad2a014fb25d400625a3590d
+ms.sourcegitcommit: 2d08f2815fa7fab55e09d294fc4d74897df7951d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/07/2017
 ---
 # <a name="azure-virtual-machine-libraries-for-net"></a>適用於 .NET 的 Azure 虛擬機器程式庫
 
@@ -69,7 +69,7 @@ IVirtualMachine windowsVM = azure.VirtualMachines.Define("MyVirtualMachine")
 ```
 
 > [!div class="nextstepaction"]
-> [探索管理 API](https://review.docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
+> [探索管理 API](https://docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
 
 ### <a name="samples"></a>範例
 
