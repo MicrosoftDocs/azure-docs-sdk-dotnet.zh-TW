@@ -1,6 +1,6 @@
 ---
-title: "適用於 Azure 開發人員的 .NET"
-description: "適用於 Azure 開發人員的 .NET"
+title: "從 Visual Studio 部署至 Azure"
+description: "本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。"
 keywords: "Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫"
 author: camsoper
 manager: douge
@@ -11,13 +11,13 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: eb7aa364cae9deea4ed2052eefdbd51c85379afa
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 0f8e3e5ea1ef5cde239b2d8ebbc9fe75dd978cb1
+ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/03/2017
 ---
-# <a name="get-started-with-net-for-azure-developers"></a>適用於 Azure 開發人員的 .NET 快速入門
+# <a name="deploy-to-azure-from-visual-studio"></a>從 Visual Studio 部署至 Azure
 
 本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。  完成時，您會在 ASP.NET MVC Core 中建置載作為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure CosmosDB 用於資料儲存體。
 

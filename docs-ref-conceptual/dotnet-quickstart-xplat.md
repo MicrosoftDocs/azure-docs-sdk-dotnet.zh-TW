@@ -1,6 +1,6 @@
 ---
-title: "適用於 Azure 開發人員的 .NET"
-description: "適用於 Azure 開發人員的 .NET"
+title: "使用 .NET Core 從命令列部署至 Azure"
+description: "本文說明如何使用命令列工具，將 ASP.NET Core 應用程式部署至 Azure App Service。"
 keywords: "Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫"
 author: camsoper
 manager: douge
@@ -11,13 +11,13 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 14374182ee0511e942940797465858b94ec08876
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: 2ed69bfed7310c9e6b2f3f8fedb906ce33d87c3c
+ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 11/03/2017
 ---
-# <a name="get-started-with-net-cli-tools-for-azure-developers"></a>適用於 Azure 開發人員的 .NET CLI 工具快速入門
+# <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>使用 .NET Core 從命令列部署至 Azure
 
 本教學課程將逐步引導您使用 .NET Core 來建置及部署 Microsoft Azure 應用程式。  完成時，您會在 ASP.NET MVC Core 中建置載作為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure CosmosDB 用於資料儲存體。
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/28/2017
 
 ## <a name="create-a-cosmosdb-account"></a>建立 CosmosDB 帳戶
 
-在本教學課程中，CosmosDB 是用於資料儲存體，因此您必須建立帳戶。  在本機或 Cloud Shell 中執行這個指令碼，可建立 Azure CosmosDB DocumentDB API 帳戶。
+本教學課程中的資料儲存體將需要用到 CosmosDB，因此您必須建立帳戶。  在本機或 Cloud Shell 中執行這個指令碼，可建立 Azure CosmosDB DocumentDB API 帳戶。
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -140,7 +140,7 @@ az group delete -n DotNetAzureTutorial
 
 ## <a name="next-steps"></a>後續步驟
 
-* [在 ASP.NET web 應用程式中使用驗證的 Azure Active Directory](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
+* [在 ASP.NET Web 應用程式中使用驗證的 Azure Active Directory](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
 * [使用 Azure SQL Database 來建置 Azure Web 應用程式](/azure/app-service-web/web-sites-dotnet-get-started)
 * [使用 Azure 儲存體嘗試 .NET 範例應用程式](/azure/storage/storage-samples-dotnet)
 
