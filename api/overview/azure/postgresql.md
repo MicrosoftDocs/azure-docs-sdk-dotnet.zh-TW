@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: postgresql
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: e3153a35845a2d7660aded64e5dbc3787c62afb6
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 7a8c1965432d5cca36665bce3963c30cdaee9205
+ms.sourcegitcommit: 4dba7cd869bddff3dee7315d258522dc4879abce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="azure-database-for-postgresql-libraries-for-net"></a>適用於 .NET 的 Azure Database for PostgreSQL 程式庫
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/26/2017
 
 用於存取 Azure Database for PostgreSQL 的建議用戶端程式庫是開放原始碼的 [Npgsql ADO.NET 資料提供者](http://www.npgsql.org/)。 使用 ADO.NET 提供者以直接連線到資料庫並執行 SQL 陳述式，或透過 Entity Framework 搭配 Npgsql 的 [Entity Framework 6](http://www.npgsql.org/ef6/index.html) 或 [Entity Framework Core](http://www.npgsql.org/efcore/index.html) 提供者。
 
-直接從 Visual Studio [套件管理員主控台][PackageManager] 安裝 [NuGet 套件](https://www.nuget.org/packages/Npgsql)，或使用 [.NET Core CLI][DotNetCLI]。
+直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Npgsql)，或使用 [.NET Core CLI][DotNetCLI]。
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
 
@@ -74,4 +74,8 @@ using (NpgsqlConnection conn = new NpgsqlConnection(connectionString))
 ### <a name="samples"></a>範例
 
 - [ADO.NET 程式碼範例](/dotnet/framework/data/adonet/ado-net-code-examples)
-- [使用 Azure CLI 設計 PostgreSQL 資料庫](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli) [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
+- [使用 Azure CLI 設計 PostgreSQL 資料庫](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli)
+
+
+[PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
