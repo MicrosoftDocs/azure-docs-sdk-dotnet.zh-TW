@@ -78,7 +78,7 @@ var account = CloudStorageAccount.Parse(storageConnectionString);
 
 <span data-ttu-id="a1273-112">對於其他程式庫，應用程式就必須使用[服務主體](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects)來執行，這個服務主體要授權應用程式使用獲授與的認證來執行。</span><span class="sxs-lookup"><span data-stu-id="a1273-112">Other libraries require your application to run with a [service principal](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects) authorizing the application to run with granted credentials.</span></span> <span data-ttu-id="a1273-113">這項設定很類似下面所列管理程式庫中的物件型驗證步驟。</span><span class="sxs-lookup"><span data-stu-id="a1273-113">This configuration is similar to the object-based authentication steps for the management library listed below.</span></span>
 
-## <span data-ttu-id="a1273-114"><a name="mgmt-auth"></a>適用於 .NET 驗證的 Azure 管理程式庫</span><span class="sxs-lookup"><span data-stu-id="a1273-114"><a name="mgmt-auth"></a>Azure management libraries for .NET authentication</span></span>
+## <a name="mgmt-auth"></a><span data-ttu-id="a1273-114">適用於 .NET 驗證的 Azure 管理程式庫</span><span class="sxs-lookup"><span data-stu-id="a1273-114">Azure management libraries for .NET authentication</span></span>
 
 [!include[Create service principal](includes/create-sp.md)]
 
@@ -116,7 +116,7 @@ var azure = Microsoft.Azure.Management.Fluent.Azure
     .WithDefaultSubscription();
 ```
 
-### <span data-ttu-id="a1273-124"><a name="mgmt-file"></a>以檔案作為基礎的驗證</span><span class="sxs-lookup"><span data-stu-id="a1273-124"><a name="mgmt-file"></a>File-based authentication</span></span>
+### <a name="mgmt-file"></a><span data-ttu-id="a1273-124">以檔案作為基礎的驗證</span><span class="sxs-lookup"><span data-stu-id="a1273-124">File-based authentication</span></span>
 
 <span data-ttu-id="a1273-125">以檔案作為基礎的驗證可讓您將服務主體認證放在純文字檔案，並在檔案系統內加以保護。</span><span class="sxs-lookup"><span data-stu-id="a1273-125">File-based authentication allows you to put the service principal credentials in a plain text file and secure it within the file system.</span></span>
 
