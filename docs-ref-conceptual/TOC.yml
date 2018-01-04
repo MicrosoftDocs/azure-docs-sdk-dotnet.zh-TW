@@ -14,6 +14,8 @@
           href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+        - name: Blob 儲存體
+          href: 'https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet'
     - name: 開始使用 .NET
       href: dotnet-sdk-azure-get-started.md
     - name: 工具
@@ -65,7 +67,7 @@
           href: dotnet-tutorials-services-containers.md
         - name: 傳訊 + IoT
           href: dotnet-tutorials-services-messaging-iot.md
-        - name: 辨識服務
+        - name: 認知服務
           href: dotnet-tutorials-services-ai-cognitive.md
         - name: 資料及分析
           href: dotnet-tutorials-services-analytics.md
