@@ -7,16 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 714bd05653c6b41b21b95581b1115b0bfa1956ed
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 19008714ee38ae00195b08c05fee5bf943da759f
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="release-notes"></a>版本資訊 
 
@@ -56,7 +55,7 @@ ms.lasthandoff: 10/23/2017
   </tr>
   <tr>
     <td>更多服務</td>
-    <td>Resource Manager<br>金鑰保存庫<br>Redis<br>CDN<br>批次</td>
+    <td>Resource Manager<br>Key Vault<br>Redis<br>CDN<br>Batch</td>
     <td valign="top">App Service - Web Apps<br>Functions<br>服務匯流排</td>
     <td valign="top">監視<br>圖形 RBAC<br>DocumentDB<br>排程器</td>
   </tr>

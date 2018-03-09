@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: d3bad2e94ec8b08bad2a014fb25d400625a3590d
-ms.sourcegitcommit: 2d08f2815fa7fab55e09d294fc4d74897df7951d
+ms.openlocfilehash: cac6dde85a7b0db2c98d0888cb0ee5c60ee31836
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="azure-virtual-machine-libraries-for-net"></a>適用於 .NET 的 Azure 虛擬機器程式庫
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 11/07/2017
 
 執行 Linux 或 Windows 並可視需要擴充的計算資源。
 
-若要開始使用 Azure 虛擬機器，請參閱[使用 Azure 入口網站建立 Linux 虛擬機器](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)。
+若要開始使用 Azure 虛擬機器，請參閱[使用 Azure 入口網站建立 Linux 虛擬機器](https://review.docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal)。
 
 ## <a name="management-apis"></a>管理 API
 
@@ -69,14 +69,14 @@ IVirtualMachine windowsVM = azure.VirtualMachines.Define("MyVirtualMachine")
 ```
 
 > [!div class="nextstepaction"]
-> [探索管理 API](https://docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
+> [探索管理 API](https://docs.microsoft.com/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
 
 ### <a name="samples"></a>範例
 
 * [建立和管理虛擬機器](/dotnet/azure/dotnet-sdk-azure-virtual-machine-samples)
-* [使用 .NET 以範本部署已啟用 SSH 的 VM](https://azure.microsoft.com/en-us/resources/samples/resource-manager-dotnet-template-deployment/)
+* [使用 .NET 以範本部署已啟用 SSH 的 VM](https://azure.microsoft.com/resources/samples/resource-manager-dotnet-template-deployment/)
 
-檢視虛擬機器範本的[完整清單](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM)。
+檢視虛擬機器範本的[完整清單](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=VM)。
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

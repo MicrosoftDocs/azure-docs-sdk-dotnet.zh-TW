@@ -7,16 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 9a67edadc6e91d2ead82f41601e561809d6a811c
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: b817216e114e5ab3ff22c1c5adb0f892c7874147
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="azure-management-library-for-net-fluent-concepts"></a>適用於 .NET Fluent 概念的 Azure 管理程式庫
 
@@ -81,7 +80,7 @@ foreach(var vm in vmList)
 >[!NOTE]
 > `Define()` 和 `Update()` 是動詞，但除非後面接著 `Create()` 或 `Apply()`，否則不會封鎖。
  
-特定資源物件具有動詞，從而會在 Azure 中變更資源的狀態。 例如：
+特定資源物件具有動詞，從而會在 Azure 中變更資源的狀態。 例如︰
 
 ```csharp
 var vmToRestart = azure.VirtualMachines.GetById(id);

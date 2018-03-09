@@ -10,18 +10,17 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.assetid: 
-ms.openlocfilehash: 2ed69bfed7310c9e6b2f3f8fedb906ce33d87c3c
-ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
+ms.openlocfilehash: bb5d4958fb4398192d8427391695da1a7b8cc3c8
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>使用 .NET Core 從命令列部署至 Azure
 
 本教學課程將逐步引導您使用 .NET Core 來建置及部署 Microsoft Azure 應用程式。  完成時，您會在 ASP.NET MVC Core 中建置載作為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure CosmosDB 用於資料儲存體。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 * [Microsoft Azure 訂用帳戶](https://azure.microsoft.com/free/)
 * [.NET Core](https://www.microsoft.com/net/download/core) (選擇性)
@@ -126,7 +125,7 @@ git push azure master
 az webapp show -n $webappname -g DotNetAzureTutorial --query defaultHostName -o tsv
 ```
 
-您可以將新項目新增至待辦事項清單，方法是按一下 [新建]。
+按一下 [新建] 即可將新項目新增至待辦事項清單。
 
 ![已完成的應用程式](./media/dotnet-quickstart/todo.png)
 
