@@ -7,22 +7,21 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: f1d066a4db0085030e34a57a368808a659bb8942
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 5890df018eea61bcc0f8bce1cd4bc02fa84b37cf
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
-# <a name="tools-for-net-azure-developers"></a><span data-ttu-id="d297a-104">適用於 .NET 的 Azure 開發人員工具</span><span class="sxs-lookup"><span data-stu-id="d297a-104">Tools for .NET Azure developers</span></span>
+# <a name="tools-for-net-azure-developers"></a><span data-ttu-id="445cb-104">適用於 .NET 的 Azure 開發人員工具</span><span class="sxs-lookup"><span data-stu-id="445cb-104">Tools for .NET Azure developers</span></span>
 
-<span data-ttu-id="d297a-105">無論您的作業系統為何，我們都有一組絕佳的工具，可協助您在 Azure 上使用 .NET 進行開發。</span><span class="sxs-lookup"><span data-stu-id="d297a-105">Whatever your operating system, we have a great set of tools to help you develop using .NET on Azure.</span></span>
+<span data-ttu-id="445cb-105">無論您的作業系統為何，我們都有一組絕佳的工具，可協助您在 Azure 上使用 .NET 進行開發。</span><span class="sxs-lookup"><span data-stu-id="445cb-105">Whatever your operating system, we have a great set of tools to help you develop using .NET on Azure.</span></span>
 
-## <a name="windowstabwindows"></a>[<span data-ttu-id="d297a-106">Windows</span><span class="sxs-lookup"><span data-stu-id="d297a-106">Windows</span></span>](#tab/windows)
+## <a name="windowstabwindows"></a>[<span data-ttu-id="445cb-106">Windows</span><span class="sxs-lookup"><span data-stu-id="445cb-106">Windows</span></span>](#tab/windows)
 
 <table>
   <tr>
@@ -30,68 +29,68 @@ ms.lasthandoff: 10/23/2017
         <img src="https://docs.microsoft.com/en-us/media/logos/logo_vs-ide.svg" width="50" height="50"></img>
     </td>
     <td>
-<span data-ttu-id="d297a-107">Visual Studio 2017 具有 Azure 開發的內建支援。</span><span class="sxs-lookup"><span data-stu-id="d297a-107">Visual Studio 2017 has built-in support for Azure development.</span></span>
+<span data-ttu-id="445cb-107">Visual Studio 2017 具有 Azure 開發的內建支援。</span><span class="sxs-lookup"><span data-stu-id="445cb-107">Visual Studio 2017 has built-in support for Azure development.</span></span>
     </td>
   </tr>
 </table>
 
-### <a name="step-1-download-visual-studio-2017"></a><span data-ttu-id="d297a-108">步驟 1：下載 Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="d297a-108">Step 1: Download Visual Studio 2017</span></span>
+### <a name="step-1-download-visual-studio-2017"></a><span data-ttu-id="445cb-108">步驟 1：下載 Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="445cb-108">Step 1: Download Visual Studio 2017</span></span>
 
-<span data-ttu-id="d297a-109">如果您已安裝 Visual Studio 2017，可以跳過此步驟。</span><span class="sxs-lookup"><span data-stu-id="d297a-109">You can skip this step if you already have Visual Studio 2017 installed.</span></span>
+<span data-ttu-id="445cb-109">如果您已安裝 Visual Studio 2017，可以跳過此步驟。</span><span class="sxs-lookup"><span data-stu-id="445cb-109">You can skip this step if you already have Visual Studio 2017 installed.</span></span>
 
-<span data-ttu-id="d297a-110">仍在使用 Visual Studio 2015 嗎？</span><span class="sxs-lookup"><span data-stu-id="d297a-110">Still using Visual Studio 2015?</span></span>  <span data-ttu-id="d297a-111">[如需安裝指示，請按一下這裡](dotnet-sdk-vs2015-install.md)。</span><span class="sxs-lookup"><span data-stu-id="d297a-111">[click here for installation instructions](dotnet-sdk-vs2015-install.md).</span></span>
+<span data-ttu-id="445cb-110">仍在使用 Visual Studio 2015 嗎？</span><span class="sxs-lookup"><span data-stu-id="445cb-110">Still using Visual Studio 2015?</span></span>  <span data-ttu-id="445cb-111">[如需安裝指示，請按一下這裡](dotnet-sdk-vs2015-install.md)。</span><span class="sxs-lookup"><span data-stu-id="445cb-111">[click here for installation instructions](dotnet-sdk-vs2015-install.md).</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="d297a-112">下載 Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="d297a-112">Download Visual Studio 2017</span></span>](https://www.visualstudio.com/downloads/)
+> [<span data-ttu-id="445cb-112">下載 Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="445cb-112">Download Visual Studio 2017</span></span>](https://www.visualstudio.com/downloads/)
 
 
-### <a name="step-2-install-the-two-azure-workloads"></a><span data-ttu-id="d297a-113">步驟 2：安裝兩個 Azure 工作負載</span><span class="sxs-lookup"><span data-stu-id="d297a-113">Step 2: Install the two Azure workloads</span></span>
+### <a name="step-2-install-the-two-azure-workloads"></a><span data-ttu-id="445cb-113">步驟 2：安裝兩個 Azure 工作負載</span><span class="sxs-lookup"><span data-stu-id="445cb-113">Step 2: Install the two Azure workloads</span></span>
 
-<span data-ttu-id="d297a-114">啟動 Visual Studio 2017 安裝程式之後，請確定檢查 Azure 和 ASP.NET web 開發工作負載。</span><span class="sxs-lookup"><span data-stu-id="d297a-114">After launching the Visual Studio 2017 installer, make sure the Azure and ASP.NET web development workloads are checked.</span></span>
+<span data-ttu-id="445cb-114">啟動 Visual Studio 2017 安裝程式之後，請確定檢查 Azure 和 ASP.NET web 開發工作負載。</span><span class="sxs-lookup"><span data-stu-id="445cb-114">After launching the Visual Studio 2017 installer, make sure the Azure and ASP.NET web development workloads are checked.</span></span>
 
 ![Visual Studio 安裝程式](media/dotnet-tools/azure-workloads.png)
 
-### <a name="step-3-develop-with-net-on-azure"></a><span data-ttu-id="d297a-116">步驟 3：在 Azure 上利用 .NET 進行開發</span><span class="sxs-lookup"><span data-stu-id="d297a-116">Step 3: Develop with .NET on Azure</span></span>
+### <a name="step-3-develop-with-net-on-azure"></a><span data-ttu-id="445cb-116">步驟 3：在 Azure 上利用 .NET 進行開發</span><span class="sxs-lookup"><span data-stu-id="445cb-116">Step 3: Develop with .NET on Azure</span></span>
 
-<span data-ttu-id="d297a-117">[在 Azure 上部署第一個 .NET 應用程式](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet)以開始使用。</span><span class="sxs-lookup"><span data-stu-id="d297a-117">Get started by [deploying your first .NET app on Azure](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet).</span></span>
+<span data-ttu-id="445cb-117">[在 Azure 上部署第一個 .NET 應用程式](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet)以開始使用。</span><span class="sxs-lookup"><span data-stu-id="445cb-117">Get started by [deploying your first .NET app on Azure](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet).</span></span>
 
 
-## <a name="macostabmacos"></a>[<span data-ttu-id="d297a-118">macOS</span><span class="sxs-lookup"><span data-stu-id="d297a-118">macOS</span></span>](#tab/macos)
+## <a name="macostabmacos"></a>[<span data-ttu-id="445cb-118">macOS</span><span class="sxs-lookup"><span data-stu-id="445cb-118">macOS</span></span>](#tab/macos)
 <table>
   <tr>
     <td width="50">
         <img src="https://docs.microsoft.com/en-us/media/logos/logo_vs-mac.svg" width="50" height="50"></img>
     </td>
     <td>
-<span data-ttu-id="d297a-119">Visual Studio for Mac 包含您 Azure 開發所需的所有項目。</span><span class="sxs-lookup"><span data-stu-id="d297a-119">Visual Studio for Mac has everything you need for Azure development.</span></span>
+<span data-ttu-id="445cb-119">Visual Studio for Mac 包含您 Azure 開發所需的所有項目。</span><span class="sxs-lookup"><span data-stu-id="445cb-119">Visual Studio for Mac has everything you need for Azure development.</span></span>
     </td>
   </tr>
 </table>
 
 
-### <a name="step-1-download-visual-studio-for-mac"></a><span data-ttu-id="d297a-120">步驟 1：下載 Visual Studio for Mac</span><span class="sxs-lookup"><span data-stu-id="d297a-120">Step 1: Download Visual Studio for Mac</span></span>
+### <a name="step-1-download-visual-studio-for-mac"></a><span data-ttu-id="445cb-120">步驟 1：下載 Visual Studio for Mac</span><span class="sxs-lookup"><span data-stu-id="445cb-120">Step 1: Download Visual Studio for Mac</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="d297a-121">下載 Visual Studio for Mac</span><span class="sxs-lookup"><span data-stu-id="d297a-121">Download Visual Studio for Mac</span></span>](https://www.visualstudio.com/vs/visual-studio-mac/)
+> [<span data-ttu-id="445cb-121">下載 Visual Studio for Mac</span><span class="sxs-lookup"><span data-stu-id="445cb-121">Download Visual Studio for Mac</span></span>](https://www.visualstudio.com/vs/visual-studio-mac/)
 
-<span data-ttu-id="d297a-122">在安裝期間，依預設已啟用 Azure 工具。</span><span class="sxs-lookup"><span data-stu-id="d297a-122">During install, Azure tools are already enabled by default.</span></span>
+<span data-ttu-id="445cb-122">在安裝期間，依預設已啟用 Azure 工具。</span><span class="sxs-lookup"><span data-stu-id="445cb-122">During install, Azure tools are already enabled by default.</span></span>
 
 ![Visual Studio for Mac 安裝程式](media/dotnet-tools/azure-vsmac.png)
 
-## <a name="linuxtablinux"></a>[<span data-ttu-id="d297a-124">Linux</span><span class="sxs-lookup"><span data-stu-id="d297a-124">Linux</span></span>](#tab/linux)
+## <a name="linuxtablinux"></a>[<span data-ttu-id="445cb-124">Linux</span><span class="sxs-lookup"><span data-stu-id="445cb-124">Linux</span></span>](#tab/linux)
 
 <img src="https://docs.microsoft.com/en-us/visualstudio/products/images/vs-code.svg" width="50" height="50"></img>
 
-### <a name="step-1-download-net-core-sdk"></a><span data-ttu-id="d297a-125">步驟 1：下載 .NET Core SDK</span><span class="sxs-lookup"><span data-stu-id="d297a-125">Step 1: Download .NET Core SDK</span></span>
+### <a name="step-1-download-net-core-sdk"></a><span data-ttu-id="445cb-125">步驟 1：下載 .NET Core SDK</span><span class="sxs-lookup"><span data-stu-id="445cb-125">Step 1: Download .NET Core SDK</span></span>
 
-<span data-ttu-id="d297a-126">適用於 .NET 應用程式的核心 SDK 和命令列工具。</span><span class="sxs-lookup"><span data-stu-id="d297a-126">The core SDK and command-line tools for .NET apps.</span></span>
-
-> [!div class="nextstepaction"]
-> [<span data-ttu-id="d297a-127">下載 .NET Core SDK</span><span class="sxs-lookup"><span data-stu-id="d297a-127">Download .NET Core SDK</span></span>](https://www.microsoft.com/net/core)
-
-### <a name="step-2-visual-studio-code"></a><span data-ttu-id="d297a-128">步驟 2：Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="d297a-128">Step 2: Visual Studio Code</span></span>
-
-<span data-ttu-id="d297a-129">在任何作業系統上編輯和偵錯 .NET 應用程式。</span><span class="sxs-lookup"><span data-stu-id="d297a-129">Edit and debug .NET apps on any OS.</span></span>
+<span data-ttu-id="445cb-126">適用於 .NET 應用程式的核心 SDK 和命令列工具。</span><span class="sxs-lookup"><span data-stu-id="445cb-126">The core SDK and command-line tools for .NET apps.</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="d297a-130">下載 Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="d297a-130">Download Visual Studio Code</span></span>](https://code.visualstudio.com)
+> [<span data-ttu-id="445cb-127">下載 .NET Core SDK</span><span class="sxs-lookup"><span data-stu-id="445cb-127">Download .NET Core SDK</span></span>](https://www.microsoft.com/net/core)
+
+### <a name="step-2-visual-studio-code"></a><span data-ttu-id="445cb-128">步驟 2：Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="445cb-128">Step 2: Visual Studio Code</span></span>
+
+<span data-ttu-id="445cb-129">在任何作業系統上編輯和偵錯 .NET 應用程式。</span><span class="sxs-lookup"><span data-stu-id="445cb-129">Edit and debug .NET apps on any OS.</span></span>
+
+> [!div class="nextstepaction"]
+> [<span data-ttu-id="445cb-130">下載 Visual Studio Code</span><span class="sxs-lookup"><span data-stu-id="445cb-130">Download Visual Studio Code</span></span>](https://code.visualstudio.com)

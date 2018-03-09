@@ -12,41 +12,41 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: d3bad2e94ec8b08bad2a014fb25d400625a3590d
-ms.sourcegitcommit: 2d08f2815fa7fab55e09d294fc4d74897df7951d
+ms.openlocfilehash: cac6dde85a7b0db2c98d0888cb0ee5c60ee31836
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/02/2018
 ---
-# <a name="azure-virtual-machine-libraries-for-net"></a><span data-ttu-id="654b3-104">適用於 .NET 的 Azure 虛擬機器程式庫</span><span class="sxs-lookup"><span data-stu-id="654b3-104">Azure virtual machine libraries for .NET</span></span>
+# <a name="azure-virtual-machine-libraries-for-net"></a><span data-ttu-id="33b1e-104">適用於 .NET 的 Azure 虛擬機器程式庫</span><span class="sxs-lookup"><span data-stu-id="33b1e-104">Azure virtual machine libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="654b3-105">概觀</span><span class="sxs-lookup"><span data-stu-id="654b3-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="33b1e-105">概觀</span><span class="sxs-lookup"><span data-stu-id="33b1e-105">Overview</span></span>
 
-<span data-ttu-id="654b3-106">執行 Linux 或 Windows 並可視需要擴充的計算資源。</span><span class="sxs-lookup"><span data-stu-id="654b3-106">On-demand, scalable computing resources running Linux or Windows.</span></span>
+<span data-ttu-id="33b1e-106">執行 Linux 或 Windows 並可視需要擴充的計算資源。</span><span class="sxs-lookup"><span data-stu-id="33b1e-106">On-demand, scalable computing resources running Linux or Windows.</span></span>
 
-<span data-ttu-id="654b3-107">若要開始使用 Azure 虛擬機器，請參閱[使用 Azure 入口網站建立 Linux 虛擬機器](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)。</span><span class="sxs-lookup"><span data-stu-id="654b3-107">To get started with Azure virtual machines, see [Create a Linux virtual machine with the Azure portal](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal).</span></span>
+<span data-ttu-id="33b1e-107">若要開始使用 Azure 虛擬機器，請參閱[使用 Azure 入口網站建立 Linux 虛擬機器](https://review.docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal)。</span><span class="sxs-lookup"><span data-stu-id="33b1e-107">To get started with Azure virtual machines, see [Create a Linux virtual machine with the Azure portal](https://review.docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal).</span></span>
 
-## <a name="management-apis"></a><span data-ttu-id="654b3-108">管理 API</span><span class="sxs-lookup"><span data-stu-id="654b3-108">Management APIs</span></span>
+## <a name="management-apis"></a><span data-ttu-id="33b1e-108">管理 API</span><span class="sxs-lookup"><span data-stu-id="33b1e-108">Management APIs</span></span>
 
-<span data-ttu-id="654b3-109">從程式碼使用管理 API 在 Azure 中建立、設定及相應放大 Windows 和 Linux 虛擬機器。</span><span class="sxs-lookup"><span data-stu-id="654b3-109">Create, configure, and scale out Windows and Linux virtual machines in Azure from your code with the management API.</span></span>
+<span data-ttu-id="33b1e-109">從程式碼使用管理 API 在 Azure 中建立、設定及相應放大 Windows 和 Linux 虛擬機器。</span><span class="sxs-lookup"><span data-stu-id="33b1e-109">Create, configure, and scale out Windows and Linux virtual machines in Azure from your code with the management API.</span></span>
 
-<span data-ttu-id="654b3-110">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="654b3-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="33b1e-110">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="33b1e-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="654b3-111">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="654b3-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="33b1e-111">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="33b1e-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Compute.Fluent
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="654b3-112">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="654b3-112">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="33b1e-112">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="33b1e-112">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Microsoft.Azure.Management.Compute.Fluent
 ```
 
-### <a name="code-example"></a><span data-ttu-id="654b3-113">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="654b3-113">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="33b1e-113">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="33b1e-113">Code Example</span></span>
 
-<span data-ttu-id="654b3-114">建立 Windows VM。</span><span class="sxs-lookup"><span data-stu-id="654b3-114">Create a Windows VM.</span></span>
+<span data-ttu-id="33b1e-114">建立 Windows VM。</span><span class="sxs-lookup"><span data-stu-id="33b1e-114">Create a Windows VM.</span></span>
 
 ```csharp
 /* Include these "using" directives...
@@ -69,14 +69,14 @@ IVirtualMachine windowsVM = azure.VirtualMachines.Define("MyVirtualMachine")
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="654b3-115">探索管理 API</span><span class="sxs-lookup"><span data-stu-id="654b3-115">Explore the management APIs</span></span>](https://docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
+> [<span data-ttu-id="33b1e-115">探索管理 API</span><span class="sxs-lookup"><span data-stu-id="33b1e-115">Explore the management APIs</span></span>](https://docs.microsoft.com/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
 
-### <a name="samples"></a><span data-ttu-id="654b3-116">範例</span><span class="sxs-lookup"><span data-stu-id="654b3-116">Samples</span></span>
+### <a name="samples"></a><span data-ttu-id="33b1e-116">範例</span><span class="sxs-lookup"><span data-stu-id="33b1e-116">Samples</span></span>
 
-* [<span data-ttu-id="654b3-117">建立和管理虛擬機器</span><span class="sxs-lookup"><span data-stu-id="654b3-117">Create and manage virtual machines</span></span>](/dotnet/azure/dotnet-sdk-azure-virtual-machine-samples)
-* [<span data-ttu-id="654b3-118">使用 .NET 以範本部署已啟用 SSH 的 VM</span><span class="sxs-lookup"><span data-stu-id="654b3-118">Deploy an SSH-enabled VM with a Template with .NET</span></span>](https://azure.microsoft.com/en-us/resources/samples/resource-manager-dotnet-template-deployment/)
+* [<span data-ttu-id="33b1e-117">建立和管理虛擬機器</span><span class="sxs-lookup"><span data-stu-id="33b1e-117">Create and manage virtual machines</span></span>](/dotnet/azure/dotnet-sdk-azure-virtual-machine-samples)
+* [<span data-ttu-id="33b1e-118">使用 .NET 以範本部署已啟用 SSH 的 VM</span><span class="sxs-lookup"><span data-stu-id="33b1e-118">Deploy an SSH-enabled VM with a Template with .NET</span></span>](https://azure.microsoft.com/resources/samples/resource-manager-dotnet-template-deployment/)
 
-<span data-ttu-id="654b3-119">檢視虛擬機器範本的[完整清單](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM)。</span><span class="sxs-lookup"><span data-stu-id="654b3-119">View the [complete list](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) of virtual machine samples.</span></span>
+<span data-ttu-id="33b1e-119">檢視虛擬機器範本的[完整清單](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=VM)。</span><span class="sxs-lookup"><span data-stu-id="33b1e-119">View the [complete list](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=VM) of virtual machine samples.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
