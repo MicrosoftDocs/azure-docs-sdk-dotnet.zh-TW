@@ -1,7 +1,7 @@
 ---
-title: "將 ASP.NET Web 應用程式移轉至 Azure App Service"
-description: "了解如何從內部部署將 ASP.NET Web 應用程式移轉至 Azure App Service。"
-keywords: "Azure .NET, ASP.NET, App Service, Web 應用程式, 移轉, 移轉"
+title: 將 ASP.NET Web 應用程式移轉至 Azure App Service
+description: 了解如何從內部部署將 ASP.NET Web 應用程式移轉至 Azure App Service。
+keywords: Azure .NET, ASP.NET, App Service, Web 應用程式, 移轉, 移轉
 author: camsoper
 manager: wpickett
 ms.author: casoper

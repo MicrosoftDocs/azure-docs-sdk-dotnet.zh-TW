@@ -1,7 +1,7 @@
 ---
-title: "從 Visual Studio 部署至 Azure"
-description: "本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。"
-keywords: "Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫"
+title: 從 Visual Studio 部署至 Azure
+description: 本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。
+keywords: Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫
 author: camsoper
 manager: douge
 ms.author: casoper

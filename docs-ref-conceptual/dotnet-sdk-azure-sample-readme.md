@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 範例指示的 Azure 管理程式庫"
-description: "取得程式碼範例，以使用適用於 .NET 的 Azure 管理程式庫來建立和更新資源。"
-keywords: "Azure, .NET, SDK, API, 範例, 範例"
+title: 適用於 .NET 範例指示的 Azure 管理程式庫
+description: 取得程式碼範例，以使用適用於 .NET 的 Azure 管理程式庫來建立和更新資源。
+keywords: Azure, .NET, SDK, API, 範例, 範例
 author: camsoper
 ms.author: casoper
 manager: wpickett

@@ -1,7 +1,7 @@
 ---
 title: Azure .NET API
-description: "適用於 .NET 的 Azure API 概觀"
-keywords: "Azure, .NET, SDK, API, NuGet, 程式庫, 套件"
+description: 適用於 .NET 的 Azure API 概觀
+keywords: Azure, .NET, SDK, API, NuGet, 程式庫, 套件
 author: camsoper
 ms.author: casoper
 manager: wpickett

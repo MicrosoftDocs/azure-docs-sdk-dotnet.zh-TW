@@ -1,7 +1,7 @@
 ---
-title: "Azure .NET 儲存體 API"
-description: "適用於 .NET 的 Azure 儲存體程式庫參考"
-keywords: "Azure, .NET, SDK, API, 儲存體, blob"
+title: Azure .NET 儲存體 API
+description: 適用於 .NET 的 Azure 儲存體程式庫參考
+keywords: Azure, .NET, SDK, API, 儲存體, blob
 author: camsoper
 ms.author: casoper
 manager: wpickett

@@ -1,7 +1,7 @@
 ---
-title: "說明使用 .NET 之 Azure 虛擬機器管理的範例程式碼"
-description: "取得程式碼範例，以使用 .NET 來建立和更新 Azure 虛擬機器"
-keywords: "Azure, .NET, SDK, API, 虛擬機器"
+title: 說明使用 .NET 之 Azure 虛擬機器管理的範例程式碼
+description: 取得程式碼範例，以使用 .NET 來建立和更新 Azure 虛擬機器
+keywords: Azure, .NET, SDK, API, 虛擬機器
 author: camsoper
 ms.author: casoper
 manager: wpickett

@@ -1,6 +1,6 @@
 ---
-title: "Azure 中的 .NET 資料分析教學課程 | Microsoft Docs"
-description: "使用 Microsoft Azure 服務開發資料分析應用程式。"
+title: Azure 中的 .NET 資料分析教學課程 | Microsoft Docs
+description: 使用 Microsoft Azure 服務開發資料分析應用程式。
 author: camsoper
 ms.author: casoper
 manager: wpickett
