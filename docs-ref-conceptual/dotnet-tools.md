@@ -1,7 +1,7 @@
 ---
-title: "Azure .NET 開發人員工具"
-description: "取得工具，開始從 Windows、Linux 或 Mac 環境使用 Azure .NET 程式庫。"
-keywords: "Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫"
+title: Azure .NET 開發人員工具
+description: 取得工具，開始從 Windows、Linux 或 Mac 環境使用 Azure .NET 程式庫。
+keywords: Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫
 author: camsoper
 ms.author: casoper
 manager: wpickett

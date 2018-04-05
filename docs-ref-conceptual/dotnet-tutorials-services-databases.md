@@ -1,6 +1,6 @@
 ---
-title: "使用 Azure 資料庫的 .NET 教學課程"
-description: "用於連線及使用 .NET 應用程式中所使用之 Azure 資料庫的教學課程。"
+title: 使用 Azure 資料庫的 .NET 教學課程
+description: 用於連線及使用 .NET 應用程式中所使用之 Azure 資料庫的教學課程。
 author: camsoper
 ms.author: casoper
 manager: wpickett

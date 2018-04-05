@@ -1,7 +1,7 @@
 ---
-title: "使用適用於 .NET 的 Azure 程式庫來進行驗證"
-description: "使用適用於 .NET 的 Azure 程式庫來進行驗證"
-keywords: "Azure, .NET, SDK, API, 驗證, Active Directory, 服務主體"
+title: 使用適用於 .NET 的 Azure 程式庫來進行驗證
+description: 使用適用於 .NET 的 Azure 程式庫來進行驗證
+keywords: Azure, .NET, SDK, API, 驗證, Active Directory, 服務主體
 author: camsoper
 ms.author: casoper
 manager: wpickett

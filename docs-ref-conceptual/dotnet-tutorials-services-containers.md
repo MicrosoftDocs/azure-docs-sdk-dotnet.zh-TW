@@ -1,6 +1,6 @@
 ---
-title: "在 Azure 中部署容器的 .NET 教學課程"
-description: "在 Azure 的 Docker 容器中部署 .NET 應用程式，並使用 DC/OS、Mesos 或 Kubernetes 調整其大小。"
+title: 在 Azure 中部署容器的 .NET 教學課程
+description: 在 Azure 的 Docker 容器中部署 .NET 應用程式，並使用 DC/OS、Mesos 或 Kubernetes 調整其大小。
 author: camsoper
 ms.author: casoper
 manager: wpickett

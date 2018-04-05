@@ -1,6 +1,6 @@
 ---
-title: "在 Azure 上使用 .NET 傳訊和 IoT 的教學課程 | Microsoft Docs"
-description: "使用 .NET 和 Azure 服務在雲端應用程式之間以及在裝置與雲端之間傳送訊息。"
+title: 在 Azure 上使用 .NET 傳訊和 IoT 的教學課程 | Microsoft Docs
+description: 使用 .NET 和 Azure 服務在雲端應用程式之間以及在裝置與雲端之間傳送訊息。
 author: camsoper
 ms.author: casoper
 manager: wpickett

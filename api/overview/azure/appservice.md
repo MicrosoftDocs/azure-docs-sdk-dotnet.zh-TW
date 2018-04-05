@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure App Service 程式庫"
-description: "適用於 .NET 的 Azure App Service 程式庫參考"
-keywords: "Azure, .NET, SDK, API, Web Apps, 應用程式服務, 行動, asp.net"
+title: 適用於 .NET 的 Azure App Service 程式庫
+description: 適用於 .NET 的 Azure App Service 程式庫參考
+keywords: Azure, .NET, SDK, API, Web Apps, 應用程式服務, 行動, asp.net
 author: camsoper
 ms.author: casoper
 manager: wpickett

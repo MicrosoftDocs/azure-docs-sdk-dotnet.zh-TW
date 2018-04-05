@@ -1,6 +1,6 @@
 ---
 title: Azure Tools For Visual Studio 2015
-description: "取得工具，開始從 Visual Studio 2015 使用 Azure .NET 程式庫。"
+description: 取得工具，開始從 Visual Studio 2015 使用 Azure .NET 程式庫。
 keywords: Azure .NET, SDK, VS2015, Visual Studio 2015
 author: camsoper
 ms.author: casoper

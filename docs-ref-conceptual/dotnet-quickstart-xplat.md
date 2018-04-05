@@ -1,7 +1,7 @@
 ---
-title: "使用 .NET Core 從命令列部署至 Azure"
-description: "本文說明如何使用命令列工具，將 ASP.NET Core 應用程式部署至 Azure App Service。"
-keywords: "Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫"
+title: 使用 .NET Core 從命令列部署至 Azure
+description: 本文說明如何使用命令列工具，將 ASP.NET Core 應用程式部署至 Azure App Service。
+keywords: Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫
 author: camsoper
 manager: douge
 ms.author: casoper

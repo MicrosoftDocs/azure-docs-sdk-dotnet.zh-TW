@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 之 Azure 管理程式庫的使用概念和模式"
-description: 
-keywords: "Azure, .NET, SDK, API, 模式, 概念, Fluent, 記錄"
+title: 適用於 .NET 之 Azure 管理程式庫的使用概念和模式
+description: ''
+keywords: Azure, .NET, SDK, API, 模式, 概念, Fluent, 記錄
 author: camsoper
 ms.author: casoper
 manager: wpickett

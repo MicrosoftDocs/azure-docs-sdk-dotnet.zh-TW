@@ -1,7 +1,7 @@
 ---
-title: "開始使用 Azure .NET API"
-description: "使用自有 Azure 訂用帳戶開始進行適用於 .NET 之 Azure 程式庫的基本使用。"
-keywords: "Azure, .NET, SDK, API , 驗證, 開始使用"
+title: 開始使用 Azure .NET API
+description: 使用自有 Azure 訂用帳戶開始進行適用於 .NET 之 Azure 程式庫的基本使用。
+keywords: Azure, .NET, SDK, API , 驗證, 開始使用
 author: camsoper
 ms.author: casoper
 manager: wpickett

@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure 管理程式庫版本資訊 | Microsoft Docs"
-description: "了解適用於 .NET 之 Azure 管理程式庫的最新消息和重大變更。"
-keywords: "Azure, .NET, API, 參考, 附註, 更新, 取代"
+title: 適用於 .NET 的 Azure 管理程式庫版本資訊 | Microsoft Docs
+description: 了解適用於 .NET 之 Azure 管理程式庫的最新消息和重大變更。
+keywords: Azure, .NET, API, 參考, 附註, 更新, 取代
 author: camsoper
 ms.author: casoper
 manager: wpickett

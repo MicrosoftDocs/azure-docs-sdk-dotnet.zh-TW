@@ -1,7 +1,7 @@
 ---
-title: "使用 .NET 建置 Azure Web 和行動裝置應用程式的範例程式碼"
-description: "取得建立和更新 Azure Web Apps .NET 的範例程式碼"
-keywords: "Azure, .NET, SDK, API, SQL, 資料庫"
+title: 使用 .NET 建置 Azure Web 和行動裝置應用程式的範例程式碼
+description: 取得建立和更新 Azure Web Apps .NET 的範例程式碼
+keywords: Azure, .NET, SDK, API, SQL, 資料庫
 author: camsoper
 ms.author: casoper
 manager: wpickett

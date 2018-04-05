@@ -1,6 +1,6 @@
 ---
-title: "保護 Azure 應用程式的 .NET 教學課程"
-description: "在 Azure 上執行之 .NET 應用程式的應用程式安全性和身分識別管理教學課程。"
+title: 保護 Azure 應用程式的 .NET 教學課程
+description: 在 Azure 上執行之 .NET 應用程式的應用程式安全性和身分識別管理教學課程。
 author: camsoper
 ms.author: casoper
 manager: wpickett

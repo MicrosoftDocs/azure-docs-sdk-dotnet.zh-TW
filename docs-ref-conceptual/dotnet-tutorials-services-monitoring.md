@@ -1,6 +1,6 @@
 ---
-title: "在 Azure 中管理和監視 .NET 應用程式的教學課程"
-description: "監視在 Azure 中執行的 .NET 應用程式健康情況和效能，並檢測遙測以儲存使用者如何使用應用程式的相關資訊。"
+title: 在 Azure 中管理和監視 .NET 應用程式的教學課程
+description: 監視在 Azure 中執行的 .NET 應用程式健康情況和效能，並檢測遙測以儲存使用者如何使用應用程式的相關資訊。
 author: camsoper
 ms.author: casoper
 manager: wpickett

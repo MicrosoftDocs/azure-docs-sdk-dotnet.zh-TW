@@ -1,7 +1,7 @@
 ---
-title: "搭配 .NET 使用 Azure 資料庫的範例程式碼"
-description: "取得搭配 .NET 使用 Azure 資料庫建立應用程式的範例程式碼"
-keywords: "Azure, .NET, SDK, API, SQL, 資料庫"
+title: 搭配 .NET 使用 Azure 資料庫的範例程式碼
+description: 取得搭配 .NET 使用 Azure 資料庫建立應用程式的範例程式碼
+keywords: Azure, .NET, SDK, API, SQL, 資料庫
 author: camsoper
 ms.author: casoper
 manager: wpickett

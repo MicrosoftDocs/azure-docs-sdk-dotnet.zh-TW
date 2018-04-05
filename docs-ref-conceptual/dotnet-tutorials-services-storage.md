@@ -1,6 +1,6 @@
 ---
-title: "在 Azure 中使用 .NET 應用程式儲存體的教學課程"
-description: "儲存並使用在 Azure 中執行的 .NET 應用程式物件和檔案"
+title: 在 Azure 中使用 .NET 應用程式儲存體的教學課程
+description: 儲存並使用在 Azure 中執行的 .NET 應用程式物件和檔案
 author: camsoper
 ms.author: casoper
 manager: wpickett

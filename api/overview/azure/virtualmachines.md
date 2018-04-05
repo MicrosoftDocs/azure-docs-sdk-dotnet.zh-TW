@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure 計算"
-description: "適用於 .NET 的 Azure 計算程式庫參考"
-keywords: "Azure, .NET, SDK, API, VM, 虛擬機器, 計算"
+title: 適用於 .NET 的 Azure 計算
+description: 適用於 .NET 的 Azure 計算程式庫參考
+keywords: Azure, .NET, SDK, API, VM, 虛擬機器, 計算
 author: camsoper
 ms.author: casoper
 manager: wpickett

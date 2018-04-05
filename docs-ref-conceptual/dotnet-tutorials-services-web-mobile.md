@@ -1,6 +1,6 @@
 ---
-title: "在 Azure 中建立 Web 和行動裝置 .NET 應用程式的教學課程"
-description: "使用 Azure 服務建置功能，並將其新增至 Web 與行動裝置 .NET 應用程式的教學課程。"
+title: 在 Azure 中建立 Web 和行動裝置 .NET 應用程式的教學課程
+description: 使用 Azure 服務建置功能，並將其新增至 Web 與行動裝置 .NET 應用程式的教學課程。
 author: camsoper
 ms.author: casoper
 manager: wpickett

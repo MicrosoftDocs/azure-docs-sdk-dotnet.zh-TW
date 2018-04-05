@@ -1,6 +1,6 @@
 ---
-title: "Azure 中 AI 和認知服務的 .NET 教學課程 | Microsoft Docs"
-description: "使用 Microsoft Azure 服務將 AI 和認知服務新增至您的 .NET 應用程式。"
+title: Azure 中 AI 和認知服務的 .NET 教學課程 | Microsoft Docs
+description: 使用 Microsoft Azure 服務將 AI 和認知服務新增至您的 .NET 應用程式。
 author: camsoper
 ms.author: casoper
 manager: wpickett
