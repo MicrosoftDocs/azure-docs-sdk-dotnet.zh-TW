@@ -10,11 +10,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: bb2aff01c8c6a07c6a5a05cd07bc3c3f4eb0688b
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: ad5a600f6d84c0bae7f4d0dd3f74910d980a9272
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="tutorials-for-building-net-apps-in-azure"></a>在 Azure 中建置 .NET 應用程式的教學課程
 
@@ -34,15 +34,15 @@ ms.lasthandoff: 03/05/2018
 | [使用 .NET 連線並查詢資料][5] | 使用 ADO.NET 連線至 Azure SQL Database，然後使用 Transact-SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料 | 
 | **適用於 PostgreSQL 的 Azure 資料庫** ||
 | [使用 .NET 連線並查詢資料][6] | 使用 SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料。 | 
-| **Cosmos DB** ||
-| [開始使用 DocumentDB API][7] | 使用 DocumentDB API 建立簡單的主控台應用程式。 | 
-| [使用 CosmosDB 建立 ASP.NET Web 應用程式][8] | 使用 CosmosDB 的 DocumentDB NoSQL 資料庫建立 Web 應用程式 | 
+| **Azure Cosmos DB** ||
+| [開始使用 Azure Cosmos DB SQL API][7] | 使用 Azure Cosmos DB SQL API 建立簡單的主控台應用程式。 | 
+| [使用 Azure Cosmos DB SQL API 建立 ASP.NET Web 應用程式][8] | 使用 Azure Cosmos DB SQL API 建立 Web 應用程式。 | 
 
 [1]: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
-[2]: /azure/documentdb/documentdb-dotnet-application
+[2]: /azure/cosmos-db/sql-api-dotnet-application
 [3]: /azure/app-service-api/app-service-api-dotnet-get-started
 [4]: /azure/container-service/container-service-kubernetes-windows-walkthrough
 [5]: /azure/sql-database/sql-database-connect-query-dotnet
 [6]: /azure/postgresql/connect-csharp
-[7]: /azure/cosmos-db/documentdb-dotnetcore-get-started
-[8]: /azure/cosmos-db/documentdb-dotnet-application
+[7]: /azure/cosmos-db/sql-api-get-started
+[8]: /azure/cosmos-db/sql-api-dotnet-application

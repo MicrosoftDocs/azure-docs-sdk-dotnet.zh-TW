@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.openlocfilehash: bb5d4958fb4398192d8427391695da1a7b8cc3c8
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 8371c304681ff88cba6f1cc3ba0d1caef836d609
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>使用 .NET Core 從命令列部署至 Azure
 
-本教學課程將逐步引導您使用 .NET Core 來建置及部署 Microsoft Azure 應用程式。  完成時，您會在 ASP.NET MVC Core 中建置載作為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure CosmosDB 用於資料儲存體。
+本教學課程將逐步引導您使用 .NET Core 來建置及部署 Microsoft Azure 應用程式。  完成時，您會在 ASP.NET MVC Core 中建置裝載為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure Cosmos DB 用於資料儲存體。
 
 ## <a name="prerequisites"></a>先決條件
 
@@ -29,9 +29,9 @@ ms.lasthandoff: 03/05/2018
 
 [Azure Cloud Shell](/azure/cloud-shell/) 具有此預先安裝教學課程的所有選用必要條件。  如果您需要在本機執行本教學課程，只需要安裝上述的選用元件。  若要快速啟動 Cloud Shell，只要按一下任何程式碼區塊右上方的 [試試看] 按鈕即可。
 
-## <a name="create-a-cosmosdb-account"></a>建立 CosmosDB 帳戶
+## <a name="create-an-azure-cosmos-db-account"></a>建立 Azure Cosmos DB 帳戶
 
-本教學課程中的資料儲存體將需要用到 CosmosDB，因此您必須建立帳戶。  在本機或 Cloud Shell 中執行這個指令碼，可建立 Azure CosmosDB DocumentDB API 帳戶。
+在此教學課程中，會將 Azure Cosmos DB 當做資料儲存體，因此您需要建立一個帳戶。  在本機或 Cloud Shell 中執行這個指令碼，以建立 Azure Cosmos DB SQL API 帳戶。
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -41,7 +41,7 @@ az group create --name DotNetAzureTutorial --location EastUS
 let randomNum=$RANDOM*$RANDOM
 cosmosdbname=dotnettutorial$randomNum
 
-# Create the CosmosDB account
+# Create the Azure Cosmos DB account
 az cosmosdb create --name $cosmosdbname --resource-group DotNetAzureTutorial
 
 # Retrieve the endpoint and key (you'll need these later)
@@ -52,7 +52,7 @@ cosmosAuthKey=$(az cosmosdb list-keys -n $cosmosdbname -g DotNetAzureTutorial --
 
 ## <a name="download-and-configure-the-application"></a>下載並設定應用程式
 
-您要部署的應用程式是使用 CosmosDB 用戶端程式庫，透過 ASP.NET MVC Core 所撰寫的[簡單待辦事項應用程式](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/)。  現在，您會取得此教學課程的程式碼，並使用您的 CosmosDB 資訊進行設定。
+您要部署的應用程式是使用 Azure Cosmos DB 用戶端程式庫，透過 ASP.NET MVC Core 所撰寫的[簡單待辦事項應用程式](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/)。  現在，您會取得此教學課程的程式碼，並使用您的 Azure Cosmos DB 資訊進行設定。
 
 ```azurecli-interactive
 # Get the code from GitHub
@@ -131,7 +131,7 @@ az webapp show -n $webappname -g DotNetAzureTutorial --query defaultHostName -o 
 
 ## <a name="clean-up"></a>清除
 
-當您完成測試應用程式及檢查程式碼和資源時，可以透過刪除資源群組，將 Web 應用程式和 CosmosDB 帳戶刪除。
+當您完成應用程式測試及程式碼和資源的檢查時，可以透過刪除資源群組，將 Web 應用程式和 Azure Cosmos DB 帳戶刪除。
 
 ```azurecli-interactive
 az group delete -n DotNetAzureTutorial

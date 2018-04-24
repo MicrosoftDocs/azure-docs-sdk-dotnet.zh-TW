@@ -10,11 +10,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 31023bc25b73c0d02f768aeb357d7c7b5ccf88d0
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: f03f1cc7e2d973aa270f99f7ca29c9cb4d6fd720
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="tutorials-for-using-net-with-azure-databases"></a>使用 .NET 搭配 Azure 資料庫的教學課程
 
@@ -28,9 +28,9 @@ ms.lasthandoff: 03/05/2018
 | [使用 .NET 連線並查詢資料][1] | 使用 ADO.NET 連線至 Azure SQL Database，然後使用 Transact-SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料 | 
 | **適用於 PostgreSQL 的 Azure 資料庫** ||
 | [使用 .NET 連線並查詢資料][2] | 使用 SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料。 | 
-| **Cosmos DB** ||
-| [開始使用 DocumentDB API][4] | 使用 DocumentDB API 建立簡單的主控台應用程式。 | 
-| [使用 CosmosDB 建立 ASP.NET Web 應用程式][3] | 使用 CosmosDB 的 DocumentDB NoSQL 資料庫建立 Web 應用程式 | 
+| **Azure Cosmos DB** ||
+| [開始使用 Azure Cosmos DB SQL API][4] | 使用 SQL API 建立簡單的主控台應用程式。 | 
+| [使用 Azure Cosmos DB SQL API 建立 ASP.NET Web 應用程式][3] | 使用 Azure Cosmos DB SQL API 建立 Web 應用程式。 | 
 | **Redis 快取** | |
 | [如何使用 Azure Redis 快取][6] | 開始使用 Azure Redis 快取。 |
 | [使用 Redis 快取建立 Web 應用程式][5] | 使用 Visual Studio 2017，在 Azure App Service 的 Web 應用程式中建立和部署 ASP.NET Web 應用程式。  | 
@@ -40,8 +40,8 @@ ms.lasthandoff: 03/05/2018
 
 [1]: /azure/sql-database/sql-database-connect-query-dotnet
 [2]: /azure/postgresql/connect-csharp
-[3]: /azure/cosmos-db/documentdb-dotnet-application
-[4]: /azure/cosmos-db/documentdb-dotnetcore-get-started
+[3]: /azure/cosmos-db/sql-api-dotnet-application
+[4]: /azure/cosmos-db/sql-api-get-started
 [5]: /azure/redis-cache/cache-web-app-howto
 [6]: /azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache
 [7]: /azure/redis-cache/cache-aspnet-session-state-provider
