@@ -10,37 +10,37 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 5f06ec0af86cb4d1c8467fd50504d6074e556d6c
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 1700bcf8a05f067e0f174bff87a7aa743cabc524
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
-# <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a><span data-ttu-id="4fe78-103">在 Azure 中使用 .NET 建立 Web 和行動裝置應用程式的教學課程</span><span class="sxs-lookup"><span data-stu-id="4fe78-103">Tutorials for building web and mobile apps with .NET in Azure</span></span>
+# <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a><span data-ttu-id="f6d7d-103">在 Azure 中使用 .NET 建立 Web 和行動裝置應用程式的教學課程</span><span class="sxs-lookup"><span data-stu-id="f6d7d-103">Tutorials for building web and mobile apps with .NET in Azure</span></span>
 
-<span data-ttu-id="4fe78-104">下表連結到建立在 Azure 上執行之 Web 和行動裝置 .NET 應用程式的深入教學課程。</span><span class="sxs-lookup"><span data-stu-id="4fe78-104">The following table links to in-depth tutorials for building web and mobile .NET apps running on Azure.</span></span>
+<span data-ttu-id="f6d7d-104">下表連結到建立在 Azure 上執行之 Web 和行動裝置 .NET 應用程式的深入教學課程。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-104">The following table links to in-depth tutorials for building web and mobile .NET apps running on Azure.</span></span>
 
-<span data-ttu-id="4fe78-105">如需範例原始程式碼，請參閱 [Azure 服務範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)清單。</span><span class="sxs-lookup"><span data-stu-id="4fe78-105">For sample source code, see the list of [Azure service samples](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span></span>
+<span data-ttu-id="f6d7d-105">如需範例原始程式碼，請參閱 [Azure 服務範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)清單。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-105">For sample source code, see the list of [Azure service samples](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span></span>
 
 | | |
 |---|---|
-| <span data-ttu-id="4fe78-106">**Web Apps**</span><span class="sxs-lookup"><span data-stu-id="4fe78-106">**Web Apps**</span></span>||
-| <span data-ttu-id="4fe78-107">[使用 Azure SQL Database 建立 ASP.NET Web 應用程式][1]</span><span class="sxs-lookup"><span data-stu-id="4fe78-107">[Create an ASP.NET web app with Azure SQL Database][1]</span></span> | <span data-ttu-id="4fe78-108">建立將資料儲存在 Azure SQL Database 中的簡單 Web 應用程式。</span><span class="sxs-lookup"><span data-stu-id="4fe78-108">Create a simple web application that stores data in Azure SQL Database.</span></span> | 
-| <span data-ttu-id="4fe78-109">[使用 CosmosDB 建立 ASP.NET Web 應用程式][2]</span><span class="sxs-lookup"><span data-stu-id="4fe78-109">[Create an ASP.NET web app with CosmosDB][2]</span></span> | <span data-ttu-id="4fe78-110">使用 CosmosDB 的 DocumentDB API 建立 Web 應用程式。</span><span class="sxs-lookup"><span data-stu-id="4fe78-110">Create a web application using CosmosDB's DocumentDB API.</span></span> | 
-| <span data-ttu-id="4fe78-111">**API 應用程式**</span><span class="sxs-lookup"><span data-stu-id="4fe78-111">**API Apps**</span></span>||
-| <span data-ttu-id="4fe78-112">[建立和部署 Web API][3]</span><span class="sxs-lookup"><span data-stu-id="4fe78-112">[Create and deploy a Web API][3]</span></span> | <span data-ttu-id="4fe78-113">使用 Swagger 建立和部署 .NET Web API。</span><span class="sxs-lookup"><span data-stu-id="4fe78-113">Create and deploy a .NET Web API with Swagger.</span></span> | 
-| <span data-ttu-id="4fe78-114">**媒體服務**</span><span class="sxs-lookup"><span data-stu-id="4fe78-114">**Media Services**</span></span> | |
-| <span data-ttu-id="4fe78-115">[使用 .NET 進行媒體服務開發][6]</span><span class="sxs-lookup"><span data-stu-id="4fe78-115">[Media Services development with .NET][6]</span></span> | <span data-ttu-id="4fe78-116">了解如何使用 .NET 開始開發媒體服務應用程式。</span><span class="sxs-lookup"><span data-stu-id="4fe78-116">Learn how to start developing Media Services applications using .NET.</span></span> |
-| <span data-ttu-id="4fe78-117">[連線到媒體服務帳戶][7]</span><span class="sxs-lookup"><span data-stu-id="4fe78-117">[Connecting to a Media Services account][7]</span></span> | <span data-ttu-id="4fe78-118">取得與 Azure 媒體服務的程式設計連線。</span><span class="sxs-lookup"><span data-stu-id="4fe78-118">Obtain a programmatic connection to  Azure Media Services.</span></span> |
-| <span data-ttu-id="4fe78-119">[傳遞隨選影片][4]</span><span class="sxs-lookup"><span data-stu-id="4fe78-119">[Deliver video on demand][4]</span></span> | <span data-ttu-id="4fe78-120">在 .NET 中建立基本隨選影片內容傳遞服務。</span><span class="sxs-lookup"><span data-stu-id="4fe78-120">Create a basic video-on-demand content delivery service in .NET.</span></span> | 
-| <span data-ttu-id="4fe78-121">[使用內部部署編碼器執行即時串流][8]</span><span class="sxs-lookup"><span data-stu-id="4fe78-121">[Perform live streaming with on-premise encoders ][8]</span></span> | <span data-ttu-id="4fe78-122">建立針對即時通行傳遞設定的通道。</span><span class="sxs-lookup"><span data-stu-id="4fe78-122">Create a channel that is configured for a pass-through delivery.</span></span> |
-| <span data-ttu-id="4fe78-123">**Azure 搜尋服務**</span><span class="sxs-lookup"><span data-stu-id="4fe78-123">**Azure Search**</span></span>||
-| <span data-ttu-id="4fe78-124">[如何從 .NET 應用程式使用 Azure 搜尋服務][5]</span><span class="sxs-lookup"><span data-stu-id="4fe78-124">[How to use Azure Search from a .NET Application][5]</span></span> | <span data-ttu-id="4fe78-125">透過 .NET SDK，利用 Azure 搜尋服務在應用程式中實作豐富的搜尋經驗。</span><span class="sxs-lookup"><span data-stu-id="4fe78-125">Use the .NET SDK to implement a rich search experience in your application using Azure Search.</span></span> | 
+| <span data-ttu-id="f6d7d-106">**Web Apps**</span><span class="sxs-lookup"><span data-stu-id="f6d7d-106">**Web Apps**</span></span>||
+| <span data-ttu-id="f6d7d-107">[使用 Azure SQL Database 建立 ASP.NET Web 應用程式][1]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-107">[Create an ASP.NET web app with Azure SQL Database][1]</span></span> | <span data-ttu-id="f6d7d-108">建立將資料儲存在 Azure SQL Database 中的簡單 Web 應用程式。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-108">Create a simple web application that stores data in Azure SQL Database.</span></span> | 
+| <span data-ttu-id="f6d7d-109">[使用 Azure Cosmos DB 建立 ASP.NET Web 應用程式][2]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-109">[Create an ASP.NET web app with Azure Cosmos DB][2]</span></span> | <span data-ttu-id="f6d7d-110">使用 Azure Cosmos DB SQL API 建立 Web 應用程式。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-110">Create a web application using the Azure Cosmos DB SQL API.</span></span> | 
+| <span data-ttu-id="f6d7d-111">**API 應用程式**</span><span class="sxs-lookup"><span data-stu-id="f6d7d-111">**API Apps**</span></span>||
+| <span data-ttu-id="f6d7d-112">[建立和部署 Web API][3]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-112">[Create and deploy a Web API][3]</span></span> | <span data-ttu-id="f6d7d-113">使用 Swagger 建立和部署 .NET Web API。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-113">Create and deploy a .NET Web API with Swagger.</span></span> | 
+| <span data-ttu-id="f6d7d-114">**媒體服務**</span><span class="sxs-lookup"><span data-stu-id="f6d7d-114">**Media Services**</span></span> | |
+| <span data-ttu-id="f6d7d-115">[使用 .NET 進行媒體服務開發][6]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-115">[Media Services development with .NET][6]</span></span> | <span data-ttu-id="f6d7d-116">了解如何使用 .NET 開始開發媒體服務應用程式。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-116">Learn how to start developing Media Services applications using .NET.</span></span> |
+| <span data-ttu-id="f6d7d-117">[連線到媒體服務帳戶][7]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-117">[Connecting to a Media Services account][7]</span></span> | <span data-ttu-id="f6d7d-118">取得與 Azure 媒體服務的程式設計連線。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-118">Obtain a programmatic connection to  Azure Media Services.</span></span> |
+| <span data-ttu-id="f6d7d-119">[傳遞隨選影片][4]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-119">[Deliver video on demand][4]</span></span> | <span data-ttu-id="f6d7d-120">在 .NET 中建立基本隨選影片內容傳遞服務。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-120">Create a basic video-on-demand content delivery service in .NET.</span></span> | 
+| <span data-ttu-id="f6d7d-121">[使用內部部署編碼器執行即時串流][8]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-121">[Perform live streaming with on-premise encoders ][8]</span></span> | <span data-ttu-id="f6d7d-122">建立針對即時通行傳遞設定的通道。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-122">Create a channel that is configured for a pass-through delivery.</span></span> |
+| <span data-ttu-id="f6d7d-123">**Azure 搜尋服務**</span><span class="sxs-lookup"><span data-stu-id="f6d7d-123">**Azure Search**</span></span>||
+| <span data-ttu-id="f6d7d-124">[如何從 .NET 應用程式使用 Azure 搜尋服務][5]</span><span class="sxs-lookup"><span data-stu-id="f6d7d-124">[How to use Azure Search from a .NET Application][5]</span></span> | <span data-ttu-id="f6d7d-125">透過 .NET SDK，利用 Azure 搜尋服務在應用程式中實作豐富的搜尋經驗。</span><span class="sxs-lookup"><span data-stu-id="f6d7d-125">Use the .NET SDK to implement a rich search experience in your application using Azure Search.</span></span> | 
 
 
 
 [1]: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
-[2]: /azure/documentdb/documentdb-dotnet-application
+[2]: /azure/cosmos-db/sql-api-dotnet-application
 [3]: /azure/app-service-api/app-service-api-dotnet-get-started
 [4]: /azure/media-services/media-services-dotnet-get-started
 [5]: /azure/search/search-howto-dotnet-sdk
