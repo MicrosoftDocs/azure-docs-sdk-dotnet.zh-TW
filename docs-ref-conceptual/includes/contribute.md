@@ -1,3 +1,3 @@
-## <a name="get-help-and-give-feedback"></a><span data-ttu-id="db7a0-101">獲得協助及提供意見</span><span class="sxs-lookup"><span data-stu-id="db7a0-101">Get help and give feedback</span></span>
+## <a name="get-help-and-give-feedback"></a>獲得協助及提供意見
 
-<span data-ttu-id="db7a0-102">將對於社群的問題張貼於 [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-sdk-.net)，並將對於 SDK 的開放式問題張貼於[專案 GitHub](https://github.com/Azure/azure-sdk-for-net)。</span><span class="sxs-lookup"><span data-stu-id="db7a0-102">Post questions to the community on [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-sdk-.net) and open issues against the SDK on the [project GitHub](https://github.com/Azure/azure-sdk-for-net).</span></span>
+將對於社群的問題張貼於 [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-sdk-.net)，並將對於 SDK 的開放式問題張貼於[專案 GitHub](https://github.com/Azure/azure-sdk-for-net)。
