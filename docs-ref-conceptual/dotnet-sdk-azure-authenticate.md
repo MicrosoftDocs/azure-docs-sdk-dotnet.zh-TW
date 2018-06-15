@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752770"
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a><span data-ttu-id="79d5b-104">使用適用於 .NET 的 Azure 程式庫來進行驗證</span><span class="sxs-lookup"><span data-stu-id="79d5b-104">Authenticate with the Azure Libraries for .NET</span></span>
 

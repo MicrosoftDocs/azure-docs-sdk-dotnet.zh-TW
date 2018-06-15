@@ -15,6 +15,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752890"
 ---
 # <a name="tutorials-for-monitoring-and-managing-your-net-apps-in-azure"></a><span data-ttu-id="e70e6-103">在 Azure 中管理和監視 .NET 應用程式的教學課程</span><span class="sxs-lookup"><span data-stu-id="e70e6-103">Tutorials for monitoring and managing your .NET apps in Azure</span></span>
 
