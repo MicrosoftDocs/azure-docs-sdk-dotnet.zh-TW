@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure 事件中樞程式庫"
-description: "適用於 .NET 的 Azure 事件中樞程式庫參考"
-keywords: "Azure, .NET, SDK, API, 事件中樞"
+title: 適用於 .NET 的 Azure 事件中樞程式庫
+description: 適用於 .NET 的 Azure 事件中樞程式庫參考
+keywords: Azure, .NET, SDK, API, 事件中樞
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487291"
 ---
 # <a name="azure-event-hubs-libraries-for-net"></a><span data-ttu-id="f59a8-104">適用於 .NET 的 Azure 事件中樞程式庫</span><span class="sxs-lookup"><span data-stu-id="f59a8-104">Azure Event Hubs libraries for .NET</span></span>
 

@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure Database for PostgreSQL 程式庫"
-description: "適用於 Azure Database for PostgreSQL 之 .NET 用戶端程式庫的參考文件"
-keywords: "Azure, .NET ODBC, SDK, API, SQL, ADO.NET, 資料庫, PostGres, PostgreSQL"
+title: 適用於 .NET 的 Azure Database for PostgreSQL 程式庫
+description: 適用於 Azure Database for PostgreSQL 之 .NET 用戶端程式庫的參考文件
+keywords: Azure, .NET ODBC, SDK, API, SQL, ADO.NET, 資料庫, PostGres, PostgreSQL
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4dba7cd869bddff3dee7315d258522dc4879abce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/23/2017
+ms.locfileid: "25550808"
 ---
 # <a name="azure-database-for-postgresql-libraries-for-net"></a><span data-ttu-id="6cf64-104">適用於 .NET 的 Azure Database for PostgreSQL 程式庫</span><span class="sxs-lookup"><span data-stu-id="6cf64-104">Azure Database for PostgreSQL libraries for .NET</span></span>
 

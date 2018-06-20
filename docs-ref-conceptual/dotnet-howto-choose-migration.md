@@ -1,7 +1,7 @@
 ---
-title: "選擇正確的 Azure 裝載選項"
-description: "了解哪些 Azure 移轉路徑適合您的 ASP.NET Web 應用程式。"
-keywords: "Azure .NET, ASP.NET, App Service, VM, 虛擬機器, Web 應用程式, 移轉, 移轉"
+title: 選擇正確的 Azure 裝載選項
+description: 了解哪些 Azure 移轉路徑適合您的 ASP.NET Web 應用程式。
+keywords: Azure .NET, ASP.NET, App Service, VM, 虛擬機器, Web 應用程式, 移轉, 移轉
 author: CESARDELATORRE
 manager: wpickett
 ms.author: cesardl
@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/09/2017
+ms.locfileid: "26588461"
 ---
 # <a name="choose-the-right-azure-hosting-option"></a><span data-ttu-id="0a632-104">選擇正確的 Azure 裝載選項</span><span class="sxs-lookup"><span data-stu-id="0a632-104">Choose the right Azure hosting option</span></span>
 

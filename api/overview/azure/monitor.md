@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure 監視器程式庫"
-description: "適用於 .NET 的 Azure 監視器程式庫參考"
-keywords: "Azure, .NET, SDK, API, 監視器"
+title: 適用於 .NET 的 Azure 監視器程式庫
+description: 適用於 .NET 的 Azure 監視器程式庫參考
+keywords: Azure, .NET, SDK, API, 監視器
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 64c9e16e42894e8db8ed088487e55c5e0edd6861
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/31/2017
+ms.locfileid: "23639636"
 ---
 # <a name="azure-monitor-libraries-for-net"></a><span data-ttu-id="40331-104">適用於 .NET 的 Azure 監視器程式庫</span><span class="sxs-lookup"><span data-stu-id="40331-104">Azure Monitor libraries for .NET</span></span>
 

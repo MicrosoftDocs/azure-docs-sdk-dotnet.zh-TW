@@ -1,6 +1,6 @@
 ---
-title: "適用於.NET 的 Azure StorSimple 程式庫"
-description: "適用於 .NET 的 Azure StorSimple 程式庫參考"
+title: 適用於.NET 的 Azure StorSimple 程式庫
+description: 適用於 .NET 的 Azure StorSimple 程式庫參考
 keywords: Azure, .NET, SDK, API, StorSimple
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 64c9e16e42894e8db8ed088487e55c5e0edd6861
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/31/2017
+ms.locfileid: "23639646"
 ---
 # <a name="azure-storsimple-libraries-for-net"></a><span data-ttu-id="0b401-104">適用於.NET 的 Azure StorSimple 程式庫</span><span class="sxs-lookup"><span data-stu-id="0b401-104">Azure StorSimple libraries for .NET</span></span>
 

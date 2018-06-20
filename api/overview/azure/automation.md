@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure 自動化文件庫"
-description: "適用於 .NET 的 Azure 自動化文件庫參考"
-keywords: "Azure, .NET, SDK, API, 自動化"
+title: 適用於 .NET 的 Azure 自動化文件庫
+description: 適用於 .NET 的 Azure 自動化文件庫參考
+keywords: Azure, .NET, SDK, API, 自動化
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23486691"
 ---
 # <a name="azure-automation-libraries-for-net"></a><span data-ttu-id="49b26-104">適用於 .NET 的 Azure 自動化文件庫</span><span class="sxs-lookup"><span data-stu-id="49b26-104">Azure Automation libraries for .NET</span></span>
 

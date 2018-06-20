@@ -17,6 +17,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005935"
 ---
 # <a name="azure-service-bus-libraries-for-net"></a><span data-ttu-id="512d9-104">適用於 .NET 的 Azure 服務匯流排程式庫</span><span class="sxs-lookup"><span data-stu-id="512d9-104">Azure Service Bus libraries for .NET</span></span>
 

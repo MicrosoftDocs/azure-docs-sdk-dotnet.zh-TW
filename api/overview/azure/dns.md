@@ -1,6 +1,6 @@
 ---
-title: "適用於 .NET 的 Azure DNS 程式庫"
-description: "適用於 .NET 的 Azure DNS 程式庫參考"
+title: 適用於 .NET 的 Azure DNS 程式庫
+description: 適用於 .NET 的 Azure DNS 程式庫參考
 keywords: Azure, .NET, SDK, API, DNS
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487051"
 ---
 # <a name="azure-dns-libraries-for-net"></a><span data-ttu-id="3c262-104">適用於 .NET 的 Azure DNS 程式庫</span><span class="sxs-lookup"><span data-stu-id="3c262-104">Azure DNS libraries for .NET</span></span>
 

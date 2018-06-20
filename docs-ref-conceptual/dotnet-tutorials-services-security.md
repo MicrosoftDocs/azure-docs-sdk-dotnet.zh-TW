@@ -15,6 +15,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752850"
 ---
 # <a name="tutorials-for-authenticating-users-in-your-net-apps-running-on-azure"></a><span data-ttu-id="4b45c-103">驗證在 Azure 上執行之 .NET 應用程式的使用者教學課程</span><span class="sxs-lookup"><span data-stu-id="4b45c-103">Tutorials for authenticating users in your .NET apps running on Azure</span></span>
 

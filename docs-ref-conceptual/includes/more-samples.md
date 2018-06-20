@@ -1,3 +1,3 @@
-## <a name="more-samples"></a>更多範例
+## <a name="more-samples"></a><span data-ttu-id="2b6b9-101">更多範例</span><span class="sxs-lookup"><span data-stu-id="2b6b9-101">More samples</span></span>
 
-您可以在 [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code) 上找到適用於 .NET 的 Azure 管理程式庫的完整範例集合。
+<span data-ttu-id="2b6b9-102">您可以在 [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code) 上找到適用於 .NET 的 Azure 管理程式庫的完整範例集合。</span><span class="sxs-lookup"><span data-stu-id="2b6b9-102">The full collection of samples for the Azure Management Libraries for .NET can be found on [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code).</span></span>
