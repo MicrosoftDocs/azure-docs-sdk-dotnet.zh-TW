@@ -15,6 +15,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005755"
 ---
 # <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a>在 Azure 中使用 .NET 建立 Web 和行動裝置應用程式的教學課程
 

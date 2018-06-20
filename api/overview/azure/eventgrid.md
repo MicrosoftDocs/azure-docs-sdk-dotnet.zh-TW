@@ -16,6 +16,7 @@ ms.sourcegitcommit: 9f54e3334fc35c1066d0c591ff85b16d46416aa8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/07/2018
+ms.locfileid: "33802745"
 ---
 # <a name="azure-event-grid-libraries-for-net"></a>適用於 .NET 的 Azure Event Grid 程式庫
 

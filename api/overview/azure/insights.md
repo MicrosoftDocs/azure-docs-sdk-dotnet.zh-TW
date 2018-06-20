@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure Application Insights 程式庫"
-description: "適用於 .NET 的 Azure Application Insights 程式庫參考"
-keywords: "Azure, .NET, SDK, API, 應用程式 AppInsights"
+title: 適用於 .NET 的 Azure Application Insights 程式庫
+description: 適用於 .NET 的 Azure Application Insights 程式庫參考
+keywords: Azure, .NET, SDK, API, 應用程式 AppInsights
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487211"
 ---
 # <a name="azure-application-insights-libraries-for-net"></a>適用於 .NET 的 Azure Application Insights 程式庫
 

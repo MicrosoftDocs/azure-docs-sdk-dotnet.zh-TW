@@ -1,6 +1,6 @@
 ---
-title: "適用於 .NET 的 Power BI Embedded 程式庫"
-description: "適用於 .NET 的 Power BI Embedded 程式庫參考"
+title: 適用於 .NET 的 Power BI Embedded 程式庫
+description: 適用於 .NET 的 Power BI Embedded 程式庫參考
 keywords: Azure, .NET, SDK, API, Power BI Embedded
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487521"
 ---
 # <a name="power-bi-embedded-libraries-for-net"></a>適用於 .NET 的 Power BI Embedded 程式庫
 

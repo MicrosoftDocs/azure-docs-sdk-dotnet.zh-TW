@@ -1,6 +1,6 @@
 ---
-title: "適用於 .NET 的 Azure Key Vault 程式庫"
-description: "適用於 .NET 的 Azure Key Vault 程式庫參考"
+title: 適用於 .NET 的 Azure Key Vault 程式庫
+description: 適用於 .NET 的 Azure Key Vault 程式庫參考
 keywords: Azure, .NET, SDK, API, Key Vault
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/24/2017
+ms.locfileid: "23489182"
 ---
 # <a name="azure-key-vault-libraries-for-net"></a>適用於 .NET 的 Azure Key Vault 程式庫
 

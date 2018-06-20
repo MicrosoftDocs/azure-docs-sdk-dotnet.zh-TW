@@ -1,7 +1,7 @@
 ---
-title: "適用於 .NET 的 Azure Database for MySQL 程式庫"
-description: "適用於 Azure Database for MySQL 之 .NET 用戶端程式庫的參考文件"
-keywords: "Azure, .NET, SDK, API, SQL, 資料庫, MySQL"
+title: 適用於 .NET 的 Azure Database for MySQL 程式庫
+description: 適用於 Azure Database for MySQL 之 .NET 用戶端程式庫的參考文件
+keywords: Azure, .NET, SDK, API, SQL, 資料庫, MySQL
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566049"
 ---
 # <a name="azure-database-for-mysql-libraries-for-net"></a>適用於 .NET 的 Azure Database for MySQL 程式庫
 

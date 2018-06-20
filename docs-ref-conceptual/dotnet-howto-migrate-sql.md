@@ -1,7 +1,7 @@
 ---
-title: "將 SQL Server 資料庫移轉到 Azure"
-description: "了解如何從內部部署 SQL Server 將 SQL Server 資料庫移轉到 Azure。"
-keywords: "Azure .NET, ASP.NET, SQL, SQL Server, SQL Database, 移轉, 移轉"
+title: 將 SQL Server 資料庫移轉到 Azure
+description: 了解如何從內部部署 SQL Server 將 SQL Server 資料庫移轉到 Azure。
+keywords: Azure .NET, ASP.NET, SQL, SQL Server, SQL Database, 移轉, 移轉
 author: camsoper
 manager: wpickett
 ms.author: casoper
@@ -16,6 +16,7 @@ ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/02/2018
+ms.locfileid: "29728489"
 ---
 ## <a name="migrate-a-sql-server-database-to-azure"></a>將 SQL Server 資料庫移轉至 Azure
 

@@ -15,6 +15,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005745"
 ---
 # <a name="tutorials-for-using-net-with-azure-databases"></a>使用 .NET 搭配 Azure 資料庫的教學課程
 

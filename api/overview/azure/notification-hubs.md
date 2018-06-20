@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4c42de7e066b6aa0a5b5df02cce4d1d245aa558d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/18/2018
+ms.locfileid: "31447635"
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>適用於 .NET 的 Azure 通知中樞程式庫
 
