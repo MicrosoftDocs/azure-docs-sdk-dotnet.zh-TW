@@ -7,23 +7,21 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: iot-hub
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 0fa4121becd0d5bd646077a9644a651903c43348
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: af823e910acedd4f204034b12a31ba61fd53e090
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487481"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065268"
 ---
 # <a name="azure-iot-libraries-for-net"></a>適用於 .NET 的 Azure IoT 程式庫
 
 ## <a name="overview"></a>概觀
 
-[Azure IoT 中樞](https://azure.microsoft.com/services/iot-hub/)是一項完全受管理的服務，可在數百萬個裝置和一個解決方案後端之間啟用可靠且安全的雙向通訊。
+[Azure IoT 中樞](https://azure.microsoft.com/services/iot-hub/)是一項完全受控的服務，可在數百萬個裝置和一個解決方案後端之間啟用可靠且安全的雙向通訊。
 
 IoT 解決方案中的裝置與資料來源，其範圍可以從簡單的網路連線感應器到功能強大的獨立計算裝置。 裝置可能會有受限的處理能力、記憶體、通訊頻寬和通訊協定支援。 IoT [裝置 SDK](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks) 可讓您實作各式各樣裝置和後端應用程式的用戶端應用程式。
 

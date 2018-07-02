@@ -7,23 +7,21 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: stream-analytics
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2a5e8b8481548d6cfebc5104eb459f8772f51462
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 4fc8c5700122a82a5e31df870787a67dad277542
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487131"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065928"
 ---
 # <a name="azure-stream-analytics-libraries-for-net"></a>適用於 .NET 的 Azure 串流分析程式庫
 
 ## <a name="overview"></a>概觀
 
-[Azure 串流分析](/azure/stream-analytics/stream-analytics-introduction)是可完全管理的事件處理引擎，可讓您設定串流資料的即時分析計算。 資料可來自裝置、感應器、網站、社交媒體摘要、應用程式和基礎結構系統等等。 
+[Azure 串流分析](/azure/stream-analytics/stream-analytics-introduction)是完全受控的事件處理引擎，可讓您設定串流資料的即時分析計算。 資料可來自裝置、感應器、網站、社交媒體摘要、應用程式和基礎結構系統等等。 
 
 若要深入了解 Azure 串流分析，請參閱[開始使用 Azure 串流分析即時詐騙偵測](/azure/stream-analytics/stream-analytics-real-time-fraud-detection)。
 
