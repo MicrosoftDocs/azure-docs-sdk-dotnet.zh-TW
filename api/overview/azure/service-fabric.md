@@ -7,35 +7,33 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: service-fabric
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: f4b54933d31a4e1fc4c390baa57469cc1c02783a
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: e1b4d08c93ad44973359f46501aba198047b10e8
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2017
-ms.locfileid: "23566091"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065938"
 ---
-# <a name="azure-service-fabric-libraries-for-net"></a><span data-ttu-id="1fae3-104">適用於 .NET 的 Azure Service Fabric 程式庫</span><span class="sxs-lookup"><span data-stu-id="1fae3-104">Azure Service Fabric libraries for .NET</span></span>
+# <a name="azure-service-fabric-libraries-for-net"></a><span data-ttu-id="b7868-104">適用於 .NET 的 Azure Service Fabric 程式庫</span><span class="sxs-lookup"><span data-stu-id="b7868-104">Azure Service Fabric libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="1fae3-105">概觀</span><span class="sxs-lookup"><span data-stu-id="1fae3-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="b7868-105">概觀</span><span class="sxs-lookup"><span data-stu-id="b7868-105">Overview</span></span>
 
-<span data-ttu-id="1fae3-106">Azure Service Fabric 是一個分散式系統平台，可讓您輕鬆封裝、部署及管理可調整和可信賴的微服務與容器。</span><span class="sxs-lookup"><span data-stu-id="1fae3-106">Azure Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers.</span></span>  <span data-ttu-id="1fae3-107">如需詳細資訊，請參閱 [Azure Service Fabric 文件](/azure/service-fabric/)。</span><span class="sxs-lookup"><span data-stu-id="1fae3-107">For more information, see the [Azure Service Fabric Documentation](/azure/service-fabric/).</span></span>
+<span data-ttu-id="b7868-106">Azure Service Fabric 是一個分散式系統平台，可讓您輕鬆封裝、部署及管理可調整和可信賴的微服務與容器。</span><span class="sxs-lookup"><span data-stu-id="b7868-106">Azure Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers.</span></span>  <span data-ttu-id="b7868-107">如需詳細資訊，請參閱 [Azure Service Fabric 文件](/azure/service-fabric/)。</span><span class="sxs-lookup"><span data-stu-id="b7868-107">For more information, see the [Azure Service Fabric Documentation](/azure/service-fabric/).</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="1fae3-108">用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="1fae3-108">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="b7868-108">用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="b7868-108">Client library</span></span>
 
-<span data-ttu-id="1fae3-109">使用 Service Fabric 用戶端程式庫與現有的 Service Fabric 叢集互動。</span><span class="sxs-lookup"><span data-stu-id="1fae3-109">Use the Service Fabric client library to interact with an existing Service Fabric cluster.</span></span>  <span data-ttu-id="1fae3-110">程式庫包含 3 種 API 類別：</span><span class="sxs-lookup"><span data-stu-id="1fae3-110">The library contains three categories of APIs:</span></span>
+<span data-ttu-id="b7868-109">使用 Service Fabric 用戶端程式庫與現有的 Service Fabric 叢集互動。</span><span class="sxs-lookup"><span data-stu-id="b7868-109">Use the Service Fabric client library to interact with an existing Service Fabric cluster.</span></span>  <span data-ttu-id="b7868-110">程式庫包含 3 種 API 類別：</span><span class="sxs-lookup"><span data-stu-id="b7868-110">The library contains three categories of APIs:</span></span>
 
-* <span data-ttu-id="1fae3-111">**用戶端** API 用於管理、調整及回收叢集，以及部署應用程式套件。</span><span class="sxs-lookup"><span data-stu-id="1fae3-111">**Client** APIs are used to manage, scale, and recycle the cluster, as well as deploy application packages.</span></span>
-* <span data-ttu-id="1fae3-112">**執行階段** API 用於讓應用程式與其主機伺服器互動。</span><span class="sxs-lookup"><span data-stu-id="1fae3-112">**Runtime** APIs are used for the running application to interact with its hosting cluster.</span></span>
-* <span data-ttu-id="1fae3-113">**一般** API 包含在**用戶端**及**執行階段** API 中使用的類型。</span><span class="sxs-lookup"><span data-stu-id="1fae3-113">**Common** APIs contain types used in both **client** and **runtime** APIs.</span></span>
+* <span data-ttu-id="b7868-111">**用戶端** API 用於管理、調整及回收叢集，以及部署應用程式套件。</span><span class="sxs-lookup"><span data-stu-id="b7868-111">**Client** APIs are used to manage, scale, and recycle the cluster, as well as deploy application packages.</span></span>
+* <span data-ttu-id="b7868-112">**執行階段** API 用於讓應用程式與其主機伺服器互動。</span><span class="sxs-lookup"><span data-stu-id="b7868-112">**Runtime** APIs are used for the running application to interact with its hosting cluster.</span></span>
+* <span data-ttu-id="b7868-113">**一般** API 包含在**用戶端**及**執行階段** API 中使用的類型。</span><span class="sxs-lookup"><span data-stu-id="b7868-113">**Common** APIs contain types used in both **client** and **runtime** APIs.</span></span>
 
-<span data-ttu-id="1fae3-114">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.ServiceFabric)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="1fae3-114">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.ServiceFabric) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="b7868-114">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.ServiceFabric)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="b7868-114">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.ServiceFabric) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="1fae3-115">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="1fae3-115">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="b7868-115">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="b7868-115">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.ServiceFabric
@@ -45,9 +43,9 @@ Install-Package Microsoft.ServiceFabric
 dotnet add package Microsoft.ServiceFabric
 ```
 
-### <a name="code-examples"></a><span data-ttu-id="1fae3-116">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="1fae3-116">Code Examples</span></span>
+### <a name="code-examples"></a><span data-ttu-id="b7868-116">程式碼範例</span><span class="sxs-lookup"><span data-stu-id="b7868-116">Code Examples</span></span>
 
-<span data-ttu-id="1fae3-117">下列範例指令碼會使用 Service Fabric **用戶端** API 將應用程式套件複製到映像存放區、佈建應用程式類型，並建立應用程式執行個體。</span><span class="sxs-lookup"><span data-stu-id="1fae3-117">The following example uses the Service Fabric **client** APIs to copy an application package to the image store, provisions the application type, and create an application instance.</span></span>
+<span data-ttu-id="b7868-117">下列範例指令碼會使用 Service Fabric **用戶端** API 將應用程式套件複製到映像存放區、佈建應用程式類型，並建立應用程式執行個體。</span><span class="sxs-lookup"><span data-stu-id="b7868-117">The following example uses the Service Fabric **client** APIs to copy an application package to the image store, provisions the application type, and create an application instance.</span></span>
 
 ```csharp
 /* Include these dependencies
@@ -70,9 +68,9 @@ fabricClient.ApplicationManager.CreateApplicationAsync(appDesc).Wait();
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="1fae3-118">探索用戶端 API</span><span class="sxs-lookup"><span data-stu-id="1fae3-118">Explore the client APIs</span></span>](/dotnet/api/overview/azure/servicefabric/client)
+> [<span data-ttu-id="b7868-118">探索用戶端 API</span><span class="sxs-lookup"><span data-stu-id="b7868-118">Explore the client APIs</span></span>](/dotnet/api/overview/azure/servicefabric/client)
 
-<span data-ttu-id="1fae3-119">此範例會使用託管應用程式中的 Service Fabric **執行階段**及**一般** API，在執行階段更新 [Reliable Collection](/azure/service-fabric/service-fabric-reliable-services-reliable-collections)。</span><span class="sxs-lookup"><span data-stu-id="1fae3-119">This example uses the Service Fabric **runtime** and **common** APIs from within a hosted application to update a [Reliable Collection](/azure/service-fabric/service-fabric-reliable-services-reliable-collections) at runtime.</span></span>
+<span data-ttu-id="b7868-119">此範例會使用託管應用程式中的 Service Fabric **執行階段**及**一般** API，在執行階段更新 [Reliable Collection](/azure/service-fabric/service-fabric-reliable-services-reliable-collections)。</span><span class="sxs-lookup"><span data-stu-id="b7868-119">This example uses the Service Fabric **runtime** and **common** APIs from within a hosted application to update a [Reliable Collection](/azure/service-fabric/service-fabric-reliable-services-reliable-collections) at runtime.</span></span>
 
 ```csharp
 using System.Fabric;
@@ -106,18 +104,18 @@ protected override async Task RunAsync(CancellationToken cancellationToken)
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="1fae3-120">探索執行階段 API</span><span class="sxs-lookup"><span data-stu-id="1fae3-120">Explore the runtime APIs</span></span>](/dotnet/api/overview/azure/servicefabric/runtime)
+> [<span data-ttu-id="b7868-120">探索執行階段 API</span><span class="sxs-lookup"><span data-stu-id="b7868-120">Explore the runtime APIs</span></span>](/dotnet/api/overview/azure/servicefabric/runtime)
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="1fae3-121">探索一般 API</span><span class="sxs-lookup"><span data-stu-id="1fae3-121">Explore the common APIs</span></span>](/dotnet/api/overview/azure/servicefabric/common)
+> [<span data-ttu-id="b7868-121">探索一般 API</span><span class="sxs-lookup"><span data-stu-id="b7868-121">Explore the common APIs</span></span>](/dotnet/api/overview/azure/servicefabric/common)
 
-## <a name="management-library"></a><span data-ttu-id="1fae3-122">管理程式庫</span><span class="sxs-lookup"><span data-stu-id="1fae3-122">Management Library</span></span>
+## <a name="management-library"></a><span data-ttu-id="b7868-122">管理程式庫</span><span class="sxs-lookup"><span data-stu-id="b7868-122">Management Library</span></span>
 
-<span data-ttu-id="1fae3-123">管理程式庫用來建立、更新及刪除 Service Fabric 叢集。</span><span class="sxs-lookup"><span data-stu-id="1fae3-123">The management library is used to create, update, and delete Service Fabric clusters.</span></span>
+<span data-ttu-id="b7868-123">管理程式庫用來建立、更新及刪除 Service Fabric 叢集。</span><span class="sxs-lookup"><span data-stu-id="b7868-123">The management library is used to create, update, and delete Service Fabric clusters.</span></span>
 
-<span data-ttu-id="1fae3-124">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.ServiceFabric)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="1fae3-124">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.ServiceFabric) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="b7868-124">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.ServiceFabric)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="b7868-124">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.ServiceFabric) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="1fae3-125">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="1fae3-125">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="b7868-125">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="b7868-125">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.ServiceFabric
@@ -128,11 +126,11 @@ dotnet add package Microsoft.Azure.Management.ServiceFabric
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="1fae3-126">探索管理 API</span><span class="sxs-lookup"><span data-stu-id="1fae3-126">Explore the management APIs</span></span>](/dotnet/api/overview/azure/servicefabric/management)
+> [<span data-ttu-id="b7868-126">探索管理 API</span><span class="sxs-lookup"><span data-stu-id="b7868-126">Explore the management APIs</span></span>](/dotnet/api/overview/azure/servicefabric/management)
 
-## <a name="samples"></a><span data-ttu-id="1fae3-127">範例</span><span class="sxs-lookup"><span data-stu-id="1fae3-127">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="b7868-127">範例</span><span class="sxs-lookup"><span data-stu-id="b7868-127">Samples</span></span>
 
-* [<span data-ttu-id="1fae3-128">使用 FabricClient 來部署和移除應用程式</span><span class="sxs-lookup"><span data-stu-id="1fae3-128">Deploy and remove applications using FabricClient</span></span>](/azure/service-fabric/service-fabric-deploy-remove-applications-fabricclient)
+* [<span data-ttu-id="b7868-128">使用 FabricClient 來部署和移除應用程式</span><span class="sxs-lookup"><span data-stu-id="b7868-128">Deploy and remove applications using FabricClient</span></span>](/azure/service-fabric/service-fabric-deploy-remove-applications-fabricclient)
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

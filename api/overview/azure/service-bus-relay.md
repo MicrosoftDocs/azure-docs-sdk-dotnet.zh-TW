@@ -7,31 +7,29 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: service-bus
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 1a869d5939e357c98ec417e6474f711b9ac8c466
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: e0dd9c9b0a187fe6ca81d764e60afd00cbaab654
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2017
-ms.locfileid: "23566159"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065948"
 ---
-# <a name="azure-service-bus-relay-libraries-for-net"></a><span data-ttu-id="d7f46-104">適用於 .NET 的 Azure 服務匯流排轉送程式庫</span><span class="sxs-lookup"><span data-stu-id="d7f46-104">Azure Service Bus Relay libraries for .NET</span></span>
+# <a name="azure-service-bus-relay-libraries-for-net"></a><span data-ttu-id="f1f40-104">適用於 .NET 的 Azure 服務匯流排轉送程式庫</span><span class="sxs-lookup"><span data-stu-id="f1f40-104">Azure Service Bus Relay libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="d7f46-105">概觀</span><span class="sxs-lookup"><span data-stu-id="d7f46-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="f1f40-105">概觀</span><span class="sxs-lookup"><span data-stu-id="f1f40-105">Overview</span></span>
 
-<span data-ttu-id="d7f46-106">Azure 轉送服務可建立混合式應用程式，方法是讓您以安全的方式向公用雲端公開位於企業網路內部的服務，而無需開啟防火牆連線或要求對企業網路基礎結構的進行侵入式變更。</span><span class="sxs-lookup"><span data-stu-id="d7f46-106">The Azure Relay service creates hybrid applications by enabling you to securely expose services that reside within a corporate enterprise network to the public cloud, without having to open a firewall connection, or require intrusive changes to a corporate network infrastructure.</span></span> <span data-ttu-id="d7f46-107">轉送支援各種不同的傳輸通訊協定和 Web 服務標準。</span><span class="sxs-lookup"><span data-stu-id="d7f46-107">Relay supports a variety of different transport protocols and web services standards.</span></span>
+<span data-ttu-id="f1f40-106">Azure 轉送服務可建立混合式應用程式，方法是讓您以安全的方式向公用雲端公開位於企業網路內部的服務，而無需開啟防火牆連線或要求對企業網路基礎結構的進行侵入式變更。</span><span class="sxs-lookup"><span data-stu-id="f1f40-106">The Azure Relay service creates hybrid applications by enabling you to securely expose services that reside within a corporate enterprise network to the public cloud, without having to open a firewall connection, or require intrusive changes to a corporate network infrastructure.</span></span> <span data-ttu-id="f1f40-107">轉送支援各種不同的傳輸通訊協定和 Web 服務標準。</span><span class="sxs-lookup"><span data-stu-id="f1f40-107">Relay supports a variety of different transport protocols and web services standards.</span></span>
           
-<span data-ttu-id="d7f46-108">深入了解 [Azure 轉送](/azure/service-bus-relay/relay-what-is-it)。</span><span class="sxs-lookup"><span data-stu-id="d7f46-108">Learn more about [Azure Relay](/azure/service-bus-relay/relay-what-is-it).</span></span>
+<span data-ttu-id="f1f40-108">深入了解 [Azure 轉送](/azure/service-bus-relay/relay-what-is-it)。</span><span class="sxs-lookup"><span data-stu-id="f1f40-108">Learn more about [Azure Relay](/azure/service-bus-relay/relay-what-is-it).</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="d7f46-109">用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="d7f46-109">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="f1f40-109">用戶端程式庫</span><span class="sxs-lookup"><span data-stu-id="f1f40-109">Client library</span></span>
 
-<span data-ttu-id="d7f46-110">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Relay)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="d7f46-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Relay) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="f1f40-110">直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Relay)，或使用 [.NET Core CLI][DotNetCLI]。</span><span class="sxs-lookup"><span data-stu-id="f1f40-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Relay) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="d7f46-111">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="d7f46-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="f1f40-111">Visual Studio 套件管理員</span><span class="sxs-lookup"><span data-stu-id="f1f40-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Relay
@@ -42,11 +40,11 @@ dotnet add package Microsoft.Azure.Relay
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="d7f46-112">探索用戶端 API</span><span class="sxs-lookup"><span data-stu-id="d7f46-112">Explore the client APIs</span></span>](/dotnet/api/overview/azure/relay/client)
+> [<span data-ttu-id="f1f40-112">探索用戶端 API</span><span class="sxs-lookup"><span data-stu-id="f1f40-112">Explore the client APIs</span></span>](/dotnet/api/overview/azure/relay/client)
 
-## <a name="samples"></a><span data-ttu-id="d7f46-113">範例</span><span class="sxs-lookup"><span data-stu-id="d7f46-113">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="f1f40-113">範例</span><span class="sxs-lookup"><span data-stu-id="f1f40-113">Samples</span></span>
 
-<span data-ttu-id="d7f46-114">深入探索可在應用程式中使用的 [.NET 程式碼範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)。</span><span class="sxs-lookup"><span data-stu-id="d7f46-114">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
+<span data-ttu-id="f1f40-114">深入探索可在應用程式中使用的 [.NET 程式碼範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)。</span><span class="sxs-lookup"><span data-stu-id="f1f40-114">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
