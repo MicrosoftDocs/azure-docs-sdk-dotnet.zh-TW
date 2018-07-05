@@ -17,11 +17,15 @@ SubscriptionName      : my-subscription
 CurrentStorageAccount : 
 ```
 
-[使用 PowerShell 建立服務主體](/powershell/azure/create-azure-service-principal-azureps)，如下所示：
+[使用 PowerShell 建立服務主體](/powershell/azure/create-azure-service-principal-azureps)，如下所示。 
+
+> [!NOTE]
+> 若以下 `New-AzureRmADServicePrincipal` Cmdlet 傳回「其他具備相同值的 identifierUris 屬性物件已存在」，則表示您的租用戶中已經有該名稱的服務主體。 針對 **DisplayName** 參數使用不同的值。 
 
 ```powershell
 # Create the service principal (use a strong password)
-$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password "password"
+$cred = Get-Credential
+$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password $cred.Password
 
 # Give it the permissions it needs...
 New-AzureRmRoleAssignment -ServicePrincipalName $sp.ApplicationId -RoleDefinitionName Contributor

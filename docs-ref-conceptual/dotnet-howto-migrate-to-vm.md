@@ -6,18 +6,17 @@ author: camsoper
 manager: wpickett
 ms.author: casoper
 ms.date: 11/15/2017
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter
-ms.openlocfilehash: 98f24553961793623f8a6aba10dcf45b930101fe
-ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
+ms.openlocfilehash: 53e899ba3cd2ff265a2068e1b7eee5baa4520879
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2017
-ms.locfileid: "26588481"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065338"
 ---
 # <a name="migrate-an-aspnet-web-application-to-an-azure-virtual-machine"></a>將 ASP.NET Web 應用程式移轉至 Azure 虛擬機器
 
@@ -25,16 +24,7 @@ ms.locfileid: "26588481"
 
 ## <a name="quickstart"></a>快速入門
 
-了解如何建立虛擬機器，並將您的應用程式發佈至該虛擬機器：
-
-<div class="ico48Case">
-    <div class="ico48Link">
-        <a href="https://tutorials.visualstudio.com/aspnet-vm/intro">
-            <img width="48" height="48" alt="Publish to an Azure VM" src="https://docs.microsoft.com/azure/media/index/virtualmachine.svg">
-            <span>發佈至 Azure 虛擬機器</span>
-        </a>
-    </div>
-</div>
+了解如何建立虛擬機器，並將您的應用程式發佈到該虛擬機器中：[發佈至 Azure VM](https://tutorials.visualstudio.com/aspnet-vm/intro)
 
 ## <a name="get-started"></a>開始使用
 
@@ -62,7 +52,7 @@ ms.locfileid: "26588481"
 
 正如同內部部署機器，您必須負責維護和更新虛擬機器 <sup>&#42;</sup>。  如果您的應用程式可以在平台即服務 (PaaS) 環境中執行，如 [Azure App Service](https://docs.microsoft.com/azure/app-service/) 或[容器](https://docs.microsoft.com/azure/app-service/containers/)，則將會移除這項需求。
 
-*<sup>&#42;</sup>[虛擬機器擴展集的自動作業系統升級](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade)目前可提供預覽服務。*
+<sup>&#42;</sup>[虛擬機器擴展集的自動作業系統升級](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade)目前可提供預覽服務。
 
 ### <a name="virtual-networks"></a>虛擬網路
 
