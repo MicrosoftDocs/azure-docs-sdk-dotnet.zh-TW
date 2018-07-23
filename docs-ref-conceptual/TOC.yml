@@ -6,16 +6,22 @@
       items:
         - name: Web Apps
           href: 'https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet'
+          maintainContext: true
         - name: 無伺服器函式
           href: 'https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio'
+          maintainContext: true
         - name: SQL Database
           href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
+          maintainContext: true
         - name: Cosmos DB
           href: 'https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet'
+          maintainContext: true
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+          maintainContext: true
         - name: Blob 儲存體
           href: 'https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet'
+          maintainContext: true
     - name: 開始使用 .NET
       href: dotnet-sdk-azure-get-started.md
     - name: 工具
@@ -25,25 +31,32 @@
       items:
         - name: 使用 Azure SQL Database 建立 ASP.NET Web 應用程式
           href: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
+          maintainContext: true
         - name: 使用 Cosmos DB 建立 ASP.NET Web 應用程式
           href: /azure/documentdb/documentdb-dotnet-application
+          maintainContext: true
         - name: 建立和部署 Web API
           href: /azure/app-service-api/app-service-api-dotnet-get-started
+          maintainContext: true
         - name: 開始使用 Kubernetes 和 Windows 容器
           href: /azure/container-service/container-service-kubernetes-windows-walkthrough
+          maintainContext: true
         - name: 連線和查詢 SQL Database
           href: /azure/sql-database/sql-database-connect-query-dotnet
+          maintainContext: true
         - name: 連線和查詢 PostgreSQL
           href: /azure/postgresql/connect-csharp
+          maintainContext: true
         - name: 開始使用 Cosmos DB SQL API
           href: /azure/cosmos-db/sql-api-get-started
+          maintainContext: true
     - name: 作法
       items:
         - name: 移轉
           items:
             - name: 選擇正確的 Azure 裝載選項
               href: dotnet-howto-choose-migration.md
-            - name: 將 ASP.NET 應用程式移轉至 Azure App Service
+            - name: 將 .NET Web 應用程式或服務遷移至 Azure App Service
               href: dotnet-howto-migrate-app-service.md
             - name: 將 ASP.NET 應用程式移轉至 Azure 虛擬機器
               href: dotnet-howto-migrate-to-vm.md

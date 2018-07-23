@@ -1,26 +1,26 @@
 ---
-title: Azure .NET 開發人員工具
-description: 取得工具，開始從 Windows、Linux 或 Mac 環境使用 Azure .NET 程式庫。
+title: 適用於 Azure .NET 和 .NET Core 開發人員的工具
+description: 取得工具，開始在 Windows、Linux 和 Mac 環境使用 Azure .NET 程式庫。
 keywords: Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 10/19/2017
+ms.date: 07/17/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 5890df018eea61bcc0f8bce1cd4bc02fa84b37cf
-ms.sourcegitcommit: 9dd801d659803f5efb16d65454cd09258e1cc7d6
+ms.openlocfilehash: 9c9d25e8f065408f81ed8b1fdb25817196f7e053
+ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "29752671"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39135696"
 ---
-# <a name="tools-for-net-azure-developers"></a>適用於 .NET 的 Azure 開發人員工具
+# <a name="tools-for-net-and-net-core-azure-developers"></a>適用於 .NET 和 .NET Core Azure 開發人員的工具
 
-無論您的作業系統為何，我們都有一組絕佳的工具，可協助您在 Azure 上使用 .NET 進行開發。
+無論您的作業系統為何，我們都會提供一組絕佳的工具，可協助您在 Azure 上使用 .NET、.NET Core、ASP.NET 和 ASP.NET Core 進行開發。
 
 ## <a name="windowstabwindows"></a>[Windows](#tab/windows)
 
@@ -44,7 +44,6 @@ ms.locfileid: "29752671"
 > [!div class="nextstepaction"]
 > [下載 Visual Studio 2017](https://www.visualstudio.com/downloads/)
 
-
 ### <a name="step-2-install-the-two-azure-workloads"></a>步驟 2：安裝兩個 Azure 工作負載
 
 啟動 Visual Studio 2017 安裝程式之後，請確定檢查 Azure 和 ASP.NET web 開發工作負載。
@@ -53,8 +52,7 @@ ms.locfileid: "29752671"
 
 ### <a name="step-3-develop-with-net-on-azure"></a>步驟 3：在 Azure 上利用 .NET 進行開發
 
-[在 Azure 上部署第一個 .NET 應用程式](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet)以開始使用。
-
+從[在 Azure App Service 上部署第一個 ASP.NET Core Web 應用程式](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet)開始使用。
 
 ## <a name="macostabmacos"></a>[macOS](#tab/macos)
 <table>
@@ -67,7 +65,6 @@ ms.locfileid: "29752671"
     </td>
   </tr>
 </table>
-
 
 ### <a name="step-1-download-visual-studio-for-mac"></a>步驟 1：下載 Visual Studio for Mac
 
@@ -82,16 +79,16 @@ ms.locfileid: "29752671"
 
 <img src="https://docs.microsoft.com/en-us/visualstudio/products/images/vs-code.svg" width="50" height="50"></img>
 
-### <a name="step-1-download-net-core-sdk"></a>步驟 1：下載 .NET Core SDK
+### <a name="step-1-download-the-net-core-sdk"></a>步驟 1：下載 .NET Core SDK
 
-適用於 .NET 應用程式的核心 SDK 和命令列工具。
+適用於 .NET Core 應用程式的 SDK 和命令列工具。
 
 > [!div class="nextstepaction"]
 > [下載 .NET Core SDK](https://www.microsoft.com/net/core)
 
 ### <a name="step-2-visual-studio-code"></a>步驟 2：Visual Studio Code
 
-在任何作業系統上編輯和偵錯 .NET 應用程式。
+在任何作業系統上編輯 .NET Core 應用程式及進行偵錯：Windows、Mac 和 Linux。
 
 > [!div class="nextstepaction"]
 > [下載 Visual Studio Code](https://code.visualstudio.com)

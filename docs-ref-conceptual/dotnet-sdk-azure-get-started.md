@@ -1,28 +1,28 @@
 ---
-title: 開始使用 Azure .NET API
-description: 使用自有 Azure 訂用帳戶開始進行適用於 .NET 之 Azure 程式庫的基本使用。
-keywords: Azure, .NET, SDK, API , 驗證, 開始使用
+title: 開始使用 Azure .NET 和 .NET Core API
+description: 透過自有的 Azure 訂用帳戶，開始使用適用於 .NET 和 .NET Core 的 Azure 程式庫的基本功能。
+keywords: Azure, .NET, .NET Core, ASP.NET, ASP.NET Core SDK, API ,驗證, 開始使用
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 10/19/2017
+ms.date: 07/17/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: a3733898f948dbb2ec07da20aa61724e07f23e73
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: a8775993e71566b7659a8ae8ceb2c376ece14e45
+ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752870"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39135776"
 ---
-# <a name="get-started-with-the-azure-net-apis"></a>開始使用適用於 .NET 的 Azure SDK
+# <a name="get-started-with-the-azure-net-and-net-core-apis"></a>開始使用 Azure .NET 和 .NET Core API
 
 本教學課程會示範數個[適用於 .NET 的 Azure API](/dotnet/api/overview/azure/)使用方式。  您將設定驗證、建立和使用 Azure 儲存體帳戶、建立和使用 Azure SQL Database、部署部分的虛擬機器，以及從 GitHub 部署 Azure App Service Web 應用程式。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - 一個 Azure 帳戶。 如果您沒有帳戶，請[取得免費試用帳戶](https://azure.microsoft.com/free/)
 - [Azure PowerShell](/powershell/azure/install-azurerm-ps)
@@ -201,11 +201,11 @@ static void Main(string[] args)
 
     Console.WriteLine("Creating database...");
     var sqlDb = sqlServer.Databases.Define(sqlDbName).Create();
-    
+
     // Display information for connecting later...
     Console.WriteLine("Created database {0} in server {1}.", sqlDbName, sqlServer.FullyQualifiedDomainName);
     Console.WriteLine("Your user name is {0}.", adminUser + "@" + sqlServer.Name);
-    
+
     // Build the connection string
     var builder = new SqlConnectionStringBuilder();
     builder.DataSource = sqlServer.FullyQualifiedDomainName;
@@ -241,11 +241,12 @@ static void Main(string[] args)
     Console.ReadLine();
 }
 ```
+
 如過去一樣，按下 **F5** 來執行程式碼。  主控台輸出應該要驗證伺服器已建立並如預期運作，但您可以視需要直接將它與 SQL Server Management Studio 等工具連線。
 
 ## <a name="write-a-blob-into-a-new-storage-account"></a>將 blob 寫入新的儲存體帳戶中
 
-這個範例會建立儲存體帳戶，並上傳 blob。  
+這個範例會建立儲存體帳戶，並上傳 Blob。  
 
 使用下列項目來取代 `Main` 方法。
 
@@ -280,7 +281,7 @@ static void Main(string[] args)
 
     var account = CloudStorageAccount.Parse(storageConnectionString);
     var serviceClient = account.CreateCloudBlobClient();
-    
+
     // Create container. Name must be lower case.
     Console.WriteLine("Creating container...");
     var container = serviceClient.GetContainerReference("helloazure");
@@ -290,7 +291,7 @@ static void Main(string[] args)
     var containerPermissions = new BlobContainerPermissions()
         { PublicAccess = BlobContainerPublicAccessType.Container };
     container.SetPermissionsAsync(containerPermissions).Wait();
-    
+
     // write a blob to the container
     Console.WriteLine("Uploading blob...");
     var blob = container.GetBlockBlobReference("helloazure.txt");
@@ -299,13 +300,13 @@ static void Main(string[] args)
 
     // Wait for the user
     Console.WriteLine("Press enter to continue...");
-    Console.ReadLine();        
+    Console.ReadLine();
 }
 ```
 
 按 **F5** 以執行範例。
 
-幾分鐘之後，程式就會完成。 瀏覽至主控台中顯示的 URL，即可確認已上傳 blob。  您應該會看到文字 "Hello, Azure!" 在瀏覽器中。
+幾分鐘之後，程式就會結束。 瀏覽至主控台中顯示的 URL，即可確認已上傳 blob。  您應該會看到文字 "Hello, Azure!" 在瀏覽器中。
 
 ## <a name="clean-up"></a>清除
 
@@ -317,6 +318,7 @@ static void Main(string[] args)
 ```powershell
 Remove-AzureRmResourceGroup -ResourceGroupName sampleResourceGroup
 ```
+
 ## <a name="explore-more-samples"></a>探索更多範例
 
 若要深入了解如何使用適用於 .NET 的 Azure 程式庫來管理資源和自動執行工作，請參閱我們針對[虛擬機器](dotnet-sdk-azure-virtual-machine-samples.md)、[Web 應用程式](dotnet-sdk-azure-web-apps-samples.md)和 [SQL Database](dotnet-sdk-azure-sql-database-samples.md) 所提供的程式碼範例。
