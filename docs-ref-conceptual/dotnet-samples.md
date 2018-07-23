@@ -1,26 +1,26 @@
 ---
-title: 適用於 .NET 的 Azure C# 程式碼範例
-description: 適用於 .NET 和 Azure 的 C# 程式碼範例。
+title: 適用於 .NET 和 .NET Core 的 Azure C# 程式碼範例
+description: 適用於使用 .NET、.NET Core、ASP.NET 和 ASP.NET Core 的 Azure C# 程式碼範例
 layout: LandingPage
 ms.topic: reference
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 04/12/2018
+ms.date: 07/17/2018
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 2952f2999ae53100d35d90f44bfcc6c9df696b00
-ms.sourcegitcommit: 7d88aef45df03d9a2be5b9ac5c9f1f146462427b
+ms.openlocfilehash: b4a67a2b3c942ea5282878a61ccabb7c1d3aa95c
+ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "34051958"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39135676"
 ---
-# <a name="azure-c-code-samples-for-net"></a>適用於 .NET 的 Azure C# 程式碼範例
+# <a name="azure-c-code-samples-for-net-and-net-core"></a>適用於 .NET 和 .NET Core 的 Azure C# 程式碼範例
 
-若要透過 C# 和 .NET 開始使用 Azure，我們建議您參閱這些範例、教學課程和實例。
+若要透過 C# 與 .NET 和 .NET Core 開始使用 Azure，我們建議您參閱這些範例、教學課程和實例。
 
 <div id="main" class="v2">
     <div class="container">
@@ -36,8 +36,8 @@ ms.locfileid: "34051958"
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>基本網站</h3>
-                                    <p>了解如何建立可在 SQL 後端儲存資訊的簡單 ASP.NET Core 網站。</p>
+                                    <h3>基本 Web 應用程式</h3>
+                                    <p>深入了解如何在 Azure App Service (其會在 Azure SQL 後端中儲存資訊) 上建立簡單的 ASP.NET Core Web 應用程式。</p>
                                 </div>
                             </div>
                         </a>
@@ -113,7 +113,7 @@ ms.locfileid: "34051958"
                                 </div>
                                 <div class="cardText">
                                     <h3>使用 AI 分析影像</h3>
-                                    <p>顯示如何使用認知服務來偵測影像中可見的功能。</p>
+                                    <p>顯示如何使用 Azure 認知服務來偵測影像中的視覺功能。</p>
                                 </div>
                             </div>
                         </a>
@@ -132,13 +132,13 @@ ms.locfileid: "34051958"
                                 </div>
                                 <div class="cardText">
                                     <h3>雲端資料庫</h3>
-                                    <p>了解如何使用 Cosmos DB，在新型雲端資料庫中執行基本的搜尋、建立與編輯作業。</p>
+                                    <p>了解如何使用 Azure Cosmos DB，在新型雲端資料庫中執行基本的搜尋、建立與編輯作業。</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-            </li>             
+            </li>
         </ul>
     </div>
 </div>
