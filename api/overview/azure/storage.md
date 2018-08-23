@@ -10,18 +10,18 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: storage
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 273e7ffc8794ef531e2bd35858b8ad1299755882
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: e953f38f103631f94b844d803d20a6576e841ed3
+ms.sourcegitcommit: 2a00655810b9b2c78a3edb31c974a9989bff8bc0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065528"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "42623353"
 ---
 # <a name="azure-storage-apis-for-net"></a>適用於 .NET 的 Azure 儲存體 API
 
 ## <a name="overview"></a>概觀
 
-使用 [Azure 儲存體](https://review.docs.microsoft.com/azure/storage/storage-introduction)從 .NET 應用程式讀取和寫入檔案、blob (物件) 資料、機碼值組以及訊息。
+使用 [Azure 儲存體](https://docs.microsoft.com/azure/storage/storage-introduction)從 .NET 應用程式讀取和寫入檔案、blob (物件) 資料、機碼值組以及訊息。
 
 若要開始使用 Azure 儲存體，請參閱[以 .NET 開始使用 Azure Blob 儲存體](/azure/storage/storage-dotnet-how-to-use-blobs)。
 
