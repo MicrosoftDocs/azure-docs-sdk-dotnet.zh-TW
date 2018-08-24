@@ -5,18 +5,18 @@ keywords: Azure, .NET, .NET Core, ASP.NET, ASP.NET Core SDK, API ,驗證, 開始
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 07/17/2018
+ms.date: 08/22/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: a8775993e71566b7659a8ae8ceb2c376ece14e45
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: ad894e47704fcccc83f7d02acb8e418b167993f9
+ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135776"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703051"
 ---
 # <a name="get-started-with-the-azure-net-and-net-core-apis"></a>開始使用 Azure .NET 和 .NET Core API
 
@@ -25,7 +25,6 @@ ms.locfileid: "39135776"
 ## <a name="prerequisites"></a>必要條件
 
 - 一個 Azure 帳戶。 如果您沒有帳戶，請[取得免費試用帳戶](https://azure.microsoft.com/free/)
-- [Azure PowerShell](/powershell/azure/install-azurerm-ps)
 
 ## <a name="set-up-authentication"></a>設定驗證
 
@@ -83,7 +82,7 @@ static void Main(string[] args)
     string password = "MY_PASSWORD";
     string rgName = "sampleResourceGroup";
     string windowsVmName = "sampleWindowsVM";
-    string publicIpDnsLabel = "samplePublicIP";
+    string publicIpDnsLabel = "samplePublicIP" + (new Random().Next(0,100000)).ToString();
 
     // Authenticate
     var credentials = SdkContext.AzureCredentialsFactory
@@ -117,10 +116,10 @@ static void Main(string[] args)
 
 按 **F5** 以執行範例。
 
-幾分鐘之後，程式就會完成，提示您按下輸入。 按下輸入後，使用 PowerShell 來確認您訂用帳戶中的虛擬機器：
+幾分鐘之後，程式就會完成，提示您按下輸入。 按下輸入後，使用 Cloud Shell 來確認您訂用帳戶中的虛擬機器：
 
-```powershell
-Get-AzureRmVm -ResourceGroupName sampleResourceGroup
+```azurecli-interactive
+az vm list
 ```
 
 ## <a name="deploy-a-web-app-from-a-github-repo"></a>從 GitHub 存放庫部署 Web 應用程式
@@ -313,10 +312,10 @@ static void Main(string[] args)
 > [!IMPORTANT]
 > 如果您未從本教學課程中清除資源，就必須繼續支付它們。  請務必進行此步驟。
 
-刪除您所建立的所有資源，方法是在 PowerShell 中輸入下列命令：
+在 Cloud Shell 中輸入下列命令，以刪除您所建立的所有資源：
 
-```powershell
-Remove-AzureRmResourceGroup -ResourceGroupName sampleResourceGroup
+```azurecli-interactive
+az group delete --name sampleResourceGroup
 ```
 
 ## <a name="explore-more-samples"></a>探索更多範例

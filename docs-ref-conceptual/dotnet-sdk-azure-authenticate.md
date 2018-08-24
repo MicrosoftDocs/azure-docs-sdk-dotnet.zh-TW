@@ -5,18 +5,18 @@ keywords: Azure, .NET, SDK, API, 驗證, Active Directory, 服務主體
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 10/19/2017
+ms.date: 08/22/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 783b5ebf14abad992c18726df7232e4f3a68b72b
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 019f0047fb141842eb1481ad9b835fa865a9a139
+ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703041"
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>使用適用於 .NET 的 Azure 程式庫來進行驗證
 
@@ -103,9 +103,7 @@ var credentials = SdkContext.AzureCredentialsFactory
     AzureEnvironment.AzureGlobalCloud);
 ```
 
-- clientId：使用從服務主體輸出所得到的 ApplicationId 值。
-- clientSecret：執行 `New-AzureRmADServicePrincipal` 時，使用您指派的 -Password 參數 (不含引號)。
-- tenantId：執行 `Login-AzureRmAccount` 時，使用 TenantId 值。
+使用 *clientId*、*clientSecret*和 *tenantId* 等值，這些值來自已建立服務主體處的 JSON 輸出。
 
 然後，建立進入點 `Azure` 物件來開始使用 API：
 
