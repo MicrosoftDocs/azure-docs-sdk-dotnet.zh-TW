@@ -11,12 +11,12 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: 643d758af8f90f22791d3b7deb18ae6233067ef0
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
+ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135716"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44700950"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>將您的 .NET Web 應用程式或服務遷移至 Azure App Service 
 
@@ -30,10 +30,10 @@ ms.locfileid: "39135716"
 
 因為內部部署資源可能需要遷移或變更，所以請確認內部部署資源的存取權。 減少內部部署資源存取權的選項如下：
 
-* 使用 [Azure 虛擬網路](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet)建立 VPN，讓 App Service 與內部部署資源連線。
-* 使用 [Azure 轉送](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it)安全地將內部部署服務公開至雲端，而不變更防火牆。
+* 使用 [Azure 虛擬網路](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet)建立 VPN，讓 App Service 與內部部署資源連線。
+* 使用 [Azure 轉送](https://docs.microsoft.com/azure/service-bus-relay/relay-what-is-it)安全地將內部部署服務公開至雲端，而不變更防火牆。
 * 將例如 [SQL 資料庫](https://go.microsoft.com/fwlink/?linkid=863217) 的相依性遷移至 Azure。
-* 在雲端中使用平台即服務供應項目，來減少相依性。 例如，請考慮使用 [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)，而不是連線到內部部署郵件伺服器。 
+* 在雲端中使用平台即服務供應項目，來減少相依性。 例如，請考慮使用 [SendGrid](https://docs.microsoft.com/azure/sendgrid-dotnet-how-to-send-email)，而不是連線到內部部署郵件伺服器。 
 
 ### <a name="port-bindings"></a>連接埠繫結
 
@@ -64,7 +64,7 @@ Azure App Service 預設支援匿名驗證，在想要使用時支援表單驗�
 傳統上透過應用程式中 applicationHost.config 設定的所有項目現在皆可透過 Azure 入口網站設定。 這適用於 AppPool 位元、啟用/停用 websocket、受控管線版本、.NET Framework 版本 (2.0/4.0) 等。若要修改[應用程式設定](https://docs.microsoft.com/azure/app-service/web-sites-configure)，瀏覽至 [Azure 入口網站](https://portal.azure.com)，開啟 Web 應用程式刀鋒視窗，然後選取 [應用程式設定] 索引標籤。
 
 #### <a name="iis5-compatibility-mode"></a>IIS5 相容性模式
-不支援 IIS5 相容性模式。 在 Azure App Service 中，每個 Web 應用程式和其下的所有應用程式都會在相同背景工作處理序中執行，具有特定的一組[應用程式集區](http://technet.microsoft.com/en-us/library/cc735247(v=WS.10).aspx)。
+不支援 IIS5 相容性模式。 在 Azure App Service 中，每個 Web 應用程式和其下的所有應用程式都會在相同背景工作處理序中執行，具有特定的一組[應用程式集區](http://technet.microsoft.com/library/cc735247(v=WS.10).aspx)。
 
 #### <a name="iis7-schema-compliance"></a>IIS7+ 結構描述合規性  
 部分元素和屬性未在 Azure App Service IIS 結構描述中定義。 如果您遇到問題，請考慮使用 [XDT 轉換](http://azure.microsoft.com/documentation/articles/web-sites-transform-extend/)。
