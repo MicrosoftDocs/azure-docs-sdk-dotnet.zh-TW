@@ -1,10 +1,10 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: f80b08f77cfb88b2e2148534553cc4c96cac6d76
-ms.sourcegitcommit: 0e64271404ddbb8f84f7e95691b29690de9e41bf
+ms.openlocfilehash: 0f2928212fca7c86defa37068e18e9ff96adb50a
+ms.sourcegitcommit: 319a55d604140fcc0b03a07b634ab9a3b22e657d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616380"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44703789"
 documentType: LandingData
 title: 適用於 .NET 和 .NET Core 開發人員的 Azure
 metadata:
@@ -72,21 +72,21 @@ sections:
       title: 建立 .NET 無伺服器函式
       href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
     - image:
-        src: https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg
-      title: 將您的 .NET 應用程式連線到 Azure SQL Database
-      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
-    - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg
       title: 使用 Azure Cosmos DB 建置 .NET Web 應用程式
       href: https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet
     - image:
-        src: https://docs.microsoft.com/en-us/azure/media/index/fabric.svg
-      title: 使用 Service Fabric 建立 .NET 微服務應用程式
-      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
+        src: https://docs.microsoft.com/en-us/azure/media/index/applicationinsights.svg
+      title: 使用 Application Insights 監視 ASP.NET 應用程式
+      href: https://docs.microsoft.com/azure/application-insights/quick-monitor-portal
     - image:
-        src: https://docs.microsoft.com/azure/media/index/api_textanalytics.svg
-      title: 使用 C# 和 文字分析 API 來分析程式語言
-      href: https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/csharp
+        src: https://docs.microsoft.com/en-us/azure/media/index/storage.svg
+      title: 使用 Azure 儲存體儲存和擷取物件
+      href: https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet
+    - image:
+        src: https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg
+      title: 將您的 .NET 應用程式連線到 Azure SQL Database
+      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
 - title: 開始在 Azure 上使用 .NET
   items:
   - type: markdown
@@ -118,9 +118,10 @@ sections:
     style: unordered
     items:
     - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">使用 Azure App Service 和 Azure SQL Database 建立 ASP.NET Web 應用程式</a>
-    - html: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application">使用 Azure App Service 和 Azure Cosmos DB 建立 ASP.NET Web 應用程式</a>
+    - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-dotnet-application">使用 Azure App Service 和 Azure Cosmos DB 建立 ASP.NET Web 應用程式</a>
     - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">在 Azure App Service 中建立和部署 Web API</a>
     - html: <a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">開始使用 Kubernetes 和 Windows 容器</a>
     - html: <a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">連線和查詢 Azure SQL Database</a>
     - html: <a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">連線和查詢適用於 PostgreSQL 的 Azure 資料庫</a>
     - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-get-started">開始在 .NET 中使用 Azure Cosmos DB SQL API</a>
+    - html: <a href="https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet">使用 Service Fabric 建立 .NET 微服務應用程式</a>
