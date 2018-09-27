@@ -1,34 +1,26 @@
 ---
 title: 從 Visual Studio 部署至 Azure
 description: 本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。
-keywords: Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫
-author: camsoper
-manager: douge
-ms.author: casoper
 ms.date: 06/20/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
-ms.devlang: dotnet
-ms.openlocfilehash: 87f65d8b8b1b1a5184b9d71770c08be472c7e498
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: a4ddaa0dbf1cd71a0de031cc89b299baa381992c
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005885"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190421"
 ---
-# <a name="deploy-to-azure-from-visual-studio"></a><span data-ttu-id="d08a1-104">從 Visual Studio 部署至 Azure</span><span class="sxs-lookup"><span data-stu-id="d08a1-104">Deploy to Azure from Visual Studio</span></span>
+# <a name="deploy-to-azure-from-visual-studio"></a><span data-ttu-id="add56-103">從 Visual Studio 部署至 Azure</span><span class="sxs-lookup"><span data-stu-id="add56-103">Deploy to Azure from Visual Studio</span></span>
 
-<span data-ttu-id="d08a1-105">本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。</span><span class="sxs-lookup"><span data-stu-id="d08a1-105">This tutorial will walk you through building and deploying a Microsoft Azure application using Visual Studio and .NET.</span></span>  <span data-ttu-id="d08a1-106">完成時，您會在 ASP.NET MVC Core 中建置裝載為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure Cosmos DB 用於資料儲存體。</span><span class="sxs-lookup"><span data-stu-id="d08a1-106">When finished, you'll have a web-based to-do application built in ASP.NET MVC Core, hosted as an Azure Web App, and using Azure Cosmos DB for data storage.</span></span>
+<span data-ttu-id="add56-104">本教學課程將逐步引導您使用 Visual Studio 和 .NET 來建置及部署 Microsoft Azure 應用程式。</span><span class="sxs-lookup"><span data-stu-id="add56-104">This tutorial will walk you through building and deploying a Microsoft Azure application using Visual Studio and .NET.</span></span>  <span data-ttu-id="add56-105">完成時，您會在 ASP.NET MVC Core 中建置裝載為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure Cosmos DB 用於資料儲存體。</span><span class="sxs-lookup"><span data-stu-id="add56-105">When finished, you'll have a web-based to-do application built in ASP.NET MVC Core, hosted as an Azure Web App, and using Azure Cosmos DB for data storage.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="d08a1-107">先決條件</span><span class="sxs-lookup"><span data-stu-id="d08a1-107">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="add56-106">必要條件</span><span class="sxs-lookup"><span data-stu-id="add56-106">Prerequisites</span></span>
 
-* [<span data-ttu-id="d08a1-108">Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="d08a1-108">Visual Studio 2017</span></span>](https://www.visualstudio.com/downloads/)
-* <span data-ttu-id="d08a1-109">[Microsoft Azure 訂用帳戶](https://azure.microsoft.com/free/)</span><span class="sxs-lookup"><span data-stu-id="d08a1-109">A [Microsoft Azure subscription](https://azure.microsoft.com/free/)</span></span>
+* [<span data-ttu-id="add56-107">Visual Studio 2017</span><span class="sxs-lookup"><span data-stu-id="add56-107">Visual Studio 2017</span></span>](https://www.visualstudio.com/downloads/)
+* <span data-ttu-id="add56-108">[Microsoft Azure 訂用帳戶](https://azure.microsoft.com/free/)</span><span class="sxs-lookup"><span data-stu-id="add56-108">A [Microsoft Azure subscription](https://azure.microsoft.com/free/)</span></span>
 
-## <a name="create-an-azure-cosmos-db-account"></a><span data-ttu-id="d08a1-110">建立 Azure Cosmos DB 帳戶</span><span class="sxs-lookup"><span data-stu-id="d08a1-110">Create an Azure Cosmos DB account</span></span>
+## <a name="create-an-azure-cosmos-db-account"></a><span data-ttu-id="add56-109">建立 Azure Cosmos DB 帳戶</span><span class="sxs-lookup"><span data-stu-id="add56-109">Create an Azure Cosmos DB account</span></span>
 
-<span data-ttu-id="d08a1-111">在此教學課程中，會將 Azure Cosmos DB 當做資料儲存體，因此您需要建立一個帳戶。</span><span class="sxs-lookup"><span data-stu-id="d08a1-111">Azure Cosmos DB is used for data storage in this tutorial, so you'll need to create an account.</span></span>  <span data-ttu-id="d08a1-112">在本機或 Cloud Shell 中執行這個指令碼，以建立 Azure Cosmos DB SQL API 帳戶。</span><span class="sxs-lookup"><span data-stu-id="d08a1-112">Run this script locally or in the Cloud Shell to create an Azure Cosmos DB SQL API account.</span></span>  <span data-ttu-id="d08a1-113">按一下下方程式碼區塊上的 [試試看]按鈕以啟動 [Azure Cloud Shell](/azure/cloud-shell/)，並將指令碼區塊複製/貼上殼層。</span><span class="sxs-lookup"><span data-stu-id="d08a1-113">Click the **Try it** button on the code block below to launch the [Azure Cloud Shell](/azure/cloud-shell/) and copy/paste the script block into the shell.</span></span>
+<span data-ttu-id="add56-110">在此教學課程中，會將 Azure Cosmos DB 當做資料儲存體，因此您需要建立一個帳戶。</span><span class="sxs-lookup"><span data-stu-id="add56-110">Azure Cosmos DB is used for data storage in this tutorial, so you'll need to create an account.</span></span>  <span data-ttu-id="add56-111">在本機或 Cloud Shell 中執行這個指令碼，以建立 Azure Cosmos DB SQL API 帳戶。</span><span class="sxs-lookup"><span data-stu-id="add56-111">Run this script locally or in the Cloud Shell to create an Azure Cosmos DB SQL API account.</span></span>  <span data-ttu-id="add56-112">按一下下方程式碼區塊上的 [試試看]按鈕以啟動 [Azure Cloud Shell](/azure/cloud-shell/)，並將指令碼區塊複製/貼上殼層。</span><span class="sxs-lookup"><span data-stu-id="add56-112">Click the **Try it** button on the code block below to launch the [Azure Cloud Shell](/azure/cloud-shell/) and copy/paste the script block into the shell.</span></span>
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -50,66 +42,66 @@ printf "\n\nauthKey: $cosmosAuthKey\nendpoint: $cosmosEndpoint\n\n"
 
 ```
 
-<span data-ttu-id="d08a1-114">請記下顯示的 **authKey** 和**端點**</span><span class="sxs-lookup"><span data-stu-id="d08a1-114">Make a note of the displayed **authKey** and **endpoint**</span></span> 
+<span data-ttu-id="add56-113">請記下顯示的 **authKey** 和**端點**</span><span class="sxs-lookup"><span data-stu-id="add56-113">Make a note of the displayed **authKey** and **endpoint**</span></span> 
 
-## <a name="downloading-and-running-the-application"></a><span data-ttu-id="d08a1-115">下載和執行應用程式</span><span class="sxs-lookup"><span data-stu-id="d08a1-115">Downloading and running the application</span></span>
+## <a name="downloading-and-running-the-application"></a><span data-ttu-id="add56-114">下載和執行應用程式</span><span class="sxs-lookup"><span data-stu-id="add56-114">Downloading and running the application</span></span>
 
-<span data-ttu-id="d08a1-116">讓我們取得這個逐步解說的範例程式碼，並將其連線到您的 Azure Cosmos DB 帳戶。</span><span class="sxs-lookup"><span data-stu-id="d08a1-116">Let's get the sample code for this walkthrough and hook it up to your Azure Cosmos DB account.</span></span>
+<span data-ttu-id="add56-115">讓我們取得這個逐步解說的範例程式碼，並將其連線到您的 Azure Cosmos DB 帳戶。</span><span class="sxs-lookup"><span data-stu-id="add56-115">Let's get the sample code for this walkthrough and hook it up to your Azure Cosmos DB account.</span></span>
 
-1. <span data-ttu-id="d08a1-117">下載範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="d08a1-117">Download the sample code.</span></span>  <span data-ttu-id="d08a1-118">您可以[從 GitHub 取得](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/)，或如果您有 [Git 命令列用戶端](https://git-scm.com/)，則使用下列命令將其複製到本機電腦：</span><span class="sxs-lookup"><span data-stu-id="d08a1-118">You can [get it from GitHub](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:</span></span>
+1. <span data-ttu-id="add56-116">下載範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="add56-116">Download the sample code.</span></span>  <span data-ttu-id="add56-117">您可以[從 GitHub 取得](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/)，或如果您有 [Git 命令列用戶端](https://git-scm.com/)，則使用下列命令將其複製到本機電腦：</span><span class="sxs-lookup"><span data-stu-id="add56-117">You can [get it from GitHub](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:</span></span>
 
     ```cmd
     git clone https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart
     ```
 
-2. <span data-ttu-id="d08a1-119">在 Visual Studio 中開啟 **todo.csproj**。</span><span class="sxs-lookup"><span data-stu-id="d08a1-119">Open **todo.csproj** in Visual Studio.</span></span>
+2. <span data-ttu-id="add56-118">在 Visual Studio 中開啟 **todo.csproj**。</span><span class="sxs-lookup"><span data-stu-id="add56-118">Open **todo.csproj** in Visual Studio.</span></span>
 
-3. <span data-ttu-id="d08a1-120">在 Web 專案中開啟 **appsettings.json**。</span><span class="sxs-lookup"><span data-stu-id="d08a1-120">Open **appsettings.json** in the web project.</span></span>  <span data-ttu-id="d08a1-121">尋找下列幾行︰</span><span class="sxs-lookup"><span data-stu-id="d08a1-121">Look for the following lines:</span></span>
+3. <span data-ttu-id="add56-119">在 Web 專案中開啟 **appsettings.json**。</span><span class="sxs-lookup"><span data-stu-id="add56-119">Open **appsettings.json** in the web project.</span></span>  <span data-ttu-id="add56-120">尋找下列幾行︰</span><span class="sxs-lookup"><span data-stu-id="add56-120">Look for the following lines:</span></span>
 
     ```json
     "authKey": "AUTHKEYVALUE",
     "endpoint": "ENDPOINTVALUE",
     ```
-    <span data-ttu-id="d08a1-122">使用您先前記下的值取代 **AUTHKEYVALUE** 和 **ENDPOINTVALUE**。</span><span class="sxs-lookup"><span data-stu-id="d08a1-122">Replace **AUTHKEYVALUE** and **ENDPOINTVALUE** with the values you noted earlier.</span></span>
+    <span data-ttu-id="add56-121">使用您先前記下的值取代 **AUTHKEYVALUE** 和 **ENDPOINTVALUE**。</span><span class="sxs-lookup"><span data-stu-id="add56-121">Replace **AUTHKEYVALUE** and **ENDPOINTVALUE** with the values you noted earlier.</span></span>
 
-4. <span data-ttu-id="d08a1-123">按一下 **F5** 還原專案的 NuGet 套件，建置專案，並在本機執行。</span><span class="sxs-lookup"><span data-stu-id="d08a1-123">Press **F5** to restore the project's NuGet packages, build the project, and run it locally.</span></span>
+4. <span data-ttu-id="add56-122">按一下 **F5** 還原專案的 NuGet 套件，建置專案，並在本機執行。</span><span class="sxs-lookup"><span data-stu-id="add56-122">Press **F5** to restore the project's NuGet packages, build the project, and run it locally.</span></span>
 
-<span data-ttu-id="d08a1-124">Web 應用程式應會在您的本機瀏覽器中執行。</span><span class="sxs-lookup"><span data-stu-id="d08a1-124">The web application should run locally in your browser.</span></span>  <span data-ttu-id="d08a1-125">按一下 [新建] 即可將新項目新增至待辦事項清單。</span><span class="sxs-lookup"><span data-stu-id="d08a1-125">You can add new items to the to-do list by clicking **Create New**.</span></span>  <span data-ttu-id="d08a1-126">請注意您在應用程式中輸入的資料會儲存至 Azure Cosmos DB 帳戶。</span><span class="sxs-lookup"><span data-stu-id="d08a1-126">Note the data you enter in the application is being stored in your Azure Cosmos DB account.</span></span>  <span data-ttu-id="d08a1-127">您可以從左側功能表中選取 Azure Cosmos DB，接著選取帳戶及 [資料總管]，以便在 [Azure 入口網站](https://portal.azure.com)中檢閱資料。</span><span class="sxs-lookup"><span data-stu-id="d08a1-127">You can view your data in the [Azure portal](https://portal.azure.com) by selecting Azure Cosmos DB from the left menu, selecting your account, and then selecting **Data Explorer**.</span></span>
+<span data-ttu-id="add56-123">Web 應用程式應會在您的本機瀏覽器中執行。</span><span class="sxs-lookup"><span data-stu-id="add56-123">The web application should run locally in your browser.</span></span>  <span data-ttu-id="add56-124">按一下 [新建] 即可將新項目新增至待辦事項清單。</span><span class="sxs-lookup"><span data-stu-id="add56-124">You can add new items to the to-do list by clicking **Create New**.</span></span>  <span data-ttu-id="add56-125">請注意您在應用程式中輸入的資料會儲存至 Azure Cosmos DB 帳戶。</span><span class="sxs-lookup"><span data-stu-id="add56-125">Note the data you enter in the application is being stored in your Azure Cosmos DB account.</span></span>  <span data-ttu-id="add56-126">您可以從左側功能表中選取 Azure Cosmos DB，接著選取帳戶及 [資料總管]，以便在 [Azure 入口網站](https://portal.azure.com)中檢閱資料。</span><span class="sxs-lookup"><span data-stu-id="add56-126">You can view your data in the [Azure portal](https://portal.azure.com) by selecting Azure Cosmos DB from the left menu, selecting your account, and then selecting **Data Explorer**.</span></span>
 
-## <a name="deploying-the-application-as-an-azure-web-app"></a><span data-ttu-id="d08a1-128">將 Web 應用程式部署為 Azure Web 應用程式</span><span class="sxs-lookup"><span data-stu-id="d08a1-128">Deploying the application as an Azure Web App</span></span>
+## <a name="deploying-the-application-as-an-azure-web-app"></a><span data-ttu-id="add56-127">將 Web 應用程式部署為 Azure Web 應用程式</span><span class="sxs-lookup"><span data-stu-id="add56-127">Deploying the application as an Azure Web App</span></span>
 
-<span data-ttu-id="d08a1-129">您已成功建置使用 Azure Cosmos DB 等 Azure 服務的應用程式。</span><span class="sxs-lookup"><span data-stu-id="d08a1-129">You've successfully built an application that uses Azure services like Azure Cosmos DB.</span></span>  <span data-ttu-id="d08a1-130">接下來，我們會將 Web 應用程式部署至雲端。</span><span class="sxs-lookup"><span data-stu-id="d08a1-130">Next, we'll deploy our web application to the cloud.</span></span>
+<span data-ttu-id="add56-128">您已成功建置使用 Azure Cosmos DB 等 Azure 服務的應用程式。</span><span class="sxs-lookup"><span data-stu-id="add56-128">You've successfully built an application that uses Azure services like Azure Cosmos DB.</span></span>  <span data-ttu-id="add56-129">接下來，我們會將 Web 應用程式部署至雲端。</span><span class="sxs-lookup"><span data-stu-id="add56-129">Next, we'll deploy our web application to the cloud.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="d08a1-131">請務必使用與您的 Azure 訂用帳戶相關聯的相同帳戶登入 Visual Studio。</span><span class="sxs-lookup"><span data-stu-id="d08a1-131">Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.</span></span>
+> <span data-ttu-id="add56-130">請務必使用與您的 Azure 訂用帳戶相關聯的相同帳戶登入 Visual Studio。</span><span class="sxs-lookup"><span data-stu-id="add56-130">Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.</span></span>
 
-1. <span data-ttu-id="d08a1-132">在 Visual Studio 方案總管中，以滑鼠右鍵按一下專案名稱，並選取 [發行...]</span><span class="sxs-lookup"><span data-stu-id="d08a1-132">In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**</span></span>
+1. <span data-ttu-id="add56-131">在 Visual Studio 方案總管中，以滑鼠右鍵按一下專案名稱，並選取 [發行...]</span><span class="sxs-lookup"><span data-stu-id="add56-131">In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**</span></span>
 
-2. <span data-ttu-id="d08a1-133">使用 [發佈] 對話方塊，選取 [Microsoft Azure App Service]，選取 [新建]，然後按一下 [發佈]</span><span class="sxs-lookup"><span data-stu-id="d08a1-133">Using the Publish dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**</span></span>
+2. <span data-ttu-id="add56-132">使用 [發佈] 對話方塊，選取 [Microsoft Azure App Service]，選取 [新建]，然後按一下 [發佈]</span><span class="sxs-lookup"><span data-stu-id="add56-132">Using the Publish dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**</span></span>
 
-3. <span data-ttu-id="d08a1-134">完成 [建立 App Service] 對話方塊，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d08a1-134">Complete the Create App Service dialog as follows:</span></span>
+3. <span data-ttu-id="add56-133">完成 [建立 App Service] 對話方塊，如下所示：</span><span class="sxs-lookup"><span data-stu-id="add56-133">Complete the Create App Service dialog as follows:</span></span>
 
-    * <span data-ttu-id="d08a1-135">輸入唯一 **Web 應用程式名稱**。</span><span class="sxs-lookup"><span data-stu-id="d08a1-135">Enter a unique **Web App Name**.</span></span>  <span data-ttu-id="d08a1-136">這會是應用程式 URL 的一部分。</span><span class="sxs-lookup"><span data-stu-id="d08a1-136">This will be part of the URL for your app.</span></span>
-    * <span data-ttu-id="d08a1-137">選取您正在部署的 Azure **訂用帳戶**。</span><span class="sxs-lookup"><span data-stu-id="d08a1-137">Select the Azure **Subscription** you're deploying to.</span></span>  <span data-ttu-id="d08a1-138">使用與您稍早已登入 Cloud Shell 相同的訂用帳戶。</span><span class="sxs-lookup"><span data-stu-id="d08a1-138">Use same subscription with which you were logged into Cloud Shell earlier.</span></span>
-    * <span data-ttu-id="d08a1-139">選取 Web 應用程式**資源群組**的 [DotNetAzureTutorial] 。</span><span class="sxs-lookup"><span data-stu-id="d08a1-139">Select *DotNetAzureTutorial* for the **Resource Group** for your web application.</span></span>
-    * <span data-ttu-id="d08a1-140">選取或建立 **App Service 方案**來決定您應用程式的定價。</span><span class="sxs-lookup"><span data-stu-id="d08a1-140">Select or create an **App Service Plan** to determine the pricing your your application.</span></span>  <span data-ttu-id="d08a1-141">這裡有[更多關於 App Service 方案的資訊](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview)。</span><span class="sxs-lookup"><span data-stu-id="d08a1-141">Here's [more information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).</span></span>
+    * <span data-ttu-id="add56-134">輸入唯一 **Web 應用程式名稱**。</span><span class="sxs-lookup"><span data-stu-id="add56-134">Enter a unique **Web App Name**.</span></span>  <span data-ttu-id="add56-135">這會是應用程式 URL 的一部分。</span><span class="sxs-lookup"><span data-stu-id="add56-135">This will be part of the URL for your app.</span></span>
+    * <span data-ttu-id="add56-136">選取您正在部署的 Azure **訂用帳戶**。</span><span class="sxs-lookup"><span data-stu-id="add56-136">Select the Azure **Subscription** you're deploying to.</span></span>  <span data-ttu-id="add56-137">使用與您稍早已登入 Cloud Shell 相同的訂用帳戶。</span><span class="sxs-lookup"><span data-stu-id="add56-137">Use same subscription with which you were logged into Cloud Shell earlier.</span></span>
+    * <span data-ttu-id="add56-138">選取 Web 應用程式**資源群組**的 [DotNetAzureTutorial] 。</span><span class="sxs-lookup"><span data-stu-id="add56-138">Select *DotNetAzureTutorial* for the **Resource Group** for your web application.</span></span>
+    * <span data-ttu-id="add56-139">選取或建立 **App Service 方案**來決定您應用程式的定價。</span><span class="sxs-lookup"><span data-stu-id="add56-139">Select or create an **App Service Plan** to determine the pricing your your application.</span></span>  <span data-ttu-id="add56-140">這裡有[更多關於 App Service 方案的資訊](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview)。</span><span class="sxs-lookup"><span data-stu-id="add56-140">Here's [more information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).</span></span>
 
-4. <span data-ttu-id="d08a1-142">按一下 [建立] 以部署應用程式。</span><span class="sxs-lookup"><span data-stu-id="d08a1-142">Click **Create** to deploy the application.</span></span>  <span data-ttu-id="d08a1-143">部署完成時，瀏覽器會開啟已部署的應用程式。</span><span class="sxs-lookup"><span data-stu-id="d08a1-143">When deployment is complete, a browser will open with your deployed application.</span></span>
+4. <span data-ttu-id="add56-141">按一下 [建立] 以部署應用程式。</span><span class="sxs-lookup"><span data-stu-id="add56-141">Click **Create** to deploy the application.</span></span>  <span data-ttu-id="add56-142">部署完成時，瀏覽器會開啟已部署的應用程式。</span><span class="sxs-lookup"><span data-stu-id="add56-142">When deployment is complete, a browser will open with your deployed application.</span></span>
 
 ![已完成的應用程式](./media/dotnet-quickstart/todo.png)
 
-## <a name="clean-up"></a><span data-ttu-id="d08a1-145">清除</span><span class="sxs-lookup"><span data-stu-id="d08a1-145">Clean up</span></span>
+## <a name="clean-up"></a><span data-ttu-id="add56-144">清除</span><span class="sxs-lookup"><span data-stu-id="add56-144">Clean up</span></span>
 
-<span data-ttu-id="d08a1-146">當您完成應用程式測試及程式碼和資源的檢查時，可以透過刪除 Cloud SHell 中的資源群組，將 Web 應用程式和 Azure Cosmos DB 帳戶刪除。</span><span class="sxs-lookup"><span data-stu-id="d08a1-146">When you're done testing the app and inspecting the code and resources, you can delete the Web App and Azure Cosmos DB account by deleting the resource group in the Cloud Shell.</span></span>
+<span data-ttu-id="add56-145">當您完成應用程式測試及程式碼和資源的檢查時，可以透過刪除 Cloud SHell 中的資源群組，將 Web 應用程式和 Azure Cosmos DB 帳戶刪除。</span><span class="sxs-lookup"><span data-stu-id="add56-145">When you're done testing the app and inspecting the code and resources, you can delete the Web App and Azure Cosmos DB account by deleting the resource group in the Cloud Shell.</span></span>
 
 ```azurecli-interactive
 az group delete -n DotNetAzureTutorial
 ```
 
-## <a name="next-steps"></a><span data-ttu-id="d08a1-147">後續步驟</span><span class="sxs-lookup"><span data-stu-id="d08a1-147">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="add56-146">後續步驟</span><span class="sxs-lookup"><span data-stu-id="add56-146">Next steps</span></span>
 
-* [<span data-ttu-id="d08a1-148">在 ASP.NET Web 應用程式中使用驗證的 Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="d08a1-148">Use Azure Active Directory for authentication in an ASP.NET web application</span></span>](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
-* [<span data-ttu-id="d08a1-149">使用 Azure SQL Database 來建置 Azure Web 應用程式</span><span class="sxs-lookup"><span data-stu-id="d08a1-149">Build an Azure Web App using Azure SQL Database</span></span>](/azure/app-service-web/web-sites-dotnet-get-started)
-* [<span data-ttu-id="d08a1-150">使用 Azure 儲存體嘗試 .NET 範例應用程式</span><span class="sxs-lookup"><span data-stu-id="d08a1-150">Try a .NET sample application with Azure Storage</span></span>](/azure/storage/storage-samples-dotnet)
+* [<span data-ttu-id="add56-147">在 ASP.NET Web 應用程式中使用驗證的 Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="add56-147">Use Azure Active Directory for authentication in an ASP.NET web application</span></span>](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
+* [<span data-ttu-id="add56-148">使用 Azure SQL Database 來建置 Azure Web 應用程式</span><span class="sxs-lookup"><span data-stu-id="add56-148">Build an Azure Web App using Azure SQL Database</span></span>](/azure/app-service-web/web-sites-dotnet-get-started)
+* [<span data-ttu-id="add56-149">使用 Azure 儲存體嘗試 .NET 範例應用程式</span><span class="sxs-lookup"><span data-stu-id="add56-149">Try a .NET sample application with Azure Storage</span></span>](/azure/storage/storage-samples-dotnet)
 
 

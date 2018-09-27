@@ -1,37 +1,29 @@
 ---
 title: 在 Azure 中管理和監視 .NET 應用程式的教學課程
 description: 監視在 Azure 中執行的 .NET 應用程式健康情況和效能，並檢測遙測以儲存使用者如何使用應用程式的相關資訊。
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 46912f3c31a56724de90e90c36370209ed5c7bd8
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 289fa4468be6e76f0ca98d844237638a86c4d148
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752890"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190651"
 ---
-# <a name="tutorials-for-monitoring-and-managing-your-net-apps-in-azure"></a><span data-ttu-id="e70e6-103">在 Azure 中管理和監視 .NET 應用程式的教學課程</span><span class="sxs-lookup"><span data-stu-id="e70e6-103">Tutorials for monitoring and managing your .NET apps in Azure</span></span>
+# <a name="tutorials-for-monitoring-and-managing-your-net-apps-in-azure"></a><span data-ttu-id="406fa-103">在 Azure 中管理和監視 .NET 應用程式的教學課程</span><span class="sxs-lookup"><span data-stu-id="406fa-103">Tutorials for monitoring and managing your .NET apps in Azure</span></span>
 
-<span data-ttu-id="e70e6-104">下表連結到管理和監視在 Azure 上執行之 .NET 應用程式的深入教學課程。</span><span class="sxs-lookup"><span data-stu-id="e70e6-104">The following table links to in-depth tutorials for managing and monitoring your .NET applications running on Azure.</span></span> 
+<span data-ttu-id="406fa-104">下表連結到管理和監視在 Azure 上執行之 .NET 應用程式的深入教學課程。</span><span class="sxs-lookup"><span data-stu-id="406fa-104">The following table links to in-depth tutorials for managing and monitoring your .NET applications running on Azure.</span></span> 
 
-<span data-ttu-id="e70e6-105">如需範例原始程式碼，請參閱 [Azure 服務範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)清單。</span><span class="sxs-lookup"><span data-stu-id="e70e6-105">For sample source code, see the list of [Azure service samples](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span></span>
+<span data-ttu-id="406fa-105">如需範例原始程式碼，請參閱 [Azure 服務範例](https://azure.microsoft.com/resources/samples/?platform=dotnet)清單。</span><span class="sxs-lookup"><span data-stu-id="406fa-105">For sample source code, see the list of [Azure service samples](https://azure.microsoft.com/resources/samples/?platform=dotnet).</span></span>
 
 | | |
 |---|---|
-| <span data-ttu-id="e70e6-106">**Application Insights**</span><span class="sxs-lookup"><span data-stu-id="e70e6-106">**Application Insights**</span></span> ||
-| <span data-ttu-id="e70e6-107">[設定 ASP.NET 網站的 Application Insights][1]</span><span class="sxs-lookup"><span data-stu-id="e70e6-107">[Set up Application Insights for your ASP.NET website][1]</span></span> | <span data-ttu-id="e70e6-108">設定 ASP.NET web 應用程式以將遙測傳送至 Azure Application Insights 服務。</span><span class="sxs-lookup"><span data-stu-id="e70e6-108">Configure your ASP.NET web app to send telemetry to the Azure Application Insights service.</span></span> | 
-| <span data-ttu-id="e70e6-109">[在執行階段使用 Application Insights 檢測 Web 應用程式][2]</span><span class="sxs-lookup"><span data-stu-id="e70e6-109">[Instrument web apps at runtime with Application Insights][2]</span></span> | <span data-ttu-id="e70e6-110">檢測即時 Web 應用程式，而不需修改或重新部署您的程式碼。</span><span class="sxs-lookup"><span data-stu-id="e70e6-110">Instrument a live web app without having to modify or redeploy your code..</span></span> | 
-| <span data-ttu-id="e70e6-111">[為 .NET 應用程式手動設定 Application Insights][3]</span><span class="sxs-lookup"><span data-stu-id="e70e6-111">[Manually configure Application Insights for .NET applications][3]</span></span> | <span data-ttu-id="e70e6-112">設定 Application Insights 以監視各種不同的應用程式或應用程式角色、元件或微服務。</span><span class="sxs-lookup"><span data-stu-id="e70e6-112">Configure Application Insights to monitor a wide variety of applications or application roles, components, or microservices.</span></span> | 
-| <span data-ttu-id="e70e6-113">[監視 Windows 傳統型應用程式的使用情況和效能][4]</span><span class="sxs-lookup"><span data-stu-id="e70e6-113">[Monitoring usage and performance in Windows Desktop apps][4]</span></span> | <span data-ttu-id="e70e6-114">使用 Application Insights 和 HockeyApp 來監視所部署之應用程式的使用情況和效能。</span><span class="sxs-lookup"><span data-stu-id="e70e6-114">Use Application Insights and HockeyApp to monitor your deployed application for usage and performance.</span></span> | 
-| <span data-ttu-id="e70e6-115">[ASP.NET Core 的 Application Insights][5]</span><span class="sxs-lookup"><span data-stu-id="e70e6-115">[Application Insights for ASP.NET Core][5]</span></span> | <span data-ttu-id="e70e6-116">監視 ASP.NET Core 應用程式的可用性、效能和使用方式。</span><span class="sxs-lookup"><span data-stu-id="e70e6-116">Monitor your ASP.NET Core application for availability, performance and usage.</span></span> | 
-| <span data-ttu-id="e70e6-117">[自訂事件和度量的 Application Insights API][6]</span><span class="sxs-lookup"><span data-stu-id="e70e6-117">[Application Insights API for custom events and metrics][6]</span></span> | <span data-ttu-id="e70e6-118">在您的應用程式中插入幾行程式碼，以了解使用者對它進行的動作或協助診斷問題。</span><span class="sxs-lookup"><span data-stu-id="e70e6-118">Insert a few lines of code in your application to find out what users are doing with it or help diagnose issues.</span></span> | 
+| <span data-ttu-id="406fa-106">**Application Insights**</span><span class="sxs-lookup"><span data-stu-id="406fa-106">**Application Insights**</span></span> ||
+| <span data-ttu-id="406fa-107">[設定 ASP.NET 網站的 Application Insights][1]</span><span class="sxs-lookup"><span data-stu-id="406fa-107">[Set up Application Insights for your ASP.NET website][1]</span></span> | <span data-ttu-id="406fa-108">設定 ASP.NET web 應用程式以將遙測傳送至 Azure Application Insights 服務。</span><span class="sxs-lookup"><span data-stu-id="406fa-108">Configure your ASP.NET web app to send telemetry to the Azure Application Insights service.</span></span> | 
+| <span data-ttu-id="406fa-109">[在執行階段使用 Application Insights 檢測 Web 應用程式][2]</span><span class="sxs-lookup"><span data-stu-id="406fa-109">[Instrument web apps at runtime with Application Insights][2]</span></span> | <span data-ttu-id="406fa-110">檢測即時 Web 應用程式，而不需修改或重新部署您的程式碼。</span><span class="sxs-lookup"><span data-stu-id="406fa-110">Instrument a live web app without having to modify or redeploy your code..</span></span> | 
+| <span data-ttu-id="406fa-111">[為 .NET 應用程式手動設定 Application Insights][3]</span><span class="sxs-lookup"><span data-stu-id="406fa-111">[Manually configure Application Insights for .NET applications][3]</span></span> | <span data-ttu-id="406fa-112">設定 Application Insights 以監視各種不同的應用程式或應用程式角色、元件或微服務。</span><span class="sxs-lookup"><span data-stu-id="406fa-112">Configure Application Insights to monitor a wide variety of applications or application roles, components, or microservices.</span></span> | 
+| <span data-ttu-id="406fa-113">[監視 Windows 傳統型應用程式的使用情況和效能][4]</span><span class="sxs-lookup"><span data-stu-id="406fa-113">[Monitoring usage and performance in Windows Desktop apps][4]</span></span> | <span data-ttu-id="406fa-114">使用 Application Insights 和 HockeyApp 來監視所部署之應用程式的使用情況和效能。</span><span class="sxs-lookup"><span data-stu-id="406fa-114">Use Application Insights and HockeyApp to monitor your deployed application for usage and performance.</span></span> | 
+| <span data-ttu-id="406fa-115">[ASP.NET Core 的 Application Insights][5]</span><span class="sxs-lookup"><span data-stu-id="406fa-115">[Application Insights for ASP.NET Core][5]</span></span> | <span data-ttu-id="406fa-116">監視 ASP.NET Core 應用程式的可用性、效能和使用方式。</span><span class="sxs-lookup"><span data-stu-id="406fa-116">Monitor your ASP.NET Core application for availability, performance and usage.</span></span> | 
+| <span data-ttu-id="406fa-117">[自訂事件和度量的 Application Insights API][6]</span><span class="sxs-lookup"><span data-stu-id="406fa-117">[Application Insights API for custom events and metrics][6]</span></span> | <span data-ttu-id="406fa-118">在您的應用程式中插入幾行程式碼，以了解使用者對它進行的動作或協助診斷問題。</span><span class="sxs-lookup"><span data-stu-id="406fa-118">Insert a few lines of code in your application to find out what users are doing with it or help diagnose issues.</span></span> | 
 
 
 [1]: /azure/application-insights/app-insights-asp-net

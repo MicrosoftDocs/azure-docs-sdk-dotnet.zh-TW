@@ -2,21 +2,13 @@
 title: 適用於 .NET 和 .NET Core 的 Azure C# 程式碼範例
 description: 適用於使用 .NET、.NET Core、ASP.NET 和 ASP.NET Core 的 Azure C# 程式碼範例
 layout: LandingPage
-ms.topic: reference
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 07/17/2018
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: b4a67a2b3c942ea5282878a61ccabb7c1d3aa95c
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: 0e9834568a63a61ed9d0326d00d71c59a3322170
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135676"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190541"
 ---
 # <a name="azure-c-code-samples-for-net-and-net-core"></a>適用於 .NET 和 .NET Core 的 Azure C# 程式碼範例
 
