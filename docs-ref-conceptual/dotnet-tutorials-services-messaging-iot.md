@@ -1,21 +1,13 @@
 ---
 title: 在 Azure 上使用 .NET 傳訊和 IoT 的教學課程 | Microsoft Docs
 description: 使用 .NET 和 Azure 服務在雲端應用程式之間以及在裝置與雲端之間傳送訊息。
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: a6c50af1678c785c6a3fcd3f4f3689171069b2ee
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 92cb78b34706a453630dbf36913d53400962ff25
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752840"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190771"
 ---
 # <a name="net-tutorials-for-enterprise-messaging-and-internet-of-things-iot"></a>企業傳訊和物聯網 (IoT) 的 .NET 教學課程
 

@@ -1,27 +1,19 @@
 ---
 title: 使用 .NET Core 從命令列部署至 Azure
 description: 本文說明如何使用命令列工具，將 ASP.NET Core 應用程式部署至 Azure App Service。
-keywords: Azure .NET, SDK, Azure .NET API 參考, Azure .NET 類別庫
-author: camsoper
-manager: douge
-ms.author: casoper
 ms.date: 06/20/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
-ms.devlang: dotnet
-ms.openlocfilehash: 8371c304681ff88cba6f1cc3ba0d1caef836d609
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: a29f5474dcfedc6f8d044f09ad4d54c5be6a371f
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005875"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190491"
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>使用 .NET Core 從命令列部署至 Azure
 
 本教學課程將逐步引導您使用 .NET Core 來建置及部署 Microsoft Azure 應用程式。  完成時，您會在 ASP.NET MVC Core 中建置裝載為 Azure Web 應用程式的 Web 架構待辦事項應用程式，並將 Azure Cosmos DB 用於資料儲存體。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 * [Microsoft Azure 訂用帳戶](https://azure.microsoft.com/free/)
 * [.NET Core](https://www.microsoft.com/net/download/core) (選擇性)

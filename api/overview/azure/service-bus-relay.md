@@ -1,21 +1,15 @@
 ---
 title: 適用於 .NET 的 Azure 服務匯流排轉送程式庫
 description: 適用於 .NET 的 Azure 服務匯流排轉送程式庫參考
-keywords: Azure, .NET, SDK, API, 服務匯流排轉送
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: service-bus
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: e0dd9c9b0a187fe6ca81d764e60afd00cbaab654
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 75c481ab23e461c5194a9eeb0ca668af98f4d2d7
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065948"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47189981"
 ---
 # <a name="azure-service-bus-relay-libraries-for-net"></a>適用於 .NET 的 Azure 服務匯流排轉送程式庫
 

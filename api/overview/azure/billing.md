@@ -1,21 +1,15 @@
 ---
 title: 適用於 .NET 的 Azure 計費程式庫
 description: 適用於 .NET 的 Azure 計費程式庫參考
-keywords: Azure, .NET, SDK, API, 計費
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: multiple
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 97a4c642e8be03db7e31e8c9bc71dcf9c3fc1447
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 88b90c71d29eacf61e4da2099f8a054d74df4a83
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065508"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190251"
 ---
 # <a name="azure-billing-libraries-for-net"></a>適用於 .NET 的 Azure 計費程式庫
 

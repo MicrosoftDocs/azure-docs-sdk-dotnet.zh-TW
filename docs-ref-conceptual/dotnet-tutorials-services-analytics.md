@@ -1,21 +1,13 @@
 ---
 title: Azure 中的 .NET 資料分析教學課程 | Microsoft Docs
 description: 使用 Microsoft Azure 服務開發資料分析應用程式。
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: d843e605bf64fb475efe8fc1bba6a112ddca4d96
-ms.sourcegitcommit: 9dd801d659803f5efb16d65454cd09258e1cc7d6
+ms.openlocfilehash: f1f4b4bcd0aac04150b510eb98308800dbdfe93c
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "29752900"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190201"
 ---
 # <a name="data-analytics-tutorials-with-net-on-azure"></a>Azure 上的 .NET 資料分析教學課程
 

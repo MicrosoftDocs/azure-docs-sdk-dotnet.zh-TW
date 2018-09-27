@@ -1,22 +1,13 @@
 ---
 title: 適用於 .NET 的 Azure 管理程式庫版本資訊 | Microsoft Docs
 description: 了解適用於 .NET 之 Azure 管理程式庫的最新消息和重大變更。
-keywords: Azure, .NET, API, 參考, 附註, 更新, 取代
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 48ff29507268f6b38acb24217801cf7b0227e444
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: dac9dee9c25fc349dedd50d6007f25c7d15b0928
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005905"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190671"
 ---
 # <a name="release-notes"></a>版本資訊 
 
@@ -49,7 +40,7 @@ ms.locfileid: "31005905"
     <td valign="top"></td>
   </tr>
   <tr>
-    <td>網路</td>
+    <td>網路功能</td>
     <td>虛擬網路<br>網路介面<br>IP 位址<br>路由資料表<br>網路安全性群組<br>DNS<br>流量管理員</td>
     <td valign="top">負載平衡器<br>應用程式閘道</td>
     <td valign="top"></td>

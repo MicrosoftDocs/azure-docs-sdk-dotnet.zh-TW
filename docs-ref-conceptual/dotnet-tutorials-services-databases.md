@@ -1,21 +1,13 @@
 ---
 title: 使用 Azure 資料庫的 .NET 教學課程
 description: 用於連線及使用 .NET 應用程式中所使用之 Azure 資料庫的教學課程。
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: f03f1cc7e2d973aa270f99f7ca29c9cb4d6fd720
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: 38dcf7e288e4ec46705b31b9d00efc5477f92a85
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005745"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190621"
 ---
 # <a name="tutorials-for-using-net-with-azure-databases"></a>使用 .NET 搭配 Azure 資料庫的教學課程
 

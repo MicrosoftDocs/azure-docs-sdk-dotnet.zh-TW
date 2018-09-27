@@ -1,21 +1,15 @@
 ---
 title: 適用於 .NET 的 Azure Redis 快取程式庫
 description: 適用於 .NET 的 Azure Redis 快取程式庫參考
-keywords: Azure, .NET, SDK, API, Redis 快取
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: redis-cache
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 879f42aa254103239fb0dceeb25cb99a7d5e9814
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: cc043bbc6ea5915f7b6c2265b606210efb72d9d0
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065918"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190521"
 ---
 # <a name="azure-redis-cache-libraries-for-net"></a>適用於 .NET 的 Azure Redis 快取程式庫
 

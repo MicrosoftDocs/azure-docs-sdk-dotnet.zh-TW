@@ -1,21 +1,13 @@
 ---
 title: 在 Azure 中使用 .NET 應用程式儲存體的教學課程
 description: 儲存並使用在 Azure 中執行的 .NET 應用程式物件和檔案
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 0a78559541f1bc4c94f94d991c44aee2cbf56fc3
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 967a90ec5e6afa0f7f0fcdd6843a15c271c97ce5
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752730"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190809"
 ---
 # <a name="tutorials-for-working-with-storage-in-your-net-apps-on-azure"></a>在 Azure 中使用 .NET 應用程式儲存體的教學課程。
 

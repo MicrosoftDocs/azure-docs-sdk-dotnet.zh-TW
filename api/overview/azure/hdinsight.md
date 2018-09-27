@@ -1,23 +1,19 @@
 ---
 title: Azure HDInsight .NET SDK
 description: Azure HDInsight .NET SDK 的參考
-keywords: Azure, .NET, SDK, API, HDInsight
-author: tylerfox
-ms.author: tyfox
-manager: arindamc
 ms.date: 9/19/2018
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: hd-insight
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 1f85a9333d3008977137f271df9acb72bb7c17d7
-ms.sourcegitcommit: a2c56781d52abbc09a5d56ca3103ed54545076a6
+ms.openlocfilehash: d25bdb1c9086cd93190b97f519654f2c193b9dc3
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46484583"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190681"
 ---
-# <a name="azure-hdinsight-libraries-for-net-2x"></a>適用於 .NET 2.X 的 Azure HDInsight 程式庫
+# <a name="azure-hdinsight-net-sdk"></a>Azure HDInsight .NET SDK
+
+## <a name="azure-hdinsight-libraries-for-net-2x"></a>適用於 .NET 2.X 的 Azure HDInsight 程式庫
 
 ## <a name="overview"></a>概觀
 
@@ -122,16 +118,19 @@ managementClient.Clusters.Create("<ExistingResourceGroupName>", "<NewClusterName
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
 
-# <a name="hdinsight-net-management-sdk-3x-preview"></a>HDInsight .NET 管理 SDK 3.X 預覽版
+## <a name="hdinsight-net-management-sdk-3x-preview"></a>HDInsight .NET 管理 SDK 3.X 預覽版
 
 ## <a name="overview"></a>概觀
+
 HDInsight .NET SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 它包含用來建立、刪除、更新、列出、調整、執行指令碼動作、監視、取得 HDInsight 叢集屬性的作業，和其他多種作業。
 
 ## <a name="prerequisites"></a>必要條件
+
 * 一個 Azure 帳戶。 如果您沒有帳戶，請[取得免費試用帳戶](https://azure.microsoft.com/free/)。
 * [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 ## <a name="sdk-installation"></a>SDK 安裝
+
 在 Visual Studio 專案中開啟套件管理員主控台，方法是按一下 [工具]、[NuGet 套件管理員]，然後按一下 [套件管理員主控台]。
 
 在套件管理員主控台中，執行下列命令：
@@ -143,12 +142,14 @@ HDInsight .NET SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 �
 ```
 
 ## <a name="authentication"></a>驗證
+
 SDK 必須先使用您的 Azure 訂用帳戶進行驗證。  請依照下列範例建立服務主體，並使用它來驗證。 此動作完成後，您會有 `HDInsightManagementClient` 的執行個體，其中包含許多可用來執行管理作業的方法 (分述於下列各節中)。
 
 > [!NOTE]
 > 除了下列範例以外，還有其他方式可進行驗證，可能更符合您的需求。 所有方法皆概述於此處：[使用適用於 .NET 的 Azure 程式庫來進行驗證](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)
 
 ### <a name="authentication-example-using-a-service-principal"></a>使用服務主體的驗證範例
+
 首先，請登入 [Azure Cloud Shell](https://shell.azure.com/bash)。 確認您目前使用的訂用帳戶，是您希望建立服務主體的位置。 
 
 ```azurecli-interactive
@@ -244,24 +245,29 @@ namespace HDI_SDK_Test
 
 
 ## <a name="cluster-management"></a>叢集管理
+
 > [!NOTE]
 > 本節假設您已通過驗證並建構 `HDInsightManagementClient` 執行個體，並且將其儲存在名為 `client` 的變數中。 驗證及取得 `HDInsightManagementClient` 的指示可在先前的「驗證」一節中找到。
 
 ### <a name="create-a-cluster"></a>建立叢集
+
 新叢集可藉由呼叫 `client.Clusters.Create()` 來建立。 
 
 #### <a name="example"></a>範例
+
 此範例示範如何使用 2 個前端節點和 1 個背景工作節點來建立 Spark 叢集。
 
 > [!NOTE]
 > 您必須先建立資源群組和儲存體帳戶，說明如下。 如果您已建立這些項目，則可以略過這些步驟。
 
 ##### <a name="creating-a-resource-group"></a>建立資源群組
+
 您可以使用 [Azure Cloud Shell](https://shell.azure.com/bash) 建立資源群組，只要執行下列命令即可
 ```azurecli-interactive
 az group create -l <Region Name (i.e. eastus)> --n <Resource Group Name>
 ```
 ##### <a name="creating-a-storage-account"></a>建立儲存體帳戶
+
 您可以使用 [Azure Cloud Shell](https://shell.azure.com/bash) 建立儲存體帳戶，只要執行下列命令即可：
 ```azurecli-interactive
 az storage account create -n <Storage Account Name> -g <Existing Resource Group Name> -l <Region Name (i.e. eastus)> --sku <SKU i.e. Standard_LRS>
@@ -375,13 +381,15 @@ client.Clusters.Create(
 ```
 
 ### <a name="get-cluster-details"></a>取得叢集詳細資料
+
 若要取得特定叢集的屬性：
 
 ```csharp
 client.Clusters.Get("<Resource Group Name>", "<Cluster Name>");
 ```
-https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.hdinsight.models.cluster?view=azure-dotnet-preview
+
 #### <a name="example"></a>範例
+
 您可以使用 `get` 來確認您已成功建立叢集。
 
 ```csharp
@@ -403,10 +411,12 @@ Debug.WriteLine(myCluster.Id) //Prints the resource Id of the cluster
 ### <a name="list-clusters"></a>列出叢集
 
 #### <a name="list-clusters-under-the-subscription"></a>列出訂用帳戶下的叢集
+
 ```csharp
 client.Clusters.List();
 ```
 #### <a name="list-clusters-by-resource-group"></a>依資源群組列出叢集
+
 ```csharp
 client.Clusters.ListByResourceGroup("<Resource Group Name>");
 ```
@@ -433,6 +443,7 @@ while (true)
 ```
 
 ### <a name="delete-a-cluster"></a>刪除叢集
+
 若要刪除叢集：
 
 ```csharp
@@ -440,6 +451,7 @@ client.Clusters.Delete("<Resource Group Name>", "<Cluster Name>");
 ```
 
 ### <a name="update-cluster-tags"></a>更新叢集標記
+
 您可以更新指定叢集的標記，如下所示：
 
 ```csharp
@@ -452,6 +464,7 @@ client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPat
 ```
 
 ### <a name="scale-cluster"></a>調整叢集
+
 您可以藉由指定新的大小來調整指定叢集的背景工作節點數目，如下所示：
 
 ```csharp
@@ -459,6 +472,7 @@ client.Clusters.Resize("<Resource Group Name>", "<Cluster Name>", <Num of Worker
 ```
 
 ## <a name="cluster-monitoring"></a>叢集監視
+
 HDInsight 管理 SDK 也可用來透過 Operations Management Suite (OMS) 管理您對叢集的監視。
 
 ### <a name="enable-oms-monitoring"></a>啟用 OMS 監視
@@ -473,6 +487,7 @@ client.Extension.EnableMonitoring("<Resource Group Name", "Cluster Name", new Cl
 ```
 
 ### <a name="view-status-of-oms-monitoring"></a>檢視 OMS 監視的狀態
+
 若要取得叢集的 OMS 狀態：
 
 ```csharp
@@ -480,6 +495,7 @@ client.Extension.GetMonitoringStatus("<Resource Group Name", "Cluster Name");
 ```
 
 ### <a name="disable-oms-monitoring"></a>停用 OMS 監視
+
 若要對您的叢集停用 OMS：
 
 ```csharp
@@ -487,11 +503,13 @@ client.Extension.DisableMonitoring("<Resource Group Name>", "<Cluster Name>");
 ```
 
 ## <a name="script-actions"></a>指令碼動作
+
 HDInsight 提供名為指令碼動作的設定方法，此方法會叫用自訂指令碼來自訂叢集。
 > [!NOTE]
 > 如需如何使用指令碼動作的詳細資訊，請參閱：[使用指令碼動作自訂以 Linux 為基礎的 HDInsight 叢集](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)
 
 ### <a name="execute-script-actions"></a>執行指令碼動作
+
 您可以對指定的叢集執行指令碼動作，如下所示：
 
 ```csharp
@@ -501,6 +519,7 @@ client.Clusters.ExecuteScriptActions("<Resource Group Name>", "<Cluster Name>", 
 ```
 
 ### <a name="delete-script-action"></a>刪除指令碼動作
+
 若要刪除對給定叢集指定的持續性指令碼動作：
 
 ```csharp
@@ -536,6 +555,7 @@ while (true)
 ```
 
 ### <a name="list-all-scripts-execution-history"></a>列出所有指令碼的執行歷程記錄
+
 若要針對指定的叢集列出所有指令碼的執行歷程記錄：
 
 ```csharp
@@ -543,6 +563,7 @@ client.script_execution_history.list("<Resource Group Name>", "<Cluster Name>");
 ```
 
 #### <a name="example"></a>範例
+
 此範例會列印過去所有指令碼執行的所有詳細資料。
 
 ```csharp

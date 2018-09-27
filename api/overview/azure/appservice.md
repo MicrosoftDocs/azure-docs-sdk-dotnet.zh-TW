@@ -1,21 +1,15 @@
 ---
 title: 適用於 .NET 的 Azure App Service 程式庫
 description: 適用於 .NET 的 Azure App Service 程式庫參考
-keywords: Azure, .NET, SDK, API, Web Apps, 應用程式服務, 行動, asp.net
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: app-service
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 0fee28930dff5075cdd84fe3cb88850e07bc6ccb
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 82f8eccfafd2f7b1cf1df1ce0f40212509ccddd3
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065798"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47189991"
 ---
 # <a name="azure-app-service-libraries-for-net"></a>適用於 .NET 的 Azure App Service 程式庫
 
