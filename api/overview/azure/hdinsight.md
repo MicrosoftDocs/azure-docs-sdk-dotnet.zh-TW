@@ -3,13 +3,13 @@ title: Azure HDInsight .NET SDK
 description: Azure HDInsight .NET SDK 的參考
 ms.date: 9/19/2018
 ms.topic: reference
-ms.service: hd-insight
-ms.openlocfilehash: d25bdb1c9086cd93190b97f519654f2c193b9dc3
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: hdinsight
+ms.openlocfilehash: 35e2c8c07fb2b86b2d0ae9be4f855e369c1aa86d
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190681"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348200"
 ---
 # <a name="azure-hdinsight-net-sdk"></a>Azure HDInsight .NET SDK
 
@@ -122,7 +122,7 @@ managementClient.Clusters.Create("<ExistingResourceGroupName>", "<NewClusterName
 
 ## <a name="overview"></a>概觀
 
-HDInsight .NET SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 它包含用來建立、刪除、更新、列出、調整、執行指令碼動作、監視、取得 HDInsight 叢集屬性的作業，和其他多種作業。
+HDInsight .NET SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 它包含用來建立、刪除、更新、列出、調整大小、執行指令碼動作、監視、取得 HDInsight 叢集屬性的作業，和其他多種作業。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -463,7 +463,7 @@ client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPat
 client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPatchParameters(new Dictionary<string, string> { { "tag1Name", "tag1Value" }, { "tag2Name", "tag2Value" } }));
 ```
 
-### <a name="scale-cluster"></a>調整叢集
+### <a name="resize-cluster"></a>調整叢集大小
 
 您可以藉由指定新的大小來調整指定叢集的背景工作節點數目，如下所示：
 
