@@ -4,12 +4,12 @@ description: 適用於 .NET 的 Azure Cosmos DB 程式庫參考
 ms.date: 08/31/2018
 ms.topic: reference
 ms.service: cosmos-db
-ms.openlocfilehash: 21a2f2168259528a0d27103783e34aa532d7e17a
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.openlocfilehash: 8ff565f1cd72eec2f574b45d04ceac526b8c5eb0
+ms.sourcegitcommit: 01ec3adba39a6f946015552c28da0a9a6bb57180
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190787"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53112016"
 ---
 # <a name="azure-cosmos-db-libraries-for-net"></a>適用於 .NET 的 Azure Cosmos DB 程式庫
 
@@ -25,6 +25,8 @@ ms.locfileid: "47190787"
 
 直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core)，或使用 [.NET Core CLI][DotNetCLI]。
 
+若要安裝版本 2.x：
+
 #### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
 
 ```powershell
@@ -37,9 +39,24 @@ Install-Package Microsoft.Azure.DocumentDB.Core
 dotnet add package Microsoft.Azure.DocumentDB.Core
 ```
 
+若要安裝目標為 .NET Standard 的版本 3.0 預覽版本： 
+
+#### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
+
+```powershell
+Install-Package Microsoft.Azure.Cosmos -prerelease
+```
+
+#### <a name="net-core-cli"></a>.NET Core CLI
+
+```bash
+dotnet add package Microsoft.Azure.Cosmos
+```
+
+
 ### <a name="code-example"></a>程式碼範例
 
-這個範例會連線到現有的 Azure Cosmos DB SQL API 資料庫，從集合中讀取文件，並將其還原序列化為 `Item` 物件。   
+這個範例會連線到現有的 Azure Cosmos DB SQL API 資料庫，從集合中讀取文件，並將其還原序列化為 `Item` 物件。 此範例使用 .NET SDK 的 2.x 版本。   
 
 ```csharp
 /* Include this "using" directive...
@@ -51,12 +68,24 @@ Uri documentUri = UriFactory.CreateDocumentUri("MyDatabaseName", "MyCollectionNa
 SomeClass myObject = client.ReadDocumentAsync<SomeClass>(documentUri).ToString();
 ```
 
+此範例會連線至現有的 Azure Cosmos DB SQL API 資料庫、建立新資料庫和容器、從容器中讀取項目並將其還原序列化至 `TodoItem` 物件。 此範例使用 .NET SDK 的 3.x 版本。   
+
+```csharp
+using (CosmosClient cosmosClient = new CosmosClient("endpoint", "primaryKey"))
+{
+    // Read item from container
+    CosmosItemResponse<TodoItem> todoItemResponse = await cosmosClient.Databases["DatabaseId"].Containers["ContainerId"].Items.ReadItemAsync<TodoItem>("partitionKeyValue", "ItemId");
+}
+```
+
 > [!div class="nextstepaction"]
 > [探索用戶端 API](/dotnet/api/overview/azure/cosmosdb/client)
 
 ## <a name="samples"></a>範例
 
-* [使用 Azure Cosmos DB 的 MongoDB API 開發 .NET 應用程式](https://azure.microsoft.com/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/)
+* [使用 Azure Cosmos DB 的 SQL API 開發 .NET 應用程式 (版本 2.x)](https://github.com/Azure-Samples/documentdb-dotnet-todo-app/)
+* [使用 Azure Cosmos DB 的 SQL API 開發 .NET 應用程式 (版本 3.x 預覽版)](https://github.com/Azure-Samples/cosmos-dotnet-todo-app/)
+* [使用 Azure Cosmos DB 的 SQL API 開發 .NET Core 應用程式 (版本 3.x 預覽版)](https://github.com/Azure-Samples/cosmos-dotnet-core-getting-started)
 
 檢視 Azure Cosmos DB 範例的[完整清單](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=cosmosdb)。
 
