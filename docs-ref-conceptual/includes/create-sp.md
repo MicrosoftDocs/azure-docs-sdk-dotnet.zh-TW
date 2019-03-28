@@ -3,21 +3,21 @@ ms.service: multiple
 ms.date: 9/20/2018
 ms.topic: include
 ms.openlocfilehash: 5c8cb328802cfb94e944e4241852fb9568e8507f
-ms.sourcegitcommit: e25b6ac74033f3b0a7610bf66feb654acb43054c
+ms.sourcegitcommit: e534dad2d96b72ab6a9bc4b5567508962bd7e05c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "53430511"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58343327"
 ---
-<span data-ttu-id="cce15-101">.NET 應用程式需要您 Azure 訂用帳戶的讀取和建立資源權限，才能使用適用於 .NET 的 Azure 管理程式庫。</span><span class="sxs-lookup"><span data-stu-id="cce15-101">Your .NET application needs permissions to read and create resources in your Azure subscription in order to use the Azure Management Libraries for .NET.</span></span> <span data-ttu-id="cce15-102">請建立服務主體，並將應用程式設定為使用其認證來授予此存取權。</span><span class="sxs-lookup"><span data-stu-id="cce15-102">Create a service principal and configure your app to run with its credentials to grant this access.</span></span> <span data-ttu-id="cce15-103">服務主體可讓您建立與身分識別相關聯的非互動式帳戶，而且對於此身分識別，您只賦予它應用程式執行時所需的權限。</span><span class="sxs-lookup"><span data-stu-id="cce15-103">Service principals provide a way to create a non-interactive account associated with your identity to which you grant only the privileges your app needs to run.</span></span>
+<span data-ttu-id="de143-101">.NET 應用程式需要您 Azure 訂用帳戶的讀取和建立資源權限，才能使用適用於 .NET 的 Azure 管理程式庫。</span><span class="sxs-lookup"><span data-stu-id="de143-101">Your .NET application needs permissions to read and create resources in your Azure subscription in order to use the Azure Management Libraries for .NET.</span></span> <span data-ttu-id="de143-102">請建立服務主體，並將應用程式設定為使用其認證來授予此存取權。</span><span class="sxs-lookup"><span data-stu-id="de143-102">Create a service principal and configure your app to run with its credentials to grant this access.</span></span> <span data-ttu-id="de143-103">服務主體可讓您建立與身分識別相關聯的非互動式帳戶，而且對於此身分識別，您只賦予它應用程式執行時所需的權限。</span><span class="sxs-lookup"><span data-stu-id="de143-103">Service principals provide a way to create a non-interactive account associated with your identity to which you grant only the privileges your app needs to run.</span></span>
 
-<span data-ttu-id="cce15-104">首先，請登入 [Azure Cloud Shell](https://shell.azure.com/bash)。</span><span class="sxs-lookup"><span data-stu-id="cce15-104">First, login to [Azure Cloud Shell](https://shell.azure.com/bash).</span></span> <span data-ttu-id="cce15-105">確認您目前使用的訂用帳戶，是您希望建立服務主體的位置。</span><span class="sxs-lookup"><span data-stu-id="cce15-105">Verify you are currently using the subscription in which you want the service principal created.</span></span> 
+<span data-ttu-id="de143-104">首先，請登入 [Azure Cloud Shell](https://shell.azure.com/bash)。</span><span class="sxs-lookup"><span data-stu-id="de143-104">First, login to [Azure Cloud Shell](https://shell.azure.com/bash).</span></span> <span data-ttu-id="de143-105">確認您目前使用的訂用帳戶，是您希望建立服務主體的位置。</span><span class="sxs-lookup"><span data-stu-id="de143-105">Verify you are currently using the subscription in which you want the service principal created.</span></span> 
 
 ```azurecli-interactive
 az account show
 ```
 
-<span data-ttu-id="cce15-106">系統會顯示您的訂用帳戶資訊。</span><span class="sxs-lookup"><span data-stu-id="cce15-106">Your subscription information is displayed.</span></span>
+<span data-ttu-id="de143-106">系統會顯示您的訂用帳戶資訊。</span><span class="sxs-lookup"><span data-stu-id="de143-106">Your subscription information is displayed.</span></span>
 
 ```json
 {
@@ -35,15 +35,15 @@ az account show
 }
 ```
 
-<span data-ttu-id="cce15-107">如果您並未登入正確的訂用帳戶，請輸入 `az account set -s <name or ID of subscription>`，以選取正確的訂用帳戶。</span><span class="sxs-lookup"><span data-stu-id="cce15-107">If you're not logged into the correct subscription, select the correct one by typing `az account set -s <name or ID of subscription>`.</span></span>
+<span data-ttu-id="de143-107">如果您並未登入正確的訂用帳戶，請輸入 `az account set -s <name or ID of subscription>`，以選取正確的訂用帳戶。</span><span class="sxs-lookup"><span data-stu-id="de143-107">If you're not logged into the correct subscription, select the correct one by typing `az account set -s <name or ID of subscription>`.</span></span>
 
-<span data-ttu-id="cce15-108">使用下列命令建立服務主體：</span><span class="sxs-lookup"><span data-stu-id="cce15-108">Create the service principal with the following command:</span></span>
+<span data-ttu-id="de143-108">使用下列命令建立服務主體：</span><span class="sxs-lookup"><span data-stu-id="de143-108">Create the service principal with the following command:</span></span>
 
 ```azurecli-interactive
 az ad sp create-for-rbac --sdk-auth
 ```
 
-<span data-ttu-id="cce15-109">服務主體資訊會顯示為 JSON。</span><span class="sxs-lookup"><span data-stu-id="cce15-109">The service principal information is displayed as JSON.</span></span>
+<span data-ttu-id="de143-109">服務主體資訊會顯示為 JSON。</span><span class="sxs-lookup"><span data-stu-id="de143-109">The service principal information is displayed as JSON.</span></span>
 
 ```json
 {
@@ -60,4 +60,4 @@ az ad sp create-for-rbac --sdk-auth
 }
 ```
 
-<span data-ttu-id="cce15-110">複製 JSON 輸出，並貼到文字編輯器中供稍後使用。</span><span class="sxs-lookup"><span data-stu-id="cce15-110">Copy and paste the JSON output to a text editor for use later.</span></span>
+<span data-ttu-id="de143-110">複製 JSON 輸出，並貼到文字編輯器中供稍後使用。</span><span class="sxs-lookup"><span data-stu-id="de143-110">Copy and paste the JSON output to a text editor for use later.</span></span>
