@@ -1,128 +1,23 @@
 ---
-title: Azure HDInsight .NET SDK
-description: Azure HDInsight .NET SDK 的參考
-ms.date: 9/19/2018
+title: 適用於.NET 的 Azure HDInsight SDK
+description: 適用於 .NET 的 Azure HDInsight SDK 參考
+ms.date: 04/10/2019
 ms.topic: reference
 ms.service: hdinsight
-ms.openlocfilehash: 35e2c8c07fb2b86b2d0ae9be4f855e369c1aa86d
-ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
+ms.openlocfilehash: 2282a302b269a52c71ed88c26e021344cdca4382
+ms.sourcegitcommit: 4328168172ac1b1a448e16988f75199262bc5c2d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49348200"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59700256"
 ---
-# <a name="azure-hdinsight-net-sdk"></a>Azure HDInsight .NET SDK
+# <a name="azure-hdinsight-sdk-for-net"></a>適用於.NET 的 Azure HDInsight SDK
 
-## <a name="azure-hdinsight-libraries-for-net-2x"></a>適用於 .NET 2.X 的 Azure HDInsight 程式庫
+Azure HDInsight 會提供適用於 .NET 的管理和作業 SDK，並提供類別以管理您的 HDInsight 叢集並提交和監視 Hadoop 作業。
 
-## <a name="overview"></a>概觀
+## <a name="management"></a>管理性
 
-HDInsight 服務 .NET SDK 提供與建立、設定、提交和監視 Azure HDInsight 服務所管理之 Hadoop 工作相關的類別。 此外，它會提供類別來管理使用 HDInsight 服務的 Azure 訂用帳戶，並設定叢集、儲存體帳戶和其他 Azure 訂用帳戶所管理之 HDInsight 叢集相關聯的資產。
-
-## <a name="management-libraries"></a>管理程式庫
-
-### <a name="jobs"></a>工作
-
-使用 Azure HDInsight 用戶端 SDK 來建立、管理和監視在 Hadoop 叢集上的作業。 
-
-直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job)，或使用 [.NET Core CLI][DotNetCLI]。
-
-#### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
-
-```powershell
-Install-Package Microsoft.Azure.Management.HDInsight.Job
-```
-
-```bash
-dotnet add package Microsoft.Azure.Management.HDInsight.Job
-```
-
-#### <a name="code-example"></a>程式碼範例
-
-這個範例會在 Hadoop 叢集中執行 Hive 作業。
-
-```csharp
-HDInsightJobManagementClient managementClient = new HDInsightJobManagementClient(clusterUri, credentials);
-
-Dictionary<string, string> defines = new Dictionary<string, string> {
-    { "hive.execution.engine", "tez" },
-    { "hive.exec.reducers.max", "1" }
-};
-List<string> arguments = new List<string> { { "argA" }, { "argB" } };
-HiveJobSubmissionParameters parameters = new HiveJobSubmissionParameters
-{
-    Query = "SHOW TABLES",
-    Defines = defines,
-    Arguments = arguments
-};
-
-JobSubmissionResponse jobResponse = managementClient.JobManagement.SubmitHiveJob(parameters);
-```
-
-### <a name="hdinsight"></a>HDInsight
-
-使用 Azure HDInsight 管理 SDK 來建立、管理、啟動、停止和調整 Hadoop 叢集。
-
-直接從 Visual Studio [套件管理員主控台][PackageManager]安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight)，或使用 [.NET Core CLI][DotNetCLI]。
-
-#### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
-
-```powershell
-Install-Package Microsoft.Azure.Management.HDInsight
-```
-
-```bash
-dotnet add package Microsoft.Azure.Management.HDInsight
-```
-
-#### <a name="code-example"></a>程式碼範例
-
-這個範例會使用現有的 Azure Blob 儲存體來建立 HDInsight 兩個節點 Linux Hadoop 叢集。
-
-```csharp
-HDInsightManagementClient managementClient = new HDInsightManagementClient(authToken);
-// Set parameters for the new cluster
-ClusterCreateParameters parameters = new ClusterCreateParameters
-{
-    ClusterSizeInNodes = 2,
-    UserName = "admin",
-    Password = "<Enter HTTP User Password>",
-    ClusterType = "Hadoop",
-    OSType = OSType.Linux,
-    Version = "3.5",
-    // Use an Azure storage account as the default storage
-    DefaultStorageInfo = new AzureStorageInfo("<StorageAccount>", "<StorageKey>", "<BlobContainerName>"),
-    Location = "EAST US 2",
-    SshUserName = "sshuser",
-    SshPassword = "<Enter SSH User Password>",
-};
-
-// Create the cluster
-managementClient.Clusters.Create("<ExistingResourceGroupName>", "<NewClusterName>", parameters);
-```
-
-> [!div class="nextstepaction"]
-> [探索管理 API](/dotnet/api/overview/azure/hdinsights/management)
-
-
-## <a name="samples"></a>範例
-
-- [叢集建立](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-create-linux-clusters-dotnet-sdk)
-- [叢集管理](https://docs.microsoft.com/azure/hdinsight/hdinsight-administer-use-dotnet-sdk)
-- [執行 Hive 作業](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-hive-dotnet-sdk)
-- [執行 Pig 作業](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-pig-dotnet-sdk)
-- [更多作業](https://docs.microsoft.com/azure/hdinsight/hdinsight-submit-hadoop-jobs-programmatically)
-
-檢視 Azure SQL Database 範例的[完整清單](https://azure.microsoft.com/resources/samples/?platform=dotnet&service=hdinsight)。
-
-[PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
-
-## <a name="hdinsight-net-management-sdk-3x-preview"></a>HDInsight .NET 管理 SDK 3.X 預覽版
-
-## <a name="overview"></a>概觀
-
-HDInsight .NET SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 它包含用來建立、刪除、更新、列出、調整大小、執行指令碼動作、監視、取得 HDInsight 叢集屬性的作業，和其他多種作業。
+適用於 .NET 的 HDInsight 管理 SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 它包含用來建立、刪除、更新、列出、調整大小、執行指令碼動作、監視、取得 HDInsight 叢集屬性的作業，和其他多種作業。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -136,17 +31,17 @@ HDInsight .NET SDK 提供可讓您管理 HDInsight 叢集的類別和方法。 �
 在套件管理員主控台中，執行下列命令：
 
 ```
-  Install-Package Microsoft.Azure.Management.HDInsight -Version 3.1.0-preview
+  Install-Package Microsoft.Azure.Management.HDInsight
   Install-Package Microsoft.Azure.Management.Fluent
   Install-Package Microsoft.Azure.Management.ResourceManager.Fluent
 ```
 
-## <a name="authentication"></a>驗證
+## <a name="authentication"></a>Authentication
 
 SDK 必須先使用您的 Azure 訂用帳戶進行驗證。  請依照下列範例建立服務主體，並使用它來驗證。 此動作完成後，您會有 `HDInsightManagementClient` 的執行個體，其中包含許多可用來執行管理作業的方法 (分述於下列各節中)。
 
 > [!NOTE]
-> 除了下列範例以外，還有其他方式可進行驗證，可能更符合您的需求。 所有方法皆概述於此處：[使用適用於 .NET 的 Azure 程式庫來進行驗證](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)
+> 除了下列範例以外，還有其他方式可進行驗證，可能更符合您的需求。 此處概述所有方法：[使用適用於 .NET 的 Azure 程式庫進行驗證](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet)
 
 ### <a name="authentication-example-using-a-service-principal"></a>使用服務主體的驗證範例
 
@@ -243,7 +138,6 @@ namespace HDI_SDK_Test
 }
 ```
 
-
 ## <a name="cluster-management"></a>叢集管理
 
 > [!NOTE]
@@ -251,7 +145,11 @@ namespace HDI_SDK_Test
 
 ### <a name="create-a-cluster"></a>建立叢集
 
-新叢集可藉由呼叫 `client.Clusters.Create()` 來建立。 
+新叢集可藉由呼叫 `client.Clusters.Create()` 來建立。
+
+#### <a name="samples"></a>範例
+
+這裡提供建立數個常見 HDInsight 叢集類型的程式碼範例：[HDInsight .NET 範例](https://github.com/Azure-Samples/hdinsight-dotnet-sdk-samples).
 
 #### <a name="example"></a>範例
 
@@ -478,7 +376,7 @@ HDInsight 管理 SDK 也可用來透過 Operations Management Suite (OMS) 管理
 ### <a name="enable-oms-monitoring"></a>啟用 OMS 監視
 
 > [!NOTE]
-> 若要啟用 OMS 監視，您必須擁有現有的 Log Analytics 工作區。 如果您尚未建立此工作區，您可以參考下列資料了解其建立方式：[在 Azure 入口網站中建立 Log Analytics 工作區](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-quick-create-workspace)。
+> 若要啟用 OMS 監視，您必須擁有現有的 Log Analytics 工作區。 如果您尚未建立工作區，您可以在此了解如何建立：[在 Azure 入口網站中建立 Log Analytics 工作區](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-quick-create-workspace)。
 
 若要對您的叢集啟用 OMS 監視：
 
@@ -506,7 +404,7 @@ client.Extension.DisableMonitoring("<Resource Group Name>", "<Cluster Name>");
 
 HDInsight 提供名為指令碼動作的設定方法，此方法會叫用自訂指令碼來自訂叢集。
 > [!NOTE]
-> 如需如何使用指令碼動作的詳細資訊，請參閱：[使用指令碼動作自訂以 Linux 為基礎的 HDInsight 叢集](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)
+> 您可以在此處找到如何使用指令碼動作的詳細資訊：[使用指令碼動作自訂 Linux 型 HDInsight 叢集](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux)
 
 ### <a name="execute-script-actions"></a>執行指令碼動作
 
@@ -582,3 +480,49 @@ while (true)
     scriptExecutionsPaged = client.ScriptExecutionHistory.ListNext(scriptExecutionsPaged.NextPageLink);
 }
 ```
+
+## <a name="jobs"></a>工作
+
+使用適用於 .NET 的 Azure HDInsight 作業 SDK 來建立、管理和監視在 Hadoop 叢集上的作業。
+
+### <a name="sdk-installation"></a>SDK 安裝
+
+直接從 Visual Studio [套件管理員主控台][PackageManager] 安裝 [NuGet 套件](https://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job)，或使用 [.NET Core CLI][DotNetCLI]。
+
+#### <a name="visual-studio-package-manager"></a>Visual Studio 套件管理員
+
+```powershell
+Install-Package Microsoft.Azure.Management.HDInsight.Job
+```
+
+```bash
+dotnet add package Microsoft.Azure.Management.HDInsight.Job
+```
+
+### <a name="code-example"></a>程式碼範例
+
+這個範例會在 Hadoop 叢集中執行 Hive 作業。
+
+```csharp
+HDInsightJobManagementClient managementClient = new HDInsightJobManagementClient(clusterUri, credentials);
+
+Dictionary<string, string> defines = new Dictionary<string, string> {
+    { "hive.execution.engine", "tez" },
+    { "hive.exec.reducers.max", "1" }
+};
+List<string> arguments = new List<string> { { "argA" }, { "argB" } };
+HiveJobSubmissionParameters parameters = new HiveJobSubmissionParameters
+{
+    Query = "SHOW TABLES",
+    Defines = defines,
+    Arguments = arguments
+};
+
+JobSubmissionResponse jobResponse = managementClient.JobManagement.SubmitHiveJob(parameters);
+```
+
+### <a name="samples"></a>範例
+
+- [執行 Hive 作業](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-hive-dotnet-sdk)
+- [執行 Pig 作業](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-pig-dotnet-sdk)
+- [更多作業](https://docs.microsoft.com/azure/hdinsight/hdinsight-submit-hadoop-jobs-programmatically)
