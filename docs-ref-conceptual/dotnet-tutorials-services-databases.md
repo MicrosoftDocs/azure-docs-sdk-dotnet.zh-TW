@@ -18,7 +18,7 @@ ms.locfileid: "47190621"
 | | |
 |---|---|
 | **SQL Database** ||
-| [使用 .NET 連線並查詢資料][1] | 使用 ADO.NET 連線至 Azure SQL Database，然後使用 Transact-SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料 | 
+| [使用 .NET 連線並查詢資料][1] | 使用 ADO.NET 連線至 Azure SQL 資料庫，然後使用 Transact-SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料 | 
 | **適用於 PostgreSQL 的 Azure 資料庫** ||
 | [使用 .NET 連線並查詢資料][2] | 使用 SQL 陳述式來查詢、插入、更新和刪除資料庫中的資料。 | 
 | **Azure Cosmos DB** ||

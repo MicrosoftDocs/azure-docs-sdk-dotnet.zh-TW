@@ -17,7 +17,7 @@ ms.locfileid: "47190631"
 
 [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) 是使用 Microsoft SQL Server 引擎的資料庫服務，可支援關聯式、JSON、空間和 XML 資料。 
 
-若要深入了解如何使用 SQL Database 搭配 .NET，請參閱[使用 .NET 搭配 Visual Studio 來連線及查詢 Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet-visual-studio)。
+若要深入了解如何使用 SQL Database 搭配 .NET，請參閱[使用 .NET 搭配 Visual Studio 來連線及查詢 Azure SQL 資料庫](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet-visual-studio)。
 
 ## <a name="client-library"></a>用戶端程式庫
 
